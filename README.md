@@ -40,7 +40,7 @@
 ### Request Map - відмінності у запитах до ресурсів :x:
 
 #### pari-match.com https://requestmap.herokuapp.com/render/220706_AiDc71_7E7/
-![pari-match.com request map](/scr/pari-match.com-requestmap.png)
+![pari-match.com request map](/scr/pari-match-requestmap.png)
 
 #### pari.ru https://requestmap.herokuapp.com/render/220705_BiDcHA_4DM/
 ![pari.ru request map](/scr/pari.ru-requestmap.png)
@@ -51,7 +51,7 @@
 
 | | pari-match.com | pari.ru |
 | --- | --- | --- | 
-| resources DNS domain | pari-match.com | www.pari.ru| 
+| resources DNS domain | pari-match.com | www.pari.ru | 
 | resources host IP | 104.22.24.146 | 178.248.236.169 |
 | resources CDN name | Cloudflare | QRATOR | 
 
@@ -69,14 +69,14 @@
 ## Бекенд / API сервіси - повний збіг використаних API :x:
 Для порівняння було використано API запити, які були відправлені із фронтендів сайтів під час реєстрації, логіну, відновлення паролю та отримання списків спортивних подій.
 
-|  API | pari-match.ru POST URI | pari.ru POST URI|
+|  API | pari-match.com POST URI | pari.ru POST URI|
 | --- | --- | --- |
 | registration - реєстрація | /api/short-registration/include-login/by-phone | /cps/superRegistration/createProcess | 
 | login - логін | /api/v2/RoutingLogin | /session/loginByPhone | 
 | password reset - відновлення паролю | /api/Recovery/Execute | /client/restorePassword/createProcessWithCaptcha |
 | events - список спортивних подій |  /api/eventcontent/v2/check | /events/list |
 
-У порівняльній таблиці є 100% співпадання API URIs, які використовуються у роботі обох веб-сайтів. 
+У порівняльній таблиці є 100% невідповідність API URIs, які використовуються у роботі обох веб-сайтів :x:.
 
 ## Мобільний додаток Android - відмінності у використовуваних бібліотек та маніфестах :x:
 
@@ -633,7 +633,7 @@ diff pari-latest/AndroidManifest.xml parimatch-latest/AndroidManifest.xml
 >         <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
 ```
 
-Файли AndroidManifest.xml не містять ніяких ознак схожості - 538 різних рядків. Немає однакових бібліотек :x:
+Файли AndroidManifest.xml не містять ніяких ознак схожості - 538 різних рядків :x:.
 
 ### Вміст розпакованих додатків відрізняється :x:
 
@@ -647,7 +647,7 @@ diff pari-latest/AndroidManifest.xml parimatch-latest/AndroidManifest.xml
 * Кількість абсолютно ідентичних файлів у .APK всього 704 шт. (у більшості своїй це стандартні графічні елементи та XML файли розробників Android) :x:  
 * Усе вказує на те, що додатки використовують абсолютно різні бібліотеки (нижче деталі).
 
-#### Порівняння використовуваних бібліотек в APK файлах - відмінності, є лише одна спільна бібліотека librealm-jni.so :x:
+#### Порівняння використовуваних бібліотек в APK файлах - майже усі бібліотеки різні :x:, є лише одна спільна бібліотека librealm-jni.so
 
 *pari.ru - pari-latest.apk* 
 
@@ -732,7 +732,7 @@ parimatch-latest/lib
 
 ![pari-match.com binary info](/mobile/parimatch-ios/binaries.png)
 
-Це означає що додатки містять різну кодову базу. Різниця заключається не лише в конфігурації і вбудованими в додатки графічними файлами і текстами повідомлень, а і бінарними бібліотеками вбудвованими в додатки.
+Це означає що додатки містять різну кодову базу. Різниця заключається не лише в конфігурації і вбудованими в додатки графічними файлами і текстами повідомлень, а і бінарних бібліотеках, які вбудвовані в додатки.
 
 ### Використовувані Frameworks у додатках різні :x:
 
@@ -1545,7 +1545,10 @@ PhotosFormats                         com.apple.PhotosFormats                   
 ### Порівняння HTTP запитів iOS додатками - відмінність у запитах до API :x:
 Для аналізу було запущено додатки і проаналізовано список HTTP запитів, які виконують додатки. Виявилось вони звертаються до різних API бекенд серверів і використовують різні API у своїй роботі.
 
+*pari.ru*
 ![pari.ru](/mobile/pari-ru-ios/http-requests.png)
+
+*pari-match.com*
 ![pari-match.com](/mobile/parimatch-ios/http-requests.png)
 
 
@@ -1579,3 +1582,6 @@ UIAppFonts =     (
         "Roboto-Medium.ttf"
     );
 ```
+
+
+# Висновок - сайти, веб-сервіси і мобільні додатки не мають спільних ознак, які могли б вказувати на те що розробкою займалась одна і та ж сама компанія :x:
