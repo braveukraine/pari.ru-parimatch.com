@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/colorPrimary900" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/loadingView" layout="@layout/loading_view" />
+    <androidx.constraintlayout.motion.widget.MotionLayout android:id="@id/mlStream" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutDescription="@xml/fullscreen_stream_scene">
+        <FrameLayout android:id="@id/videoStreamHolder" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/verticalStreamGuideline" app:layout_constraintEnd_toStartOf="@id/streamGuideline" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/streamGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="0.0dip" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/verticalStreamGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="0.0dip" />
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+    <ImageView android:id="@id/ivClose" android:padding="@dimen/margin_short" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_short" android:src="@drawable/ic_arrow_back" />
+    <pm.tech.sport.watchbet.ui.WatchBetOverlay android:id="@id/watchBetOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <fragment android:name="com.nativeapp.presentation.sport.stream.StreamFragmentContainer" android:id="@id/fragmentFullscreen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

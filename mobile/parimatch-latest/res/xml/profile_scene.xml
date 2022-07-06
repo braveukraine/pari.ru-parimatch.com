@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition android:id="@id/profile_transaction" app:constraintSetEnd="@layout/fragment_profile_collapsed" app:constraintSetStart="@id/csExpandedProfileHeader" app:duration="1000">
+        <OnSwipe app:dragDirection="dragUp" app:moveWhenScrollAtTop="false" app:touchAnchorId="@id/srlProfileContainer" app:touchAnchorSide="top" />
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/tvUserBalance" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/vBalanceDivider" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/ivExpandBalance" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/civBalanceVisibility" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/cvDepositButton" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/cvInviteFriendButton" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/tvVerificationHeader" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/tvVerificationSubHeader" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/cvVerificationButtonRoot" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/flVipProgress" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/vBottomMagrin" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="10" app:motionTarget="@id/gamificationBannerView" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/csExpandedProfileHeader">
+        <Constraint android:id="@id/flKingsView">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/vBalanceDivider">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/tvUserBalance">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/ivExpandBalance">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/civBalanceVisibility">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/cvDepositButton">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/cvInviteFriendButton">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/tvVerificationHeader">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/tvVerificationSubHeader">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/cvVerificationButtonRoot">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/flVipProgress">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/vBottomMagrin">
+            <PropertySet android:visibility="gone" app:visibilityMode="ignore" />
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>

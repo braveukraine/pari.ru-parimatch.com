@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KnowledgeHome" parent="@style/Base.KnowledgeHome">
+        <item name="android:layout_width">@dimen/knowledge_home_dialog_width</item>
+    </style>
+</resources>

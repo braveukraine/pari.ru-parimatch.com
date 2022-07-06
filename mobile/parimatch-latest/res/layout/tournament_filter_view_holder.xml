@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/padding_standard" android:paddingEnd="@dimen/padding_standard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/tournament_filter_item" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/textColorBlack" android:gravity="center" android:layout_gravity="center" android:id="@id/errorTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/padding_standard" />
+    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorGrey" android:gravity="center" android:layout_gravity="center" android:id="@id/errorSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_extra_short" />
+    <androidx.cardview.widget.CardView android:id="@id/actionButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_standard" android:layout_marginTop="@dimen/margin_large" android:layout_marginRight="@dimen/margin_standard" android:layout_marginBottom="@dimen/margin_standard" android:foreground="@drawable/ripple_foreground" android:minHeight="48.0dip" app:cardBackgroundColor="@color/user_bet_button_background_color" app:cardCornerRadius="4.0dip" style="@style/ActionButtonStyle">
+        <TextView android:textSize="@dimen/text_size_medium" android:textStyle="bold" android:textColor="@drawable/process_button_text_color_state" android:gravity="center" android:layout_gravity="center" android:id="@id/buttonTitle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAllCaps="true" />
+    </androidx.cardview.widget.CardView>
+</merge>

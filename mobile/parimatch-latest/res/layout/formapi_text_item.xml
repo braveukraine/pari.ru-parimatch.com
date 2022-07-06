@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tech.pm.apm.core.views.inputforms.InputForm android:id="@id/ifString" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ifEndIcon="@drawable/ic_fingerprint" app:ifEndIconTint="@color/colorPrimary600" app:ifPasswordObscurationIconTint="@color/colorPrimary600" style="@style/InputForm">
+        <tech.pm.apm.core.views.inputforms.InputFormEditText android:id="@id/editText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionDone" style="@style/EditText.InputForm" />
+    </tech.pm.apm.core.views.inputforms.InputForm>
+</FrameLayout>

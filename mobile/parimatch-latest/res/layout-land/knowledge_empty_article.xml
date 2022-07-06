@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/knowledge_empty_article" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="94.0dip" android:layout_height="105.0dip" android:layout_margin="10.0dip" android:src="@drawable/knowledge_ic_empty" android:tint="@color/salesforce_contrast_tertiary" android:contentDescription="@null" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <com.salesforce.android.service.common.ui.views.SalesforceTextView android:text="@string/knowledge_article_is_empty" style="@style/KnowledgeText.Bold.ErrorMessageTitle" />
+            <com.salesforce.android.service.common.ui.views.SalesforceTextView android:text="@string/knowledge_article_is_empty_subtext" style="@style/KnowledgeText.ErrorMessageSubtext" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

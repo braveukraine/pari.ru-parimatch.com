@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">التوجه إلى المنزل</string>
+    <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
+    <string name="abc_action_menu_overflow_description">خيارات أكثر</string>
+    <string name="abc_action_mode_done">تم</string>
+    <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
+    <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
+    <string name="abc_capital_off">إيقاف</string>
+    <string name="abc_capital_on">مفعّلة</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">حذف</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">فضاء</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">القائمة+</string>
+    <string name="abc_search_hint">بحث…</string>
+    <string name="abc_searchview_description_clear">محو طلب البحث</string>
+    <string name="abc_searchview_description_query">طلب بحث</string>
+    <string name="abc_searchview_description_search">البحث</string>
+    <string name="abc_searchview_description_submit">إرسال طلب البحث</string>
+    <string name="abc_searchview_description_voice">بحث صوتي</string>
+    <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
+    <string name="abc_shareactionprovider_share_with_application">مشاركة مع %s</string>
+    <string name="abc_toolbar_collapse_description">تصغير</string>
+    <string name="accessibility_fingerprint_dialog_help_area">منطقة رسالة المساعدة</string>
+    <string name="agent_has_joined_conference_avatar_description">وكيل مؤتمر المجموعة</string>
+    <string name="agent_has_joined_conference_message">انضم %1$s إلى الدردشة - %2$s</string>
+    <string name="agent_has_left_conference_message">غادر %1$s الدردشة - %2$s</string>
+    <string name="agent_is_typing">%1$s يكتب</string>
+    <string name="belvedere_dialog_camera">الكاميرا</string>
+    <string name="belvedere_dialog_gallery">المعرض</string>
+    <string name="belvedere_fam_desc_collapse_fam">طيّ قائمة إجراءات عائمة</string>
+    <string name="belvedere_fam_desc_expand_fam">توسيع قائمة إجراءات عائمة</string>
+    <string name="belvedere_fam_desc_open_gallery">استيراد ملف من المعرض</string>
+    <string name="belvedere_fam_desc_open_google_photos">استيراد صورة من صور Google</string>
+    <string name="belvedere_image_stream_file_too_large">الملف أكبر مما ينبغي</string>
+    <string name="belvedere_image_stream_title">مكتبة الصور</string>
+    <string name="belvedere_image_stream_unknown_app">غير معروف</string>
+    <string name="belvedere_permissions_denied">رُفِضت الأذونات</string>
+    <string name="belvedere_stream_item_camera_tile_desc">استيراد صورة من الكاميرا</string>
+    <string name="belvedere_stream_item_select_file_desc">تحديد الملف %s</string>
+    <string name="belvedere_stream_item_select_image_desc">تحديد الصورة %s</string>
+    <string name="belvedere_stream_item_unselect_file_desc">إلغاء تحديد الملف %s</string>
+    <string name="belvedere_stream_item_unselect_image_desc">إلغاء تحديد الصورة %s</string>
+    <string name="belvedere_toolbar_desc_collapse">إغلاق منتقي الصورة</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="case_discard_case_confirmation_dialog_message_text">ستفقد المعلومات المدخلة في هذا النموذج.</string>
+    <string name="case_notification_channel_id">case_updated_channel</string>
+    <string name="case_notification_channel_name">تم تحديث الحالة</string>
+    <string name="cases_cancel_button_text">إلغاء</string>
+    <string name="cases_case_create_error_snackbar_text">فشل الإرسال</string>
+    <string name="cases_case_created_success_message_sub_text">سوف يتواصل معك أحد أعضاء فريق العمل قريبًا.</string>
+    <string name="cases_case_created_success_message_text">تم إرسال رسالتك إلى فريق الدعم لدينا.</string>
+    <string name="cases_case_feed_default_title_text">القضية #%1$s</string>
+    <string name="cases_case_list_item_removed_snackbar_message_text">تم حل الحالة</string>
+    <string name="cases_case_list_out_of_date_snackbar_text">قائمة الحالات قديمة.</string>
+    <string name="cases_case_list_view_empty_message_text">صندوق الوارد الخاص بحالتك فارغ</string>
+    <string name="cases_case_publisher_view_title">الاتصال بالدعم</string>
+    <string name="cases_close_button_text">إغلاق</string>
+    <string name="cases_continue_button_text">متابعة</string>
+    <string name="cases_create_new_case_button_content_description">إنشاء حالة جديدة</string>
+    <string name="cases_creating_case_progress_dialog_message_text">يرجى الانتظار</string>
+    <string name="cases_creating_case_progress_dialog_title_text">جار الإرسال…</string>
+    <string name="cases_discard_case_confirmation_dialog_title_text">تجاهل الحالة؟</string>
+    <string name="cases_generic_error_subtitle_text">يُرجى المحاولة مرة أخرى أو الاتصال بالمسؤول</string>
+    <string name="cases_generic_error_title_text">عذرًا، حدث شيء ما خطأ…</string>
+    <string name="cases_horizontal_rule_today_text">اليوم</string>
+    <string name="cases_list_view_error_subtitle_text">يتعذر تحميل قائمة حالاتك.</string>
+    <string name="cases_navigate_back_content_description">انتقال إلى الخلف</string>
+    <string name="cases_network_error_subtitle_text">يُرجى التأكد من أنك متصل</string>
+    <string name="cases_network_error_title_text">تعذر الاتصال…</string>
+    <string name="cases_post_comment_error_snackbar_text">فشل نشر تعليق</string>
+    <string name="cases_send_item_title_text">إرسال</string>
+    <string name="cases_snackbar_refresh_action_text">تحديث</string>
+    <string name="cases_snackbar_retry_action_text">إعادة المحاولة</string>
+    <string name="cases_snackbar_undo_action_text">تراجع</string>
+    <string name="cases_timestamp_just_now_text">الآن فقط</string>
+    <string name="cases_unread_indicator_content_description">رسائل غير مقروءة</string>
+    <string name="cases_validation_error_field_required_text">%s مطلوب</string>
+    <string name="cases_validation_error_invalid_field_text">%s غير صالح</string>
+    <string name="cases_validation_error_length_invalid_text">طول غير صالح</string>
+    <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
+    <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
+    <string name="chat_connection_banner_connected_text">متصل!</string>
+    <string name="chat_connection_banner_disconnected_text">هناك مشكلة في الاتصال. سنواصل محاولات الاتصال.</string>
+    <string name="chat_connection_lost_banner_text">فقدت الاتصال</string>
+    <string name="chat_dialog_end_session_message">هل أنت متأكد أنك تريد إنهاء جلسة الدردشة؟</string>
+    <string name="chat_dialog_end_session_positive">إنهاء الجلسة</string>
+    <string name="chat_dialog_end_session_title">الوداع؟</string>
+    <string name="chat_dialog_negative">إلغاء</string>
+    <string name="chat_dialog_select_image_source_camera">التقاط صورة</string>
+    <string name="chat_dialog_select_image_source_choose">اختيار من المعرض</string>
+    <string name="chat_dialog_select_image_source_last_photo">استخدام آخر صورة تم التقاطها</string>
+    <string name="chat_end_session_content_description">إنهاء جلسة الدردشة</string>
+    <string name="chat_feed_content_description">يتم عرض رسائل الدردشة هنا</string>
+    <string name="chat_feed_title">@string/pre_chat_toolbar_title</string>
+    <string name="chat_file_transfer_canceled">تم إلغاء نقل الملفات</string>
+    <string name="chat_file_transfer_completed">تم نقل ملفك</string>
+    <string name="chat_file_transfer_failed">فشل نقل الملفات</string>
+    <string name="chat_file_transfer_requested">تم طلب نقل الملفات</string>
+    <string name="chat_footer_menu_button_content_description">عرض خيارات جلسة الدردشة</string>
+    <string name="chat_footer_menu_collapse_content_description">طي القائمة</string>
+    <string name="chat_footer_menu_header_label">خيارات القائمة</string>
+    <string name="chat_fullscreen_connecting_description">استخدام أيقونة التصغير لتقليص الدردشة</string>
+    <string name="chat_fullscreen_connecting_disconnected_description">يرجى إغلاق الدردشة والمحاولة مرة أخرى في وقت لاحق</string>
+    <string name="chat_fullscreen_connecting_disconnected_title">لقد تم قطع الاتصال</string>
+    <string name="chat_fullscreen_connecting_error_description">يرجى التأكد من أنك متصل</string>
+    <string name="chat_fullscreen_connecting_error_title">حسنًا ، حدث خطأ ما ...</string>
+    <string name="chat_fullscreen_connecting_minimize_content_description">@string/chat_fullscreen_connecting_description</string>
+    <string name="chat_fullscreen_connecting_title">الاتصال بالدردشة</string>
+    <string name="chat_fullscreen_queued_ewt_long">نواجه وقت انتظار أكثر من المتوقع.</string>
+    <string name="chat_fullscreen_queued_ewt_short">سنكون معك بمجرد توفر أحد الوكلاء.</string>
+    <string name="chat_fullscreen_queued_ewt_text_alternative_title">يرجى الانتظار...</string>
+    <string name="chat_fullscreen_queued_ewt_text_description">سنكون معك بمجرد توفر أحد الوكلاء.</string>
+    <string name="chat_fullscreen_queued_ewt_text_title">الوقت المتوقع للانتظار:</string>
+    <string name="chat_fullscreen_queued_text_description">سنكون معك بمجرد توفر أحد الوكلاء.</string>
+    <string name="chat_fullscreen_queued_text_title">مكانك في الصف</string>
+    <string name="chat_image_selection_failed">تعذر تحميل الصورة</string>
+    <string name="chat_message_delivery_failed">لم يتم إرسال الرسالة</string>
+    <string name="chat_message_modified">تمت إزالة البيانات الحساسة من الرسالة</string>
+    <string name="chat_message_not_sent_privacy">لم يتم إرسال الرسالة لأنها تحتوي على بيانات حساسة</string>
+    <string name="chat_message_notification_channel_id">chat_messages_channel</string>
+    <string name="chat_message_notification_channel_name">رسائل الدردشة</string>
+    <string name="chat_minimize_content_description">تصغير الدردشة</string>
+    <string name="chat_minimized_connecting">جارٍ الاتصال بالدردشة ...</string>
+    <string name="chat_minimized_post_session">انتهت الجلسة</string>
+    <string name="chat_minimized_queued">مكانك في الخط</string>
+    <string name="chat_minimized_queued_ewt_long">وقت انتظار ممتد</string>
+    <string name="chat_minimized_queued_ewt_short">في انتظار وكيل</string>
+    <string name="chat_minimized_queued_ewt_title">وقت الانتظار:</string>
+    <string name="chat_permission_not_granted">لم يتم منح الإذن</string>
+    <string name="chat_resume_error_string">حسنًا ، حدث خطأ ما ...</string>
+    <string name="chat_resume_error_string_subtext">فشل طلب الدردشة بسبب خطأ غير معروف. يُرجى المحاولة مرة أخرى.</string>
+    <string name="chat_service_description">أنت الآن تتحدث مع وكيل</string>
+    <string name="chat_service_notification_channel_id">chat_service_channel</string>
+    <string name="chat_service_notification_channel_name">خدمة الدردشة المباشرة</string>
+    <string name="chat_service_title">خدمة الدردشة السحابية</string>
+    <string name="chat_session_button_transfer_initiated">نقلك إلى وكيل</string>
+    <string name="chat_session_ended_by_agent">أنهى الوكيل الجلسة</string>
+    <string name="chat_session_transferred_to_agent">انضم %1$s إلى الدردشة</string>
+    <string name="chatbot_transfer_no_agents_available_message">"معذرة، لا يوجد أي وكلاء متاحين الآن. 
+يرجى المحاولة مرة أخرى في وقت لاحق."</string>
+    <string name="chatbot_transferring_cancel_button_text">إنهاء الجلسة</string>
+    <string name="chatbot_transferring_connecting_message">"الاتصال بوكيل. 
+قد يستغرق هذا بضع لحظات."</string>
+    <string name="chatbot_transferring_toolbar_title">نقل</string>
+    <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string name="close_drawer">إغلاق قائمة التنقل</string>
+    <string name="close_sheet">إغلاق الورقة</string>
+    <string name="com_facebook_device_auth_instructions">يمكنك زيارة &lt;b>facebook.com/device&lt;/b> وإدخال الرمز المعروض أعلاه.</string>
+    <string name="com_facebook_image_download_unknown_error">حدث خطأ غير متوقع أثناء تنزيل صورة.</string>
+    <string name="com_facebook_internet_permission_error_message">يتطلب تسجيل دخول WebView الحصول إلى إذن INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">خطأ AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">أعجبك</string>
+    <string name="com_facebook_like_button_not_liked">أعجبني</string>
+    <string name="com_facebook_loading">جارٍ التحميل…</string>
+    <string name="com_facebook_loginview_cancel_action">إلغاء</string>
+    <string name="com_facebook_loginview_log_in_button">تسجيل الدخول</string>
+    <string name="com_facebook_loginview_log_in_button_continue">متابعة بحساب فيسبوك</string>
+    <string name="com_facebook_loginview_log_in_button_long">تسجيل الدخول بحساب فيسبوك</string>
+    <string name="com_facebook_loginview_log_out_action">تسجيل الخروج</string>
+    <string name="com_facebook_loginview_log_out_button">تسجيل الخروج</string>
+    <string name="com_facebook_loginview_logged_in_as">تم تسجيل الدخول باسم: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">تم تسجيل الدخول باستخدام حساب فيسبوك</string>
+    <string name="com_facebook_send_button_text">إرسال</string>
+    <string name="com_facebook_share_button_text">مشاركة</string>
+    <string name="com_facebook_smart_device_instructions">لربط حسابك، افتح تطبيق فيسبوك على جهازك المحمول وراجع الإشعارات.</string>
+    <string name="com_facebook_smart_device_instructions_or">- أو -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">لست أنت؟</string>
+    <string name="com_facebook_smart_login_confirmation_continue_as">متابعة باسم %1$s</string>
+    <string name="com_facebook_smart_login_confirmation_title">تأكيد تسجيل الدخول</string>
+    <string name="com_facebook_tooltip_default">أنت المتحكم في الأمر - يمكنك اختيار المعلومات التي تود مشاركتها مع التطبيقات.</string>
+    <string name="common_google_play_services_enable_button">تفعيل</string>
+    <string name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تفعيل خدمات Google Play.</string>
+    <string name="common_google_play_services_enable_title">‏تفعيل خدمات Google Play</string>
+    <string name="common_google_play_services_install_button">تثبيت</string>
+    <string name="common_google_play_services_install_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على جهازك.</string>
+    <string name="common_google_play_services_install_title">‏الحصول على خدمات Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">‏مدى توفّر خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطأ في خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. يُرجى إعادة المحاولة.</string>
+    <string name="common_google_play_services_unsupported_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play التي لا يوفرها جهازك.</string>
+    <string name="common_google_play_services_update_button">تحديث</string>
+    <string name="common_google_play_services_update_text">‏لن يتم تشغيل %1$s ما لم يتم تحديث خدمات Google Play.</string>
+    <string name="common_google_play_services_update_title">‏تحديث خدمات Google Play</string>
+    <string name="common_google_play_services_updating_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي يتم تحديثها حاليًا.</string>
+    <string name="common_google_play_services_wear_update_text">‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا.</string>
+    <string name="common_open_on_phone">فتح على الهاتف</string>
+    <string name="common_signin_button_text">تسجل الدخول</string>
+    <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+    <string name="confirm_device_credential_password">استخدام كلمة المرور</string>
+    <string name="copy_toast_msg">تم نسخ الرابط إلى الحافظة.</string>
+    <string name="default_error_message">إدخال غير صالح</string>
+    <string name="default_error_msg">خطأ غير معروف</string>
+    <string name="default_popup_window_title">نافذة منبثقة</string>
+    <string name="dropdown_menu">قائمة منسدلة</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+    <string name="fallback_menu_item_copy_link">نسخ الرابط</string>
+    <string name="fallback_menu_item_open_in_browser">فتح في المتصفح</string>
+    <string name="fallback_menu_item_share_link">مشاركة الرابط</string>
+    <string name="fcm_fallback_notification_channel_label">متنوعة</string>
+    <string name="fingerprint_dialog_touch_sensor">المس زر استشعار بصمة الإصبع</string>
+    <string name="fingerprint_error_hw_not_available">جهاز بصمة الإصبع غير متاح.</string>
+    <string name="fingerprint_error_hw_not_present">لا يحتوي هذا الجهاز على جهاز استشعار بصمات الأصابع.</string>
+    <string name="fingerprint_error_lockout">تم إجراء محاولات كثيرة جدًا. يُرجى المحاولة مرة أخرى لاحقًا.</string>
+    <string name="fingerprint_error_no_fingerprints">ليست هناك بصمات إصبع مسجَّلة.</string>
+    <string name="fingerprint_error_user_canceled">تم إلغاء تشغيل بصمة الإصبع بواسطة المستخدم.</string>
+    <string name="fingerprint_not_recognized">لم يتم التعرف عليها.</string>
+    <string name="generic_error_user_canceled">ألغى المستخدم المصادقة.</string>
+    <string name="hyperlink_preview_knowledge_article_url_title">المقالة المعرفية</string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="in_progress">قيد التقدم</string>
+    <string name="indeterminate">لم يتم وضع علامة أو إزالتها</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="knowledge_action_close">إغلاق</string>
+    <string name="knowledge_action_minimize">تصغير</string>
+    <string name="knowledge_action_search">بحث</string>
+    <string name="knowledge_article_is_empty">يبدو أن هذا فارغ ...</string>
+    <string name="knowledge_article_is_empty_subtext">لا يبدو أن هذه المقالة تتضمن أي          محتوى</string>
+    <string name="knowledge_category_category_header">فئات فرعية</string>
+    <string name="knowledge_category_is_empty">يبدو أن هذا فارغ ...</string>
+    <string name="knowledge_category_is_empty_subtext">لا توجد مقالات في هذه الفئة</string>
+    <string name="knowledge_category_see_more">إظهار المزيد من المقالات</string>
+    <string name="knowledge_error">عذرًا. حدث خطأ ما…</string>
+    <string name="knowledge_error_subtext">ي ُرجى المحاولة مرة أخرى أو الاتصال بالمسؤول</string>
+    <string name="knowledge_home_expand">توسيع</string>
+    <string name="knowledge_home_expanded">موسع</string>
+    <string name="knowledge_home_label">التعليمات</string>
+    <string name="knowledge_home_showMore">إ ظهار المزيد</string>
+    <string name="knowledge_loading">جاري التحميل</string>
+    <string name="knowledge_network_error">يتعذر الاتصال…</string>
+    <string name="knowledge_network_error_subtext">يُرجى تأكد من أنك متصل</string>
+    <string name="knowledge_search_description">البحث في مقالات التعليمات و          الحلول</string>
+    <string name="knowledge_search_empty_description">لم نتمكن من العثور على ما تبحث عنه</string>
+    <string name="knowledge_search_empty_title">لا توجد نتائج</string>
+    <string name="knowledge_search_hint">بحث</string>
+    <string name="knowledge_search_title">البحث في التعليمات</string>
+    <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_selection">تحديد الساعة</string>
+    <string name="material_hour_suffix">الساعة %1$s</string>
+    <string name="material_minute_selection">تحديد الدقائق</string>
+    <string name="material_minute_suffix">%1$s دقيقة</string>
+    <string name="material_timepicker_am">صباحًا</string>
+    <string name="material_timepicker_clock_mode_description">يُرجى التبديل إلى وضع الساعة لإدخال الوقت.</string>
+    <string name="material_timepicker_hour">الساعة</string>
+    <string name="material_timepicker_minute">دقيقة</string>
+    <string name="material_timepicker_pm">مساءً</string>
+    <string name="material_timepicker_select_time">اختيار الوقت</string>
+    <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_day_picker_description">شبكة الشهر مكونة من الأيام</string>
+    <string name="mdtp_deleted_key">تم حذف %1$s</string>
+    <string name="mdtp_done_label">تم</string>
+    <string name="mdtp_hour_picker_description">شريط التمرير الدائري للساعات</string>
+    <string name="mdtp_item_is_selected">تم تحديد %1$s</string>
+    <string name="mdtp_minute_picker_description">شريط التمرير الدائري للدقائق</string>
+    <string name="mdtp_select_day">تحديد الشهر واليوم</string>
+    <string name="mdtp_select_hours">تحديد الساعات</string>
+    <string name="mdtp_select_minutes">تحديد الدقائق</string>
+    <string name="mdtp_select_year">تحديد العام</string>
+    <string name="mdtp_year_picker_description">قائمة الأعوام</string>
+    <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
+    <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
+    <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
+    <string name="mtrl_picker_day_of_week_column_header">عمود الأيام: %1$s</string>
+    <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
+    <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$s</string>
+    <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
+    <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
+    <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
+    <string name="mtrl_picker_text_input_day_abbr">ي</string>
+    <string name="mtrl_picker_text_input_month_abbr">ش</string>
+    <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">انقر للتبديل إلى اختيار يوم</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">انقر للتبديل إلى اختيار عام</string>
+    <string name="navigation_menu">قائمة تنقل</string>
+    <string name="not_selected">غير محدّد</string>
+    <string name="off">غير مفعّل</string>
+    <string name="on">مفعّل</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="pre_chat_banner_text">ثمة بضعة أشياء فقط قبل أن نوصلك بخبير ...</string>
+    <string name="pre_chat_button_start">الدردشة مع وكيل</string>
+    <string name="pre_chat_field_list_description">يتم عرض قائمة الحقول المراد تعبئتها هنا.</string>
+    <string name="pre_chat_picklist_select_hint">تحديد قيمة…</string>
+    <string name="pre_chat_toolbar_title">دردشة مباشرة</string>
+    <string name="salesforce_close_minimize_view_content_description">@string/knowledge_action_close</string>
+    <string name="salesforce_message_input_hint">إرسال رسالة…</string>
+    <string name="salesforce_received_message_footer_separator">•</string>
+    <string name="salesforce_select_photo_content_description">تحديد صورة</string>
+    <string name="salesforce_send_message_content_description">إرسال رسالة</string>
+    <string name="salesforce_sent_photo_content_description">الصورة المرفقة</string>
+    <string name="search_menu_title">البحث</string>
+    <string name="selected">محدّد</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tab">علامة تبويب</string>
+    <string name="template_percent">%1$d في المئة.</string>
+    <string name="wallet_buy_button_place_holder">الشراء عبر Google</string>
+    <string name="zch_chat_comment_acknowledgement">شكرًا لك على رأيك. يمكنك الآن العودة إلى الدردشة.</string>
+    <string name="zch_chat_comment_composer_hint">اكتب تعليقك...</string>
+    <string name="zch_chat_ended">انتهت الدردشة</string>
+    <string name="zch_chat_handover_message_selection">دردش مع وكيل</string>
+    <string name="zch_chat_rating_comment_action_label">إضافة تعليق</string>
+    <string name="zch_chat_rating_comment_prompt_message">رأيك يهمنا. إذا رغبت في ذلك، يمكنك أيضًا إضافة تعليق أكثر تفصيلًا.</string>
+    <string name="zch_chat_rating_label_bad">سيئ 👎</string>
+    <string name="zch_chat_rating_label_good">جيد 👍</string>
+    <string name="zch_chat_rating_request_prompt">مرحبًا، هذه مجرد متابعة لنعرف كيف تسير دردشتك مع %s؟</string>
+    <string name="zch_chat_transcript_email_prompt">ما هو عنوان البريد الإلكتروني الذي سيُرسَل إليه النص؟</string>
+    <string name="zch_chat_transcript_prompt">هل تريد أن يُرسَل نص هذه الدردشة إلى بريدك الإلكتروني؟</string>
+    <string name="zch_chat_transcript_request_confirmation">سيُرسَل النص إلى %1$s بعد انتهاء الدردشة</string>
+    <string name="zch_chat_welcome_message_handover">موافق سأجد شخصًا يمكنه أن يساعدك بشأن استفسارك.</string>
+    <string name="zch_end_chat">إنهاء الدردشة</string>
+    <string name="zch_member_join">انضمَّ %1$s إلى الدردشة</string>
+    <string name="zch_member_leave">غادَر %1$s الدردشة</string>
+    <string name="zch_offline_form_completion_acknowledgement">وصلتنا رسالتك وسنرد عليك في أقرب وقت ممكن.</string>
+    <string name="zch_offline_form_introduction_message">ليتسنى لنا الاتصال بك عند توافر شخص يمكنه مساعدتك، أحتاج إلى بعض المعلومات.</string>
+    <string name="zch_offline_form_message_field_prompt">كيف يمكننا مساعدتك حين نعاود الاتصال؟</string>
+    <string name="zch_offline_form_welcome_message">مرحباً. للأسف لا يوجد أحد متصل حاليًا.</string>
+    <string name="zch_offline_message">للأسف، لا يوجد أحد متصل حاليًا. الرجاء العودة لاحقًا.</string>
+    <string name="zch_pre_chat_department_field_message">أي قسم سيكون الأنسب للإجابة عن سؤالك؟</string>
+    <string name="zch_pre_chat_email_field_hint">ما هو عنوان بريدك الإلكتروني؟</string>
+    <string name="zch_pre_chat_email_field_invalid_message">عنوان البريد الإلكتروني الذي أدخلته غير صحيح. أدخِل عنوان بريد إلكتروني صالحاً.</string>
+    <string name="zch_pre_chat_email_field_message">ما هو عنوان بريدك الإلكتروني؟</string>
+    <string name="zch_pre_chat_introduction_greeting">أهلاً!</string>
+    <string name="zch_pre_chat_introduction_message">دعني أجد من يساعدك. أحتاج أولًا لبضعة معلومات.</string>
+    <string name="zch_pre_chat_message_acknowledgement">دعني أجد من يساعدك. أحتاج أولًا لمعلومات إضافية.</string>
+    <string name="zch_pre_chat_name_field_hint">ما اسمك؟</string>
+    <string name="zch_pre_chat_name_field_message">ما اسمك؟</string>
+    <string name="zch_pre_chat_phone_field_hint">ما رقم هاتفك؟</string>
+    <string name="zch_pre_chat_phone_field_message">ما رقم هاتفك؟</string>
+    <string name="zch_pre_chat_response_accepted_message">شكرًا لك.</string>
+    <string name="zch_pre_chat_skip_button">تخطي</string>
+    <string name="zch_pre_chat_welcome_message">مرحباً. كيف يمكننا مساعدتك اليوم؟</string>
+    <string name="zch_queue_position">الترتيب في قائمة الانتظار: %1$d</string>
+    <string name="zch_request_transcript">اطلب نصًا</string>
+    <string name="zui_attachment_indicator_accessibility">تحديد مرفق</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">المرفقات المحددة: ‎%d</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">لا توجد مرفقات محددة</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">يوجد مرفق واحد محدد</string>
+    <string name="zui_bot_label">روبوت</string>
+    <string name="zui_button_label_no">لا</string>
+    <string name="zui_button_label_yes">نعم</string>
+    <string name="zui_cell_text_suggested_article_header">قد يكون المقال التالي مفيداً:</string>
+    <string name="zui_cell_text_suggested_articles_header">فيما يلي بعض المقالات التي قد تفيد:</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">بريد إلكتروني غير صالح</string>
+    <string name="zui_dialog_email_hint">عنوان البريد الإلكتروني</string>
+    <string name="zui_failed_message_copy">نسخ</string>
+    <string name="zui_failed_message_delete">حذف</string>
+    <string name="zui_failed_message_retry">إعادة المحاولة</string>
+    <string name="zui_hint_type_message">اكتب رسالة...</string>
+    <string name="zui_label_connecting">جارٍ الاتصال...</string>
+    <string name="zui_label_dialog_delete_btn">حذف الرسالة</string>
+    <string name="zui_label_dialog_retry_btn">إعادة محاولة الإرسال</string>
+    <string name="zui_label_failed">فشل</string>
+    <string name="zui_label_reconnecting">جارٍ إعادة الاتصال...</string>
+    <string name="zui_label_reconnecting_failed">فشل الاتصال.</string>
+    <string name="zui_label_send">إرسال</string>
+    <string name="zui_label_sent">تم الإرسال</string>
+    <string name="zui_label_tap_retry">اضغط لإعادة المحاولة</string>
+    <string name="zui_message_log_article_opened_formatter">"%1$s فتح المقال '%2$s'"</string>
+    <string name="zui_message_log_article_suggestion_message">وجدت المقالات التالية:</string>
+    <string name="zui_message_log_attachment_sending_failed">يتعذر إرسال المرفق</string>
+    <string name="zui_message_log_default_visitor_name">الزائر</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">نوع المرفق غير مدعوم</string>
+    <string name="zui_message_log_message_attachments_not_supported">المرفقات غير مدعومة</string>
+    <string name="zui_message_log_message_failed_to_send">[فشل الإرسال]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">يتجاوز أقصى حجم للملف (%1$s)</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s حدَّد %2$s</string>
+    <string name="zui_retry_button_label">إعادة المحاولة</string>
+    <string name="zui_toolbar_title">اتصل بنا</string>
+    <string name="zui_unable_open_file">تعذر فتح الملف.</string>
+</resources>

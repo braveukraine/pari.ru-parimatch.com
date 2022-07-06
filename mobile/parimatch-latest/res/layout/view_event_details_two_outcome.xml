@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/backgroundWhite" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/details_outcome_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <pm.tech.sport.bets_info.view.OutcomeView android:id="@id/leftOutcome" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" android:contentDescription="leftOutcome" android:paddingStart="@dimen/padding_short" android:paddingEnd="@dimen/padding_short" android:layout_marginStart="4.0dip" android:layout_marginEnd="2.0dip" />
+    <pm.tech.sport.bets_info.view.OutcomeView android:id="@id/rightOutcome" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" android:contentDescription="rightOutcome" android:paddingStart="@dimen/padding_short" android:paddingEnd="@dimen/padding_short" android:layout_marginStart="2.0dip" android:layout_marginEnd="4.0dip" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tvHistoryTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_short" android:text="@string/search_history_title" app:layout_constraintBottom_toTopOf="@id/headerBarrier" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/BlackMediumText" />
+    <TextView android:id="@id/tvCleanHistoryList" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_short" android:text="@string/search_clean_history" app:layout_constraintBottom_toTopOf="@id/headerBarrier" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LinkMediumText" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/headerBarrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:constraint_referenced_ids="tvCleanHistoryList, tvHistoryTitle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvQueryHistory" android:paddingBottom="120.0dip" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerBarrier" />
+</merge>

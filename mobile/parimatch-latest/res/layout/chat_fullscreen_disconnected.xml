@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/chat_fullscreen_disconnected" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/chat_fullscreen_connecting_disconnected_title" style="@style/ServiceChatFullscreenConnectingTitleText" />
+    <TextView android:text="@string/chat_fullscreen_connecting_disconnected_description" style="@style/ServiceChatFullscreenConnectingDescriptionText" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/signInButton" android:background="@drawable/black_rounded_boarder_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_standard" android:foreground="@drawable/ripple_foreground" android:minHeight="48.0dip" style="@style/ActionButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="48.0dip" android:text="@string/Continue_with_Google" android:drawablePadding="10.0dip" android:textAllCaps="true" app:drawableStartCompat="@drawable/ic_google_icon" />
+</FrameLayout>

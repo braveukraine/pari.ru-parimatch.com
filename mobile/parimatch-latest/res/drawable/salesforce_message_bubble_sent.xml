@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/salesforce_brand_secondary" />
+    <corners android:radius="@dimen/salesforce_message_bubble_corner_radius" />
+</shape>

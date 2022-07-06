@@ -1,0 +1,187 @@
+.class public final Ltech/pm/ams/notificationcenter/eventsubscription/di/module/AppModule;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Ldagger/Module;
+.end annotation
+
+.annotation build Lkotlinx/coroutines/ExperimentalCoroutinesApi;
+.end annotation
+
+
+# static fields
+.field public static final INSTANCE:Ltech/pm/ams/notificationcenter/eventsubscription/di/module/AppModule;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Ltech/pm/ams/notificationcenter/eventsubscription/di/module/AppModule;
+
+    invoke-direct {v0}, Ltech/pm/ams/notificationcenter/eventsubscription/di/module/AppModule;-><init>()V
+
+    sput-object v0, Ltech/pm/ams/notificationcenter/eventsubscription/di/module/AppModule;->INSTANCE:Ltech/pm/ams/notificationcenter/eventsubscription/di/module/AppModule;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final componentScope$notification_center_release()Lkotlinx/coroutines/CoroutineScope;
+    .locals 1
+    .annotation runtime Ldagger/Provides;
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .annotation runtime Ltech/pm/ams/notificationcenter/eventsubscription/di/EventSubscriptionCoreScope;
+    .end annotation
+
+    .line 1
+    sget-object v0, Ltech/pm/ams/notificationcenter/eventsubscription/di/EventSubscriptionBuilder;->INSTANCE:Ltech/pm/ams/notificationcenter/eventsubscription/di/EventSubscriptionBuilder;
+
+    invoke-virtual {v0}, Ltech/pm/ams/notificationcenter/eventsubscription/di/EventSubscriptionBuilder;->getSCOPE$notification_center_release()Lkotlinx/coroutines/CoroutineScope;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+
+    return-object v0
+.end method
+
+.method public final eventSubscriptionPort$notification_center_release(Ltech/pm/ams/notificationcenter/eventsubscription/data/authentication/EventSubscriptionAuthenticationRepository;Ltech/pm/ams/notificationcenter/eventsubscription/data/remoteconfig/EventSubscriptionRemoteConfigRepository;Ltech/pm/ams/notificationcenter/eventsubscription/data/analytics/EventSubscriptionAnalyticsRepository;Ltech/pm/ams/notificationcenter/eventsubscription/data/sharedprefs/EventSubscriptionSharedPrefsRepository;)Ltech/pm/ams/notificationcenter/eventsubscription/di/contract/EventSubscriptionPort;
+    .locals 1
+    .param p1    # Ltech/pm/ams/notificationcenter/eventsubscription/data/authentication/EventSubscriptionAuthenticationRepository;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Ltech/pm/ams/notificationcenter/eventsubscription/data/remoteconfig/EventSubscriptionRemoteConfigRepository;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p3    # Ltech/pm/ams/notificationcenter/eventsubscription/data/analytics/EventSubscriptionAnalyticsRepository;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p4    # Ltech/pm/ams/notificationcenter/eventsubscription/data/sharedprefs/EventSubscriptionSharedPrefsRepository;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation runtime Ldagger/Provides;
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .annotation runtime Ltech/pm/ams/notificationcenter/eventsubscription/di/EventSubscriptionCoreScope;
+    .end annotation
+
+    const-string v0, "eventSubscriptionAuthenticationRepository"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "remoteConfigRepository"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "eventSubscriptionAnalyticsRepository"
+
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "eventSubscriptionSharedPrefsRepository"
+
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    new-instance v0, Ltech/pm/ams/notificationcenter/eventsubscription/domain/EventSubscriptionInteractor;
+
+    invoke-direct {v0, p1, p2, p3, p4}, Ltech/pm/ams/notificationcenter/eventsubscription/domain/EventSubscriptionInteractor;-><init>(Ltech/pm/ams/notificationcenter/eventsubscription/data/authentication/EventSubscriptionAuthenticationRepository;Ltech/pm/ams/notificationcenter/eventsubscription/data/remoteconfig/EventSubscriptionRemoteConfigRepository;Ltech/pm/ams/notificationcenter/eventsubscription/data/analytics/EventSubscriptionAnalyticsRepository;Ltech/pm/ams/notificationcenter/eventsubscription/data/sharedprefs/EventSubscriptionSharedPrefsRepository;)V
+
+    return-object v0
+.end method
+
+.method public final provideAnalyticsEventManager(Ltech/pm/ams/common/contracts/ApplicationContract;Ltech/pm/ams/common/contracts/AccountContract;)Ltech/pm/ams/common/analytics/AnalyticsEventManager;
+    .locals 1
+    .param p1    # Ltech/pm/ams/common/contracts/ApplicationContract;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Ltech/pm/ams/common/contracts/AccountContract;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation runtime Ldagger/Provides;
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .annotation runtime Ltech/pm/ams/notificationcenter/eventsubscription/di/EventSubscriptionCoreScope;
+    .end annotation
+
+    const-string v0, "applicationContract"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "accountContract"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    new-instance v0, Ltech/pm/ams/common/analytics/AnalyticsEventManager;
+
+    invoke-direct {v0, p1, p2}, Ltech/pm/ams/common/analytics/AnalyticsEventManager;-><init>(Ltech/pm/ams/common/contracts/ApplicationContract;Ltech/pm/ams/common/contracts/AccountContract;)V
+
+    return-object v0
+.end method
+
+.method public final provideContext$notification_center_release(Ltech/pm/ams/common/contracts/ApplicationContract;)Landroid/content/Context;
+    .locals 1
+    .param p1    # Ltech/pm/ams/common/contracts/ApplicationContract;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation runtime Ldagger/Provides;
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .annotation runtime Ltech/pm/ams/notificationcenter/eventsubscription/di/EventSubscriptionCoreScope;
+    .end annotation
+
+    const-string v0, "applicationContract"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    invoke-interface {p1}, Ltech/pm/ams/common/contracts/ApplicationContract;->getApplication()Landroid/app/Application;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/app/Application;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    const-string v0, "applicationContract.getA\u2026tion().applicationContext"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object p1
+.end method

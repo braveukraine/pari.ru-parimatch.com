@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.compose.ui.platform.ComposeView android:layout_gravity="bottom" android:id="@id/marketOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.compose.ui.platform.ComposeView android:layout_gravity="bottom" android:id="@id/placeBetDialogs" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/sports_event_odd_name_selected" android:state_activated="true" />
+    <item android:state_selected="true" android:color="@color/sports_outcome_text_frozen_color" android:state_activated="false" />
+    <item android:state_selected="false" android:color="@color/sports_outcome_text_frozen_color" android:state_activated="false" />
+    <item android:state_selected="false" android:color="@color/sports_event_odd_name_unselected" android:state_activated="true" />
+</selector>

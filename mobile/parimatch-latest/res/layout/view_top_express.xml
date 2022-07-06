@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout android:id="@id/mlTopExpress" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutDescription="@xml/top_express_scene"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/banner" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/sportTabsView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_top_express_banner" />
+    <pm.tech.sport.topexpress.ui.tabs.TopExpressesSportTabsView android:id="@id/sportTabsView" android:background="@color/backgroundWhite" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/vpTopExpress" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/banner" style="@style/TopExpressTabLayoutStyle" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/vpTopExpress" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/sportTabsView" />
+    <androidx.constraintlayout.widget.Group android:id="@id/contentViews" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:constraint_referenced_ids="vpTopExpress, sportTabsView, banner" />
+    <FrameLayout android:id="@id/flLoadingView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <tech.pm.pmcommon.ui.PMLoadingView android:theme="@style/OverlayColorOrange" android:layout_gravity="center" android:id="@id/loadingView" android:visibility="visible" android:layout_width="60.0dip" android:layout_height="60.0dip" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/flErrorView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <tech.pm.pmcommon.ui.PMErrorView android:id="@id/errorView" android:background="@color/colorPrimary125" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</androidx.constraintlayout.motion.widget.MotionLayout>

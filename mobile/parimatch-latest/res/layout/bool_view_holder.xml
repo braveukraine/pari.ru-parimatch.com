@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/bool_view_holder_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center_vertical" android:id="@id/title" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/switcher" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/switcher" app:layout_constraintWidth_percent="0.3" style="@style/ViewHolder.Title" />
+    <androidx.appcompat.widget.SwitchCompat android:gravity="start" android:id="@id/switcher" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintStart_toEndOf="@id/title" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

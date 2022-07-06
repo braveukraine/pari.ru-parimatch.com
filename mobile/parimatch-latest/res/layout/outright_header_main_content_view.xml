@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/sport_text_size_medium" android:textColor="@color/textColorGreyLightExtraOpacity" android:ellipsize="end" android:gravity="center" android:id="@id/tvInfo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="@dimen/margin_standard" android:maxLines="3" android:contentDescription="tvInfo" android:layout_marginStart="@dimen/margin_standard" android:layout_marginEnd="@dimen/margin_standard" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

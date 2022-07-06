@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_single"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <tech.pm.ams.notificationcenter.common.utils.ui.CheckBoxUiInterceptor android:id="@id/scbActivationButton" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="@dimen/margin_medium" android:layout_marginBottom="@dimen/margin_medium" android:layout_marginStart="@dimen/margin_standard_plus" />
+    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorBlack" android:layout_gravity="start|center" android:id="@id/tvSubscriptionName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_standard_plus" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_extra_short_plus" android:src="@drawable/ic_tournaments_filters" android:contentDescription="ivTournamentsFilters" />
+    <TextView android:textSize="8.0sp" android:textColor="@color/tournamentFilterTextColor" android:gravity="center" android:layout_gravity="end" android:id="@id/tvFiltersCount" android:background="@drawable/filter_counter_background" android:visibility="gone" android:layout_width="@dimen/filter_counter_width" android:layout_height="@dimen/filter_counter_height" />
+</merge>

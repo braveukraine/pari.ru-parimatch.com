@@ -1,0 +1,67 @@
+.class public final Lio/grpc/LoadBalancerRegistry$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/grpc/ServiceProviders$PriorityAccessor;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/grpc/LoadBalancerRegistry;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lio/grpc/ServiceProviders$PriorityAccessor<",
+        "Lio/grpc/LoadBalancerProvider;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getPriority(Ljava/lang/Object;)I
+    .locals 0
+
+    .line 1
+    check-cast p1, Lio/grpc/LoadBalancerProvider;
+
+    .line 2
+    invoke-virtual {p1}, Lio/grpc/LoadBalancerProvider;->getPriority()I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public isAvailable(Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 1
+    check-cast p1, Lio/grpc/LoadBalancerProvider;
+
+    .line 2
+    invoke-virtual {p1}, Lio/grpc/LoadBalancerProvider;->isAvailable()Z
+
+    move-result p1
+
+    return p1
+.end method

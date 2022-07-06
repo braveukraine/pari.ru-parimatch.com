@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/knowledge_dc_detail_subcategory_header_padding_top" android:paddingBottom="@dimen/knowledge_dc_detail_subcategory_header_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/knowledge_dc_detail_padding_left" android:paddingEnd="@dimen/knowledge_dc_detail_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/knowledge_ic_folder_open_black_18dp" android:scaleType="center" android:tint="@color/salesforce_contrast_primary" android:contentDescription="@null" android:layout_marginEnd="8.0dip" />
+    <com.salesforce.android.service.common.ui.views.SalesforceTextView android:layout_gravity="center_vertical" android:id="@id/knowledge_category_category_text_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/knowledge_category_category_header" android:layout_marginStart="0.0dip" style="@style/KnowledgeText.Bold.CategoryDetail_Name" />
+</LinearLayout>

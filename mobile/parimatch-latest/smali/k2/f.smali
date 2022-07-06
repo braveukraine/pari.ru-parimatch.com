@@ -1,0 +1,45 @@
+.class public final Lk2/f;
+.super Lk2/e;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lk2/e<",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lk2/f;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lk2/f;
+
+    invoke-direct {v0}, Lk2/f;-><init>()V
+
+    sput-object v0, Lk2/f;->a:Lk2/f;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 1
+    invoke-direct {p0, v0}, Lk2/e;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-void
+.end method

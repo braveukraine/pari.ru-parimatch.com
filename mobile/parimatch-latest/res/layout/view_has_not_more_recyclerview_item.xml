@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_short"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="@color/textColorGreyCard" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bets_can_not_load_more_title" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/textColorGreyCard" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_extra_short" android:text="@string/bets_can_not_load_more_sub_title" />
+</LinearLayout>

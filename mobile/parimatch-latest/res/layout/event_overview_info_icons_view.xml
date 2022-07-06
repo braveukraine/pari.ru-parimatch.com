@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivStream" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_stream" android:contentDescription="ivStream" android:layout_marginStart="@dimen/margin_extra_short" android:layout_marginEnd="@dimen/margin_extra_short" />
+    <ImageView android:id="@id/ivEventTips" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_eventtips" android:contentDescription="ivEventTips" android:layout_marginStart="@dimen/margin_extra_short" android:layout_marginEnd="@dimen/margin_extra_short" />
+    <ImageView android:id="@id/ivHighlights" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_highlights_white" android:contentDescription="ivHighlights" android:layout_marginStart="@dimen/margin_extra_short" android:layout_marginEnd="@dimen/margin_extra_short" />
+    <ImageView android:id="@id/ivAudioStream" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_audio_broadcast" android:contentDescription="ivAudioStream" android:layout_marginStart="@dimen/margin_extra_short" android:layout_marginEnd="@dimen/margin_extra_short" />
+    <ImageView android:id="@id/ivStatistics" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_statistics" android:contentDescription="ivStatistics" android:layout_marginStart="@dimen/margin_extra_short" android:layout_marginEnd="@dimen/margin_extra_short" />
+    <TextView android:textSize="@dimen/_text_size_small" android:textColor="@color/colorPrimary600" android:id="@id/tvRegulation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:contentDescription="tvRegulation" android:layout_marginStart="@dimen/margin_extra_short" android:layout_marginEnd="@dimen/margin_extra_short" />
+</merge>

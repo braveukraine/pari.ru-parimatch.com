@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="express_boost_outcomes_count">
+        <item quantity="other">%1$s жыйынтык - %2$s</item>
+        <item quantity="one">%1$s жыйынтык - %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d жаңы билдирме</item>
+        <item quantity="one">%d жаңы билдирме</item>
+    </plurals>
+    <plurals name="sport_special_events_available_outcomes">
+        <item quantity="other">%d жеткиликтүү жыйынтык</item>
+        <item quantity="one">%d жеткиликтүү жыйынтык</item>
+    </plurals>
+    <plurals name="top_express_bet_count">
+        <item quantity="other">%1$d сайыш</item>
+        <item quantity="one">%1$d сайыш</item>
+    </plurals>
+</resources>

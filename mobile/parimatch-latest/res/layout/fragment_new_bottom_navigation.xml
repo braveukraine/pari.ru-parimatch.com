@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/rootContainer" android:background="@color/backgroundGreyPrimary125" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fragmentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <pm.tech.sport.placebet.ui.SportOverlayView android:id="@id/sportOverlayView" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <pm.tech.sport.placebet.ui.FreeBetBetView android:id="@id/freeBetView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <pm.tech.sport.placebet.ui.QuickBetView android:id="@id/quickBetView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.view.View android:id="@id/superMenuBackgroundView" android:background="@color/backgroundTransparentBlack" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <tech.pm.ams.menu.ui.SuperMenuView android:id="@id/superMenuView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.nativeapp.views.DisabledOutClickBottomSheetBehavior" />
+    <com.nativeapp.views.bottomnavigation.BottomNavigationView android:layout_gravity="bottom" android:id="@id/bottomNavigation" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <pm.tech.sport.common.ui.onboarding.OnboardingView android:id="@id/sportOnboardingView" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

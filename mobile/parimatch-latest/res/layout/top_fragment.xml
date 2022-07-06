@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundGreyPrimary125" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefresh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="Top match">
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <tech.pm.ams.common.recycler.NestedRecyclerView android:id="@id/recyclerView" android:paddingBottom="@dimen/content_bottom_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <tech.pm.pmcommon.ui.PMErrorView android:layout_gravity="center" android:id="@id/errorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <tech.pm.pmcommon.ui.PMSportLoadingView android:id="@id/loadingView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:type="top" />
+    <tech.pm.ams.top.presentation.view.banners.ShortBannerView android:layout_gravity="end|bottom|center" android:id="@id/shortDepositBanner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="115.0dip" android:layout_marginStart="@dimen/margin_extra_short_plus" android:layout_marginEnd="@dimen/margin_extra_short_plus" />
+    <tech.pm.ams.top.presentation.view.banners.UsualBannerView android:layout_gravity="bottom" android:id="@id/usualDepositBanner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="115.0dip" android:layout_marginStart="@dimen/margin_extra_short_plus" android:layout_marginEnd="@dimen/margin_extra_short_plus" />
+</FrameLayout>

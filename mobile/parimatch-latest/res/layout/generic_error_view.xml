@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/case_generic_error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="30.0dip" android:tint="?cases_genericErrorImageTint" android:contentDescription="@null" app:srcCompat="?cases_genericErrorImage" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <com.salesforce.android.service.common.ui.views.SalesforceTextView android:gravity="center" android:id="@id/case_generic_error_title" android:text="@string/cases_generic_error_title_text" style="?cases_errorMessageTitleStyle" />
+            <com.salesforce.android.service.common.ui.views.SalesforceTextView android:gravity="center" android:id="@id/case_generic_error_message" android:text="@string/cases_generic_error_subtitle_text" style="?cases_errorMessageSubtitleStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

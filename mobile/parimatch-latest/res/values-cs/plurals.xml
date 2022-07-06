@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chat_estimated_wait_time_minutes">
+        <item quantity="other">%1$s minuty</item>
+        <item quantity="one">%1$s minuta</item>
+        <item quantity="few">%1$s minut</item>
+        <item quantity="many">%1$s minut</item>
+    </plurals>
+    <plurals name="chat_minimized_unread_message_count">
+        <item quantity="other">%1$d nepřečtených zpráv od %2$s</item>
+        <item quantity="one">%1$d nepřečtená zpráva od %2$s</item>
+        <item quantity="few">%1$d nepřečtené zprávy od %2$s</item>
+        <item quantity="many">%1$d nepřečtených zpráv od %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových oznámení</item>
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/textColorBlack" android:gravity="center_vertical" android:layout_gravity="start|center" android:id="@id/tvName" android:paddingTop="@dimen/padding_standard" android:paddingBottom="@dimen/padding_standard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_odds_change_policy" android:layout_marginStart="@dimen/padding_standard" android:paddingVertical="@dimen/padding_standard" />
+    <androidx.appcompat.widget.SwitchCompat android:theme="@style/OverlayColorOrange" android:layout_gravity="end|center" android:id="@id/scOddPolicy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/padding_standard" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pm.tech.sport.common.TouchDetectingLinearLayout android:orientation="vertical" android:id="@id/llContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <pm.tech.sport.common.ui.line.timefilters.TimeFiltersView android:id="@id/timeFiltersView" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <pm.tech.sport.common.ui.line.marketprofiles.MarketProfileSelectorView android:id="@id/profileSelector" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <tech.pm.pmcommon.ui.PMSportLoadingView android:id="@id/llLoadingView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:type="live" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvSportEvents" android:visibility="visible" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="rvSportEvents" />
+        <tech.pm.pmcommon.ui.PMErrorView android:id="@id/pmErrorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <pm.tech.sport.common.ui.line.timefilters.EmptyFilterView android:id="@id/emptyErrorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</pm.tech.sport.common.TouchDetectingLinearLayout>

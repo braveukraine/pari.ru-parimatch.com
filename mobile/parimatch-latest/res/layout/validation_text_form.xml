@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tech.pm.apm.core.views.inputforms.InputForm android:id="@id/ifText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" app:ifPasswordObscurationEnable="true" app:ifPasswordObscurationIconTint="@color/colorPrimary600" style="@style/InputForm">
+        <tech.pm.apm.core.views.inputforms.InputFormEditText android:id="@id/etPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" style="@style/EditText.InputForm" />
+    </tech.pm.apm.core.views.inputforms.InputForm>
+    <androidx.cardview.widget.CardView android:background="@color/backgroundGreyLight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" app:cardElevation="4.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvValidationRules" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</merge>

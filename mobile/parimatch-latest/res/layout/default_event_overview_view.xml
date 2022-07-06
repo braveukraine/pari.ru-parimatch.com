@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <pm.tech.sport.event_overview.views.EventInfoView android:id="@id/outcomeInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="outcomeInfo" />
+    <pm.tech.sport.event_overview.views.outcomes.BottomOverviewContainerView android:id="@id/ocvOutcomesContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_extra_short" app:singleOutcomePadding="@dimen/padding_short" app:target="standard" />
+</merge>

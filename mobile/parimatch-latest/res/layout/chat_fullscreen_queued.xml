@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/chat_fullscreen_queued" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.salesforce.android.service.common.ui.views.SalesforceLoadingDots android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@id/chat_fullscreen_queued_text_title" style="@style/ServiceChatFullscreenConnectingTitleText" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <TextView android:id="@id/chat_fullscreen_queued_text_number" app:autoSizeMaxTextSize="50.0sp" app:autoSizeMinTextSize="20.0sp" app:autoSizeStepGranularity="10.0sp" app:autoSizeTextType="uniform" style="@style/ServiceChatFullscreenQueuedPositionText" />
+    </LinearLayout>
+    <TextView android:id="@id/chat_fullscreen_queued_text_description" style="@style/ServiceChatFullscreenConnectingDescriptionText" />
+</LinearLayout>

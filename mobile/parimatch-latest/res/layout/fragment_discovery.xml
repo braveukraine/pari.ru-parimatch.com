@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBar" android:background="@color/navigationElementsColor" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:popupTheme="@style/AppTheme.PopupOverlay" app:titleTextColor="@android:color/white">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/text_size_toolbar" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="start|center" android:id="@id/toolbarTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:contentDescription="Toolbar title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/rightActionButton" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <ImageView android:layout_gravity="center" android:id="@id/logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pm_logo_normal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textStyle="bold" android:textColor="@color/toolbarButtonTextColor" android:layout_gravity="end|center" android:id="@id/rightActionButton" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_standard" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <tech.pm.aba.presentation.LanguageSafeWebView android:id="@id/webkit" android:background="@color/colorPrimary200Opacity30" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <tech.pm.aba.common.ErrorView android:id="@id/errorView" android:background="@color/backgroundGreyPrimary125" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

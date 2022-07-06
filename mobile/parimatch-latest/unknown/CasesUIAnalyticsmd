@@ -1,0 +1,301 @@
+# CasesUIAnalytics
+
+**Table of Contents**
+
+
+- [CASE_RESPONSE_MESSAGE_EVENT](#case_response_message_event)
+- [CASE_RESPONSE_NOTIFICATION_EVENT](#case_response_notification_event)
+- [CASE_USER_CASE_DETAIL_EVENT](#case_user_case_detail_event)
+- [CASE_USER_CASE_LIST_EVENT](#case_user_case_list_event)
+- [CASE_USER_CASE_PUBLISHER_LAYOUT_EVENT](#case_user_case_publisher_layout_event)
+- [CASE_USER_CASE_SUBMISSION_EVENT](#case_user_case_submission_event)
+- [CASE_USER_EXIT_PUBLISHER_WITH_DATA_ENTERED_EVENT](#case_user_exit_publisher_with_data_entered_event)
+
+
+## CASE_RESPONSE_MESSAGE_EVENT
+
+_Emitted when a update to a case feed is received or when a user successfully posts a comment
+ to
+ a case feed._
+
+Constant: `CasesUIAnalytics.RESPONSE_MESSAGE_EVENT`
+
+#### Data
+
+- **communityUrl**
+  - _The Community URL that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_COMMUNITY_URL`
+
+- **caseListname**
+  - _The Case List Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_LIST_NAME`
+
+- **createCaseActionName**
+  - _The Create Case Action Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CREATE_CASE_ACTION_NAME`
+
+- **userType**
+  - _The User Type for the user. May be guest or authenticated._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_USER_TYPE`
+
+- **sender**
+  - _The sender of a case message.
+
+ @see UserType_
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_SENDER`
+
+- **caseId**
+  - _The case Id._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_ID`
+
+
+## CASE_RESPONSE_NOTIFICATION_EVENT
+
+_Emitted when a push notification is received indicating a case has been updated._
+
+Constant: `CasesUIAnalytics.RESPONSE_NOTIFICATION_EVENT`
+
+#### Data
+
+- **communityUrl**
+  - _The Community URL that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_COMMUNITY_URL`
+
+- **caseListname**
+  - _The Case List Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_LIST_NAME`
+
+- **createCaseActionName**
+  - _The Create Case Action Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CREATE_CASE_ACTION_NAME`
+
+- **userType**
+  - _The User Type for the user. May be guest or authenticated._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_USER_TYPE`
+
+- **caseId**
+  - _The case Id._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_ID`
+
+- **subject**
+  - _The notification message._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_SUBJECT`
+
+
+## CASE_USER_CASE_DETAIL_EVENT
+
+_The user has navigated to/from the case details feed._
+
+Constant: `CasesUIAnalytics.USER_CASE_DETAIL_EVENT`
+
+#### Data
+
+- **communityUrl**
+  - _The Community URL that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_COMMUNITY_URL`
+
+- **caseListname**
+  - _The Case List Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_LIST_NAME`
+
+- **createCaseActionName**
+  - _The Create Case Action Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CREATE_CASE_ACTION_NAME`
+
+- **userType**
+  - _The User Type for the user. May be guest or authenticated._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_USER_TYPE`
+
+- **eventType**
+  - _The event type.
+
+ @see EventType_
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_EVENT_TYPE`
+
+- **caseId**
+  - _The case Id._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_ID`
+
+
+## CASE_USER_CASE_LIST_EVENT
+
+_The user has navigated to/from the case list._
+
+Constant: `CasesUIAnalytics.USER_CASE_LIST_EVENT`
+
+#### Data
+
+- **communityUrl**
+  - _The Community URL that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_COMMUNITY_URL`
+
+- **caseListname**
+  - _The Case List Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_LIST_NAME`
+
+- **createCaseActionName**
+  - _The Create Case Action Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CREATE_CASE_ACTION_NAME`
+
+- **userType**
+  - _The User Type for the user. May be guest or authenticated._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_USER_TYPE`
+
+- **eventType**
+  - _The event type.
+
+ @see EventType_
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_EVENT_TYPE`
+
+- **caseCount**
+  - _The number of cases in the case list._
+  - `java.lang.Integer`
+  - Constant: `CasesUIAnalytics.DATA_CASE_COUNT`
+
+
+## CASE_USER_CASE_PUBLISHER_LAYOUT_EVENT
+
+_The user has navigated to/from the case publisher._
+
+Constant: `CasesUIAnalytics.USER_CASE_PUBLISHER_LAYOUT_EVENT`
+
+#### Data
+
+- **communityUrl**
+  - _The Community URL that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_COMMUNITY_URL`
+
+- **caseListname**
+  - _The Case List Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_LIST_NAME`
+
+- **createCaseActionName**
+  - _The Create Case Action Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CREATE_CASE_ACTION_NAME`
+
+- **userType**
+  - _The User Type for the user. May be guest or authenticated._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_USER_TYPE`
+
+- **eventType**
+  - _The event type.
+
+ @see EventType_
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_EVENT_TYPE`
+
+
+## CASE_USER_CASE_SUBMISSION_EVENT
+
+_The user has submitted a new case via the publisher._
+
+Constant: `CasesUIAnalytics.USER_CASE_SUBMISSION_EVENT`
+
+#### Data
+
+- **communityUrl**
+  - _The Community URL that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_COMMUNITY_URL`
+
+- **caseListname**
+  - _The Case List Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_LIST_NAME`
+
+- **createCaseActionName**
+  - _The Create Case Action Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CREATE_CASE_ACTION_NAME`
+
+- **userType**
+  - _The User Type for the user. May be guest or authenticated._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_USER_TYPE`
+
+- **eventType**
+  - _The event type.
+
+ @see EventType_
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_EVENT_TYPE`
+
+- **result**
+  - _The case created result.
+
+ @see CompletionType_
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_CREATED_RESULT`
+
+- **caseId**
+  - _The case Id._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_ID`
+
+- **wordCount**
+  - _The number of words entered in the case publisher._
+  - `java.lang.Integer`
+  - Constant: `CasesUIAnalytics.DATA_WORD_COUNT`
+
+
+## CASE_USER_EXIT_PUBLISHER_WITH_DATA_ENTERED_EVENT
+
+_Emitted when a user exits the case publisher. Indicates the number of words in the discarded
+ case._
+
+Constant: `CasesUIAnalytics.USER_EXIT_PUBLISHER_WITH_DATA_ENTERED_EVENT`
+
+#### Data
+
+- **communityUrl**
+  - _The Community URL that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_COMMUNITY_URL`
+
+- **caseListname**
+  - _The Case List Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CASE_LIST_NAME`
+
+- **createCaseActionName**
+  - _The Create Case Action Name that Cases UI has been configured with._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_CREATE_CASE_ACTION_NAME`
+
+- **userType**
+  - _The User Type for the user. May be guest or authenticated._
+  - `java.lang.String`
+  - Constant: `CasesUIAnalytics.DATA_USER_TYPE`
+
+- **wordCount**
+  - _The number of words entered in the case publisher._
+  - `java.lang.Integer`
+  - Constant: `CasesUIAnalytics.DATA_WORD_COUNT`
+

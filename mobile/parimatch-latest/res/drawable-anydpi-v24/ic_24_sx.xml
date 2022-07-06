@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M22,4H2C0.8954,4 0,4.8954 0,6V18C0,19.1046 0.8954,20 2,20H22C23.1046,20 24,19.1046 24,18V6C24,4.8954 23.1046,4 22,4Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M2,4.5H22C22.8284,4.5 23.5,5.1716 23.5,6V18C23.5,18.8284 22.8284,19.5 22,19.5H2C1.1716,19.5 0.5,18.8284 0.5,18V6C0.5,5.1716 1.1716,4.5 2,4.5Z" android:strokeColor="#fff0f0f0" android:strokeWidth="1.0" />
+        <path android:fillColor="#ff0f2688" android:pathData="M0,20H24V12H11.4286L0,20Z" />
+        <path android:fillColor="#ffdc1f18" android:pathData="M0,4H24V12H11.4286L0,4Z" />
+        <path android:fillColor="@drawable/$ic_24_sx__0" android:pathData="M1.7144,11.4667V9.8733C1.7144,9.2818 2.2153,8.8 2.8519,8.8H5.1482C5.7781,8.8 6.2858,9.2878 6.2858,9.8733V11.4667C6.2858,12.3676 5.8466,13.0098 5.1389,13.3841C4.73,13.6003 4.3305,13.6873 3.9621,13.7055C3.6697,13.6873 3.2701,13.6003 2.8612,13.3841C2.1535,13.0098 1.7144,12.3676 1.7144,11.4667Z" />
+        <path android:fillColor="@drawable/$ic_24_sx__1" android:pathData="M2.2856,11.4667V9.8733C2.2856,9.5751 2.5322,9.3334 2.8518,9.3334H5.1481C5.4607,9.3334 5.7142,9.581 5.7142,9.8733V11.4667C5.7142,13.0667 3.9999,13.1734 3.9999,13.1734C3.9999,13.1734 2.2856,13.0667 2.2856,11.4667Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M3.4282,10.9334L3.9997,10.4L4.5711,10.9334V12H3.4282V10.9334Z" />
+        <path android:fillColor="#fff9d835" android:pathData="M1.1442,13.9925C1.8364,14.737 2.927,15.2 3.9999,15.2C5.0834,15.2 6.1888,14.722 6.8811,13.9609C7.0853,13.7363 7.0559,13.3998 6.8153,13.2091C6.5747,13.0185 6.214,13.046 6.0098,13.2706C5.5346,13.7931 4.7477,14.1333 3.9999,14.1333C3.2577,14.1333 2.4822,13.8041 2.0074,13.2934C1.8006,13.071 1.4397,13.0471 1.2013,13.2401C0.963,13.4332 0.9374,13.77 1.1442,13.9925Z" />
+        <path android:fillColor="@drawable/$ic_24_sx__2" android:pathData="M3.9998,9.8666C4.631,9.8666 5.1427,9.389 5.1427,8.7999C5.1427,8.2108 4.631,7.7333 3.9998,7.7333C3.3686,7.7333 2.8569,8.2108 2.8569,8.7999C2.8569,9.389 3.3686,9.8666 3.9998,9.8666Z" />
+    </group>
+</vector>

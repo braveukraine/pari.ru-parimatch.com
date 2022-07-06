@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/sport_text_size_medium" android:textColor="@color/textColorBlack" android:layout_gravity="center_vertical" android:id="@id/textView2" android:paddingTop="@dimen/margin_standard" android:paddingBottom="@dimen/margin_standard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_cashout_change_policy_accept" android:layout_marginStart="@dimen/padding_standard" android:paddingVertical="@dimen/margin_standard" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/cashOutPolicySwitch" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.SwitchCompat android:theme="@style/OverlayColorOrange" android:layout_gravity="end|center" android:id="@id/cashOutPolicySwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/padding_standard" app:layout_constraintBottom_toBottomOf="@id/textView2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/textView2" />
+</merge>

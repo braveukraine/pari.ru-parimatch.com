@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="express_boost_outcomes_count">
+        <item quantity="other">ප්‍රතිඵල %1$s යි - %2$s</item>
+        <item quantity="one">ප්‍රතිඵල %1$s යි - %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">නව දැනුම්දීම් %dක්</item>
+        <item quantity="one">නව දැනුම්දීම් %dක්</item>
+    </plurals>
+    <plurals name="sport_special_events_available_outcomes">
+        <item quantity="other">ලද හැකි ප්‍රතිඵල %d</item>
+        <item quantity="one">ලද හැකි ප්‍රතිඵල %d</item>
+    </plurals>
+    <plurals name="top_express_bet_count">
+        <item quantity="other">ඔට්ටු %1$d</item>
+        <item quantity="one">%1$d ඔට්ටුව</item>
+    </plurals>
+</resources>

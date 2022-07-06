@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="title1Bold">
+        <item name="android:fontFamily">@font/drukwidecyr_bolditalic</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="subheadRegular">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+
+    </style>
+    <style name="largeTitleSemibold">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:letterSpacing">0.37</item>
+
+    </style>
+    <style name="caption3Semibold">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:letterSpacing">0</item>
+
+    </style>
+    <style name="subheadSemibold">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+
+    </style>
+    <style name="title1Semibold">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+
+    </style>
+    <style name="bodySemibold">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+
+    </style>
+    <style name="title2Semibold">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0</item>
+
+    </style>
+    <style name="bodyRegular">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.32</item>
+
+    </style>
+    <style name="bodyRoundedMedium">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+
+    </style>
+    <style name="caption1Regular">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">-0.3</item>
+
+    </style>
+    <style name="caption1RegularCaps">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.25</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="caption2Medium">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.25</item>
+
+    </style>
+    <style name="title2Regular">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0</item>
+
+    </style>
+    <style name="largeTitleHeavy">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:letterSpacing">0.37</item>
+
+    </style>
+    <style name="caption2MediumCaps">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.25</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

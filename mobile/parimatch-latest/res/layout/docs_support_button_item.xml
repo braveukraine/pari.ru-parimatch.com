@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textSize="@dimen/text_size_medium" android:textStyle="bold" android:textColor="@color/textColorBlack" android:id="@id/bSupport" android:background="@drawable/black_rounded_boarder_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_standard" android:minHeight="48.0dip" android:text="@string/unsupported_open_support_window"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

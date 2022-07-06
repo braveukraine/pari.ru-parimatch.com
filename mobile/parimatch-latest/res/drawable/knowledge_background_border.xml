@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/knowledge_article_item_divider_size" />
+    <solid android:color="@color/salesforce_contrast_quaternary" />
+</shape>

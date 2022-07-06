@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_margin="@dimen/margin_standard" android:src="@drawable/ic_docs_are_verified" />
+    <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/textColorPrimary" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_big" android:text="@string/kyc_documents_successfully_uploaded" />
+</LinearLayout>

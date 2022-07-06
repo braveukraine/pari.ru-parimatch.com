@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#ffe5e5e5" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/toolbarLayout" android:background="@color/navigationElementsColor" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationIcon="@drawable/abc_ic_ab_back_material" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextColor="@color/textColorWhite">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/text_size_toolbar" android:textColor="@color/textColorWhite" android:ellipsize="end" android:gravity="start" android:layout_gravity="center" android:id="@id/tvToolbarTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:textDirection="locale" />
+                <pm.tech.sport.sharebet.ui.BetsIconView android:id="@id/vbOpenBet" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <pm.tech.sport.sharebet.ui.BetsIconView android:id="@id/vbShareBet" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbarLayout" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/composeView" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/recyclerView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

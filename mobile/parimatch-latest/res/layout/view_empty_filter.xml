@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivNoEvents" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_standard_plus" android:src="@drawable/ic_no_events_for_filter" android:alpha="0.1" app:layout_constraintBottom_toTopOf="@id/tvNoEventsText" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textSize="@dimen/sport_text_size_medium" android:textColor="@color/colorPrimary400" android:id="@id/tvNoEventsText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:contentDescription="errorMessage" android:textAlignment="center" android:paddingStart="@dimen/padding_big" android:paddingEnd="@dimen/padding_big" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

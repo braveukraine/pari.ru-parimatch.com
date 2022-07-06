@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/common_minview_close" android:layout_width="fill_parent" android:layout_height="48.0dip" android:contentDescription="@string/salesforce_close_minimize_view_content_description" style="@style/SalesforceMinimizedView_CloseButton" />
+    <View android:background="@color/salesforce_contrast_tertiary" android:layout_width="fill_parent" android:layout_height="0.25dip" />
+    <FrameLayout android:id="@id/common_minview_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

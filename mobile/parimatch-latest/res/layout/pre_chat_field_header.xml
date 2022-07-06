@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/pre_chat_banner_padding" android:paddingTop="@dimen/pre_chat_banner_padding" android:paddingRight="@dimen/pre_chat_banner_padding" android:paddingBottom="@dimen/pre_chat_banner_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Base.SalesforceStyle.Text">
+        <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/pre_chat_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pre_chat_banner_text" android:textAlignment="center" />
+    </LinearLayout>
+    <FrameLayout android:paddingTop="@dimen/pre_chat_separator_padding" android:paddingBottom="@dimen/pre_chat_separator_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:id="@id/pre_chat_header_horizontal_rule" android:background="@color/salesforce_contrast_secondary" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/salesforce_message_feed_horizontal_margin" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/salesforce_message_feed_horizontal_margin" android:layout_marginBottom="16.0dip" android:layout_marginStart="@dimen/salesforce_message_feed_horizontal_margin" android:layout_marginEnd="@dimen/salesforce_message_feed_horizontal_margin" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/pre_chat_header_horizontal_rule_icon" android:background="@color/salesforce_contrast_inverted" android:layout_width="wrap_content" android:layout_height="@dimen/pre_chat_banner_icon_width" android:tint="@color/salesforce_brand_primary" android:contentDescription="@null" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" app:srcCompat="@drawable/chat_ic_bubble" />
+    </FrameLayout>
+</LinearLayout>

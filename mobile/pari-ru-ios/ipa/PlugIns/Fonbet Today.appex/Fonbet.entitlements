@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:www.paribet.ru</string>
+		<string>applinks:www.pari.ru</string>
+		<string>applinks:paribet.onelink.me</string>
+		<string>applinks:pari.onelink.me</string>
+		<string>applinks:l.paribet.ru</string>
+		<string>applinks:l.pari.ru</string>
+		<string>applinks:www.l.paribet.ru</string>
+		<string>applinks:www.l.pari.ru</string>
+	</array>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.paribet.notification.extension</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:orientation="vertical" android:id="@id/flToolbarContainer" android:background="@color/primaryButtonBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <pm.tech.sport.placebet.ui.SportOverlayToolbar android:layout_gravity="top" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_sheet_padding" app:collapsedBackgroundColor="@color/primaryButtonBackgroundColor" app:expandedBackgroundColor="@color/navigationElementsColor" />
+        <com.google.android.material.tabs.TabLayout android:layout_gravity="bottom" android:id="@id/tlBetslip" android:layout_width="fill_parent" android:layout_height="56.0dip" app:tabIndicatorColor="@color/bottomNavigationSelectionColor" app:tabIndicatorHeight="2.0dip" app:tabMaxWidth="500.0dip" app:tabMode="fixed" style="@style/BetsTabLayoutStyle" />
+        <TextView android:textColor="@color/colorPrimary600" android:id="@id/openBetModeTitle" android:background="@color/openBetToolTipBackground" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/You_are_in_edit_bet_mode" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/vpContentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/vpContentView" android:background="@color/backgroundGreyLight" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <pm.tech.sport.placebet.keepactiveoutcome.KeepActiveOutcomeView android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <androidx.compose.ui.platform.ComposeView android:layout_gravity="bottom" android:id="@id/compose" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

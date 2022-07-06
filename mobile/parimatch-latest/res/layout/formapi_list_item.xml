@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flListItemRoot" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tech.pm.apm.core.views.inputforms.InputForm android:id="@id/ifList" android:layout_width="fill_parent" android:layout_height="wrap_content" app:endIconTint="@color/colorPrimary700" app:ifClearButtonEnable="false" app:ifEndIcon="@drawable/ic_expand_more" app:ifEndIconTint="@color/colorPrimary700" app:ifLabel="@string/hint_currency" style="@style/InputForm">
+        <tech.pm.apm.core.views.inputforms.InputFormEditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:editable="false" android:contentDescription="@string/accessebility_list_field" style="@style/EditText.InputForm" />
+    </tech.pm.apm.core.views.inputforms.InputForm>
+    <View android:layout_gravity="bottom" android:id="@id/vClickContainer" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginLeft="@dimen/margin_standard" android:layout_marginRight="@dimen/margin_standard" android:layout_marginHorizontal="@dimen/margin_standard" />
+</FrameLayout>

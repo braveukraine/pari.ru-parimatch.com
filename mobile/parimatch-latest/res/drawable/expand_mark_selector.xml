@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:id="@id/expanded" android:drawable="@drawable/ic_expand_mark_expanded" />
+    <item android:state_selected="false" android:id="@id/collapsed" android:drawable="@drawable/ic_expand_mark_collapsed" />
+</animated-selector>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="@dimen/salesforce_pick_list_item_height" android:singleLine="true" android:textAlignment="inherit" style="?salesforcePickListDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/cvActionButton" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/ripple_foreground" android:contentDescription="@string/action_button_content_escription" android:elevation="@dimen/action_button_elevation" app:cardBackgroundColor="@color/primaryButtonBackgroundColor"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_medium" android:textStyle="bold" android:textColor="@drawable/process_button_text_color_state" android:gravity="center" android:layout_gravity="center" android:id="@id/tvButtonTitle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAllCaps="true" android:paddingStart="@dimen/padding_short" android:paddingEnd="@dimen/padding_short" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/pbActionButtonLoading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+</merge>

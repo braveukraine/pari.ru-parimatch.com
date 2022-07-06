@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chat_estimated_wait_time_minutes">
+        <item quantity="other">%1$s minutes</item>
+        <item quantity="one">%1$s minute</item>
+    </plurals>
+    <plurals name="chat_minimized_unread_message_count">
+        <item quantity="other">%1$d messages non lus de %2$s</item>
+        <item quantity="one">%1$d message non lu de %2$s</item>
+    </plurals>
+    <plurals name="express_boost_outcomes_count">
+        <item quantity="other">%1$s résultats - %2$s</item>
+        <item quantity="one">%1$s résultat - %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nouvelles notifications</item>
+        <item quantity="one">%d nouvelle notification</item>
+    </plurals>
+    <plurals name="sport_special_events_available_outcomes">
+        <item quantity="other">%d résultats disponibles</item>
+        <item quantity="one">%d résultat disponible</item>
+    </plurals>
+    <plurals name="top_express_bet_count">
+        <item quantity="other">%1$d paris</item>
+        <item quantity="one">%1$d pari</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clRoot" android:paddingTop="@dimen/padding_short" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/_text_size_normal" android:textColor="@color/textColorBlack" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvQabTitle" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_short" android:maxLines="1" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvQab" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/tvQabTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

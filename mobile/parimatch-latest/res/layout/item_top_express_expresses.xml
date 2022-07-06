@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <pm.tech.sport.topexpress.ui.expresses.TopExpressDataView android:scrollbarStyle="outsideOverlay" android:id="@id/topExpressDataView" android:visibility="invisible" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <tech.pm.pmcommon.ui.PMLoadingView android:theme="@style/OverlayColorOrange" android:layout_gravity="center" android:id="@id/loadingView" android:visibility="visible" android:layout_width="60.0dip" android:layout_height="60.0dip" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+</FrameLayout>

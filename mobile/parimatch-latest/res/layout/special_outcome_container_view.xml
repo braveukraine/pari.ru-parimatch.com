@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/sports_min_outcome_container_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/clickableText" android:gravity="center" android:id="@id/tvMore" android:background="@drawable/button_background_unselected" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sport_event_more_odds" android:layout_weight="1.0" android:contentDescription="tvMore" />
+</merge>

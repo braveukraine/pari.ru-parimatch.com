@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="indent_2">2dp</dimen>
+    <dimen name="indent_4">4dp</dimen>
+    <dimen name="indent_8">8dp</dimen>
+    <dimen name="indent_12">12dp</dimen>
+    <dimen name="indent_16">16dp</dimen>
+    <dimen name="indent_20">20dp</dimen>
+    <dimen name="indent_24">24dp</dimen>
+    <dimen name="indent_28">28dp</dimen>
+    <dimen name="indent_32">32dp</dimen>
+    <dimen name="indent_36">36dp</dimen>
+    <dimen name="indent_40">40dp</dimen>
+    <dimen name="radius_4">4dp</dimen>
+    <dimen name="radius_8">8dp</dimen>
+    <dimen name="radius_11">11dp</dimen>
+    <dimen name="radius_12">12dp</dimen>
+    <dimen name="radius_16">16dp</dimen>
+    <dimen name="radius_32">32dp</dimen>
+</resources>

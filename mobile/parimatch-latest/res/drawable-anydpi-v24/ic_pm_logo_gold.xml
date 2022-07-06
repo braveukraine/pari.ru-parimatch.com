@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="44.0dip" android:width="80.0dip" android:viewportWidth="80.0" android:viewportHeight="44.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_pm_logo_gold__0" android:pathData="M15.86,18.2L15,21.2H0.5L3.7,10H21C23.59,10 24.79,11.58 24.11,14.09L23.79,15.2C23.4469,17.0621 21.7467,18.36 19.86,18.2H15.86ZM20.26,15.42L20.93,13H17.32L16.63,15.42H20.26Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_pm_logo_gold__1" android:pathData="M26.59,19.33L25.53,21.2H21.78L28.39,10H34.73V21.2H31.49V19.33H26.59ZM31.49,13H30.15L28.13,16.61H31.49V13Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_pm_logo_gold__2" android:pathData="M48.17,14.15L47.88,15.15C47.6284,16.4416 46.6993,17.4969 45.45,17.91L46.45,21.2H43L42.08,18.11H40L39.09,21.2H35.73L38.93,10H45.06C47.7,10 48.9,11.55 48.17,14.15ZM45.05,13H41.43L40.74,15.42H44.37L45.05,13Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_pm_logo_gold__3" android:pathData="M51.03,21.2L54.23,10H50.87L47.67,21.2H51.03Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_pm_logo_gold__4" android:pathData="M30.47,22.8L26.68,27.28L25.13,22.8H10.6L7.4,34H21.88L23.64,27.8L24.82,31.26H26.98L30.11,27.6L28.26,34H31.62L34.82,22.8H30.47Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_pm_logo_gold__5" android:pathData="M32.7,34L39.31,22.8H45.64V34H42.41V32.13H37.5L36.44,34H32.7ZM41.05,25.84L39.05,29.41H42.39V25.84H41.05Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_pm_logo_gold__6" android:pathData="M56.99,26L57.9,22.8H47.71L46.8,26H50.47L48.19,34H51.55L53.83,26H56.99Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_pm_logo_gold__7" android:pathData="M61.45,26H66.54L67.47,22.8H62C60.1119,22.6352 58.4088,23.9352 58.07,25.8L56.88,29.9C56.17,32.48 57.39,34 60,34H64.22L65.13,30.8H60.07L61.45,26Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_pm_logo_gold__8" android:pathData="M76.14,22.8L75,26.8H71.16L72.3,22.8H68.94L65.74,34H69.1L70.24,30H74.08L72.94,34H76.3L79.5,22.8H76.14Z" android:fillType="evenOdd" />
+</vector>

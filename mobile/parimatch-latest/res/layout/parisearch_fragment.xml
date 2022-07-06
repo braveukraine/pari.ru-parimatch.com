@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundGreyPrimary125" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar android:background="@color/navigationElementsColor" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentInsetStart="0.0dip">
+            <pm.tech.ams.search.common.view.EditTextWithClearBtn android:id="@id/et_search" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_extra_short_plus" android:layout_marginBottom="@dimen/margin_extra_short_plus" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:iv_end="@drawable/ic_cancel" app:iv_start="@drawable/ic_search_24px" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:background="#ff191919" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TabLayoutStyle" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

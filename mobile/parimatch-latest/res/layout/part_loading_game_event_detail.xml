@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/outcome_container1" android:layout_width="40.0dip" android:layout_height="@dimen/margin_short" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/dividerFirst" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/dividerFirst" android:background="@drawable/divider_horizontal" android:layout_width="@dimen/divider_size" android:layout_height="0.0dip" app:layout_constraintEnd_toStartOf="@id/outcome_container2" app:layout_constraintStart_toEndOf="@id/outcome_container1" />
+    <View android:id="@id/outcome_container2" android:layout_width="40.0dip" android:layout_height="@dimen/margin_short" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/divider2" app:layout_constraintStart_toEndOf="@id/dividerFirst" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/divider2" android:background="@drawable/divider_horizontal" android:layout_width="@dimen/divider_size" android:layout_height="0.0dip" app:layout_constraintEnd_toStartOf="@id/outcome_container3" app:layout_constraintStart_toEndOf="@id/outcome_container2" />
+    <View android:id="@id/outcome_container3" android:layout_width="40.0dip" android:layout_height="@dimen/margin_short" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/divider2" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

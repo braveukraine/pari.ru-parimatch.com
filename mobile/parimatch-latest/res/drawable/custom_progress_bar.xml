@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="line">
+            <stroke android:width="@dimen/seek_bar_thickness" android:color="@color/colorDividerGrey" />
+            <corners android:radius="10.0dip" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="line">
+                <stroke android:width="@dimen/seek_bar_thickness" android:color="@color/colorSuccess" />
+                <corners android:radius="10.0dip" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

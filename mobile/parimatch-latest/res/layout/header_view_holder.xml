@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/header_view_holder_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:pm="http://schemas.android.com/apk/res-auto">
+    <TextView android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" pm:layout_constraintStart_toStartOf="parent" pm:layout_constraintTop_toTopOf="parent" style="@style/ViewHolder.HeaderTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

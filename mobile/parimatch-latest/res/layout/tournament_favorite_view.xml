@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clRoot" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/_text_size_normal" android:textColor="@color/textColorGreyDark" android:ellipsize="end" android:id="@id/tournamentFavoriteHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_medium_plus" android:layout_marginBottom="@dimen/margin_medium_plus" android:text="@string/tournament_favorite_header_title" android:maxLines="1" app:layout_constraintBottom_toTopOf="@id/tournamentFavoriteDivider" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/tournamentFavoriteCheckBoxContainer" android:padding="@dimen/padding_short" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/tournamentFavoriteDivider" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatCheckBox android:gravity="center" android:id="@id/tournamentFavoriteCheckBox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/favorite_selector_grey" android:minWidth="0.0dip" android:minHeight="0.0dip" />
+    </FrameLayout>
+    <View android:id="@id/tournamentFavoriteDivider" android:background="@color/colorPrimary200" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tvItemName" android:paddingLeft="@dimen/padding_profile_text_with_logo" android:paddingTop="@dimen/padding_standard" android:paddingBottom="@dimen/padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_verification" style="@style/Text.ProfileTitle" />
+    <ImageView android:layout_gravity="start|center" android:id="@id/ivLogo" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_avatar_pm_black" android:layout_marginStart="20.0dip" />
+</androidx.cardview.widget.CardView>

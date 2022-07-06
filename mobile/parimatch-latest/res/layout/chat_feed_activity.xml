@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/salesforce_contrast_quaternary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/SalesforceAppBarOverlay" android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" app:navigationIcon="@drawable/chat_ic_close" style="@style/ChatToolbar">
+            <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/chat_feed_agent_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_feed_title" style="@style/ChatStyleTextToolbarTitle" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/chat_feed" />
+    <FrameLayout android:id="@id/fullscreen_status_container" android:background="@color/salesforce_brand_secondary_inverted" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?android:actionBarSize" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

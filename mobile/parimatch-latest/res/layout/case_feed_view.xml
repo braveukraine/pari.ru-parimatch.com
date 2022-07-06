@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/SalesforceAppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.salesforce.android.service.common.ui.views.SalesforceTitleTextToolbar android:id="@id/toolbar" style="@style/SalesforceToolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/case_feed_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" android:alpha="0.0">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:background="@color/salesforce_contrast_quaternary" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:stackFromEnd="true" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <include android:id="@id/case_feed_input_footer" layout="@layout/salesforce_message_input" />
+    </LinearLayout>
+    <include layout="@layout/salesforce_progress_spinner" />
+    <include layout="@layout/generic_error_view" />
+    <include layout="@layout/network_error_view" />
+</merge>

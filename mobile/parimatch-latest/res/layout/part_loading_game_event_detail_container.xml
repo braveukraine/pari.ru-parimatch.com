@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/progressView" android:background="@color/backgroundWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_extra_short" android:divider="@drawable/divider_vertical" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/colorPrimary150" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <View android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="120.0dip" android:layout_height="@dimen/margin_short" android:layout_marginStart="@dimen/margin_standard" />
+    </FrameLayout>
+    <include layout="@layout/part_loading_game_event_detail" />
+    <include layout="@layout/part_loading_game_event_detail" />
+    <include layout="@layout/part_loading_game_event_detail" />
+    <include layout="@layout/part_loading_game_event_detail" />
+    <include layout="@layout/part_loading_game_event_detail" />
+    <include layout="@layout/part_loading_game_event_detail" />
+    <include layout="@layout/part_loading_game_event_detail" />
+    <include layout="@layout/part_loading_game_event_detail" />
+    <include layout="@layout/part_loading_game_event_detail" />
+    <include layout="@layout/part_loading_game_event_detail" />
+    <include layout="@layout/part_loading_game_event_detail" />
+    <include layout="@layout/part_loading_game_event_detail" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/salesforce_minview_thumbnail" style="@style/SalesforceMinimizedView">
+        <include layout="@layout/minimized_view" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/SalesforceAppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.salesforce.android.service.common.ui.views.SalesforceTitleTextToolbar android:id="@id/toolbar" app:salesforce_title_text="@string/cases_case_publisher_view_title" style="@style/SalesforceToolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/content_frame" android:paddingTop="?actionBarSize" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <include layout="@layout/salesforce_progress_spinner" />
+        <ScrollView android:id="@id/case_layout_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/case_layout_container" android:paddingLeft="@dimen/cases_case_publisher_content_horizontal_margin" android:paddingTop="@dimen/cases_case_publisher_content_vertical_margin" android:paddingRight="@dimen/cases_case_publisher_content_horizontal_margin" android:paddingBottom="@dimen/cases_case_publisher_content_vertical_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/cases_case_publisher_content_horizontal_margin" android:paddingEnd="@dimen/cases_case_publisher_content_horizontal_margin" />
+        </ScrollView>
+        <include layout="@layout/generic_error_view" />
+        <include layout="@layout/network_error_view" />
+        <include layout="@layout/case_created_view" />
+    </FrameLayout>
+</merge>

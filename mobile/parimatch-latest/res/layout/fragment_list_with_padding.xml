@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <pm.tech.sport.common.ui.line.marketprofiles.MarketProfileSelectorView android:id="@id/profileSelector" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvSportEvents" android:paddingBottom="@dimen/bottom_navigation_height" android:visibility="visible" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="rvSportEvents" />
+        <tech.pm.pmcommon.ui.PMSportLoadingView android:id="@id/llLoadingView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:type="live" />
+        <tech.pm.pmcommon.ui.PMErrorView android:id="@id/pmErrorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.nativeapp.views.ErrorView android:id="@id/errorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

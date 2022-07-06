@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:id="@id/rvSlides" android:paddingTop="@dimen/padding_short" android:paddingBottom="@dimen/padding_short" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/padding_short"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

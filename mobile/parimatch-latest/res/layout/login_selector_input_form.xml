@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tech.pm.apm.core.views.inputforms.InputForm android:id="@id/ifEmail" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/InputForm">
+        <tech.pm.apm.core.views.inputforms.InputFormEditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" style="@style/EditText.InputForm" />
+    </tech.pm.apm.core.views.inputforms.InputForm>
+    <tech.pm.apm.core.views.inputforms.PhoneInputForm android:id="@id/phoneInputForm" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/InputForm">
+        <tech.pm.apm.core.views.inputforms.InputFormEditText android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EditText.InputForm" />
+    </tech.pm.apm.core.views.inputforms.PhoneInputForm>
+    <tech.pm.apm.core.views.inputforms.InputForm android:id="@id/ifInputType" android:layout_width="68.0dip" android:layout_height="wrap_content" android:layout_marginStart="0.0dip" app:ifClearButtonEnable="false" app:ifEndIcon="@drawable/ic_expand_more" app:ifEndIconSize="24.0dip" app:ifEndIconTint="@color/colorPrimary600" app:ifStartIcon="@drawable/ic_user_phone" app:ifStartIconSize="20.0dip" style="@style/InputForm">
+        <tech.pm.apm.core.views.inputforms.InputFormEditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:editable="false" style="@style/EditText.InputForm" />
+    </tech.pm.apm.core.views.inputforms.InputForm>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <tech.pm.pmcommon.ui.PMErrorView android:id="@id/errorView" android:background="@color/backgroundGreyPrimary125" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <tech.pm.pmcommon.ui.PMLoadingView android:theme="@style/OverlayColorOrange" android:layout_gravity="center" android:id="@id/loadingView" android:layout_width="60.0dip" android:layout_height="60.0dip" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+</FrameLayout>

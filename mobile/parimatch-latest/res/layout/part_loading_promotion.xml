@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/drawable_loading_promotion" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+        <View android:id="@id/first_loading_text" android:layout_width="150.0dip" android:layout_marginTop="@dimen/margin_standard" android:layout_marginStart="@dimen/margin_standard" style="@style/Loading.Text" />
+        <View android:id="@id/second_loading_text" android:layout_width="150.0dip" android:layout_marginTop="@dimen/padding_short" android:layout_marginStart="@dimen/margin_standard" style="@style/Loading.Text" />
+        <View android:id="@id/third_loading_view" android:layout_width="100.0dip" android:layout_marginTop="@dimen/padding_short" android:layout_marginBottom="@dimen/padding_standard" android:layout_marginStart="@dimen/padding_standard" style="@style/Loading.Text" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

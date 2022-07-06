@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SinfPaths</key>
+	<array>
+		<string>SC_Info/Paribet.sinf</string>
+	</array>
+	<key>SinfReplicationPaths</key>
+	<array>
+		<string>Frameworks/ChatProvidersSDK.framework/SC_Info/ChatProvidersSDK.sinf</string>
+		<string>Frameworks/ChatSDK.framework/SC_Info/ChatSDK.sinf</string>
+		<string>Frameworks/CommonUISDK.framework/SC_Info/CommonUISDK.sinf</string>
+		<string>Frameworks/FBAEMKit.framework/SC_Info/FBAEMKit.sinf</string>
+		<string>Frameworks/FBSDKCoreKit.framework/SC_Info/FBSDKCoreKit.sinf</string>
+		<string>Frameworks/FBSDKCoreKit_Basics.framework/SC_Info/FBSDKCoreKit_Basics.sinf</string>
+		<string>Frameworks/FonbetConfig.framework/SC_Info/FonbetConfig.sinf</string>
+		<string>Frameworks/FonbetCoupon.framework/SC_Info/FonbetCoupon.sinf</string>
+		<string>Frameworks/FonbetLib.framework/SC_Info/FonbetLib.sinf</string>
+		<string>Frameworks/FonbetLine.framework/SC_Info/FonbetLine.sinf</string>
+		<string>Frameworks/FonbetOtherServices.framework/SC_Info/FonbetOtherServices.sinf</string>
+		<string>Frameworks/FonbetSDK.framework/SC_Info/FonbetSDK.sinf</string>
+		<string>Frameworks/FonbetUser.framework/SC_Info/FonbetUser.sinf</string>
+		<string>Frameworks/MessagingAPI.framework/SC_Info/MessagingAPI.sinf</string>
+		<string>Frameworks/MessagingSDK.framework/SC_Info/MessagingSDK.sinf</string>
+		<string>Frameworks/SDKConfigurations.framework/SC_Info/SDKConfigurations.sinf</string>
+		<string>PlugIns/Fonbet OneSignal.appex/SC_Info/Fonbet OneSignal.sinf</string>
+		<string>PlugIns/Fonbet Today.appex/SC_Info/Fonbet Today.sinf</string>
+		<string>Watch/Fonbet Watch.app/PlugIns/Fonbet Watch Extension.appex/SC_Info/Fonbet Watch Extension.sinf</string>
+		<string>SC_Info/Paribet.sinf</string>
+	</array>
+</dict>
+</plist>

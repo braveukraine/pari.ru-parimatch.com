@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivPersonalIcon" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginStart="@dimen/margin_medium" app:layout_constraintBottom_toBottomOf="@id/tvPersonalTitle" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/tvPersonalTitle" />
+    <TextView android:textSize="@dimen/_text_size_normal" android:textColor="@color/textColorBlack" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvPersonalTitle" android:layout_width="0.0dip" android:layout_height="@dimen/personal_content_view_header_height" android:layout_marginTop="@dimen/margin_short" android:maxLines="1" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/ivPersonalIcon" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvPersonalContent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/tvPersonalTitle" />
+</merge>

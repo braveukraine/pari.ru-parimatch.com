@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.salesforce.android.service.common.ui.views.SalesforceEditText android:textColorHint="@android:color/transparent" android:id="@id/text_input_layout_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/salesforce_input_minimum_height" style="?salesforceTextInputLayoutEditTextStyle" />
+</merge>

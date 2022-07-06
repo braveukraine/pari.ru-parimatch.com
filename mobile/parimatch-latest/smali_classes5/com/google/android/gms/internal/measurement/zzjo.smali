@@ -1,0 +1,171 @@
+.class public final Lcom/google/android/gms/internal/measurement/zzjo;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static volatile b:Lcom/google/android/gms/internal/measurement/zzjo;
+
+.field public static volatile c:Lcom/google/android/gms/internal/measurement/zzjo;
+
+.field public static final d:Lcom/google/android/gms/internal/measurement/zzjo;
+
+
+# instance fields
+.field public final a:Ljava/util/Map;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/google/android/gms/internal/measurement/zzjo;
+
+    const/4 v1, 0x1
+
+    invoke-direct {v0, v1}, Lcom/google/android/gms/internal/measurement/zzjo;-><init>(Z)V
+
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzjo;->d:Lcom/google/android/gms/internal/measurement/zzjo;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzjo;->a:Ljava/util/Map;
+
+    return-void
+.end method
+
+.method public constructor <init>(Z)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzjo;->a:Ljava/util/Map;
+
+    return-void
+.end method
+
+.method public static zza()Lcom/google/android/gms/internal/measurement/zzjo;
+    .locals 2
+
+    .line 1
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzjo;->b:Lcom/google/android/gms/internal/measurement/zzjo;
+
+    if-nez v0, :cond_1
+
+    const-class v1, Lcom/google/android/gms/internal/measurement/zzjo;
+
+    monitor-enter v1
+
+    :try_start_0
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzjo;->b:Lcom/google/android/gms/internal/measurement/zzjo;
+
+    if-nez v0, :cond_0
+
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzjo;->d:Lcom/google/android/gms/internal/measurement/zzjo;
+
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzjo;->b:Lcom/google/android/gms/internal/measurement/zzjo;
+
+    :cond_0
+    monitor-exit v1
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v0
+
+    :cond_1
+    :goto_0
+    return-object v0
+.end method
+
+.method public static zzb()Lcom/google/android/gms/internal/measurement/zzjo;
+    .locals 2
+
+    .line 1
+    const-class v0, Lcom/google/android/gms/internal/measurement/zzjo;
+
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzjo;->c:Lcom/google/android/gms/internal/measurement/zzjo;
+
+    if-eqz v1, :cond_0
+
+    return-object v1
+
+    :cond_0
+    monitor-enter v0
+
+    :try_start_0
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzjo;->c:Lcom/google/android/gms/internal/measurement/zzjo;
+
+    if-eqz v1, :cond_1
+
+    monitor-exit v0
+
+    return-object v1
+
+    .line 2
+    :cond_1
+    invoke-static {v0}, Lk7/m1;->b(Ljava/lang/Class;)Lcom/google/android/gms/internal/measurement/zzjo;
+
+    move-result-object v1
+
+    sput-object v1, Lcom/google/android/gms/internal/measurement/zzjo;->c:Lcom/google/android/gms/internal/measurement/zzjo;
+
+    .line 3
+    monitor-exit v0
+
+    return-object v1
+
+    :catchall_0
+    move-exception v1
+
+    .line 4
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v1
+.end method
+
+
+# virtual methods
+.method public final zzc(Lcom/google/android/gms/internal/measurement/zzlj;I)Lcom/google/android/gms/internal/measurement/zzka;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzjo;->a:Ljava/util/Map;
+
+    new-instance v1, Lk7/h1;
+
+    invoke-direct {v1, p1, p2}, Lk7/h1;-><init>(Ljava/lang/Object;I)V
+
+    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/google/android/gms/internal/measurement/zzka;
+
+    return-object p1
+.end method

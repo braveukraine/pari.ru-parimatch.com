@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ALL_IN">ALL IN</string>
+    <string name="Big_win">Big win</string>
+    <string name="Bonuses">Tiền thưởng</string>
+    <string name="Hide">Ẩn</string>
+    <string name="High_odds">Tỉ lệ cược cao</string>
+    <string name="InningsStartEnd">Lượt chơi được bắt đầu / kết thúc</string>
+    <string name="MapStartEnd">Bản đồ được bắt đầu / kết thúc</string>
+    <string name="Maximal_odds">Tỉ lệ cược tối đa</string>
+    <string name="Promo">Quảng bá</string>
+    <string name="Special_Proposal">Đề xuất đặc biệt</string>
+    <string name="VirtualSports">Thể thao ảo</string>
+    <string name="Virtual_sport">Thể thao ảo</string>
+    <string name="audio">Âm thanh trực tiếp</string>
+    <string name="audio_broadcast">Truyền phát âm thanh trực tiếp</string>
+    <string name="freebet_no_match_minimal_odds_text">Tỷ lệ cược đã được thay đổi và không khớp với điều kiện FreeBet. Hãy thử thay đổi khoản cược.</string>
+    <string name="main_casino">Sòng bạc</string>
+    <string name="onboarding_audio_body">Giờ bạn có thể dõi theo những sự kiện yêu thích ngay cả khi màn hình di động của bạn bị tắt. Sử dụng tab \"Âm thanh trực tiếp để nghe phát âm thanh của một trận đấu - bạn sẽ là người đầu tiên biết khi nào có bàn thắng!</string>
+    <string name="onboarding_whats_new">Những điểm mới</string>
+    <string name="support_faq_subtitle">Nhận câu trả lời của bạn tại đây</string>
+    <string name="virtual_sport_title">Thể thao ảo</string>
+</resources>

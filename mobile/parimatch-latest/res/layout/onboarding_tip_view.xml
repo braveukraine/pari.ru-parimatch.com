@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flRoot" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rlOnboardingTipWrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rlOnboardingTipContent" android:padding="10.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <androidx.cardview.widget.CardView android:id="@id/cvOnboardingTip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" app:cardCornerRadius="0.0dip" app:cardElevation="0.0dip">
+                <TextView android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvOnboardingTipText" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivOnboardingTipArrow" android:layout_width="15.0dip" android:layout_height="10.0dip" android:src="@drawable/onboarding_arrow" android:scaleType="fitXY" android:tint="@android:color/black" android:layout_alignBottom="@id/rlOnboardingTipContent" android:layout_centerHorizontal="true" android:rotation="180.0" />
+    </RelativeLayout>
+</FrameLayout>

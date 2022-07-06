@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/salesforce_message_feed_horizontal_margin" android:layout_marginRight="@dimen/salesforce_message_feed_horizontal_margin" android:layout_marginStart="@dimen/salesforce_message_feed_horizontal_margin" android:layout_marginEnd="@dimen/salesforce_message_feed_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.salesforce.android.chat.ui.internal.view.ChatButtonFlowLayout android:id="@id/chat_menu_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+</LinearLayout>

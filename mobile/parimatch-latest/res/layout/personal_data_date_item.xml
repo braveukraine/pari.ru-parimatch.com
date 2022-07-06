@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flListItemRoot" android:background="@color/backgroundWhite" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tech.pm.apm.core.views.inputforms.InputForm android:id="@id/ifList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_standard" app:ifClearButtonEnable="false" app:ifEndIcon="@drawable/ic_expand_check" app:ifEndIconTint="@color/colorPrimary700" style="@style/InputForm">
+        <tech.pm.apm.core.views.inputforms.InputFormEditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:editable="false" android:contentDescription="@string/accessebility_date_field" style="@style/EditText.InputForm" />
+    </tech.pm.apm.core.views.inputforms.InputForm>
+</FrameLayout>

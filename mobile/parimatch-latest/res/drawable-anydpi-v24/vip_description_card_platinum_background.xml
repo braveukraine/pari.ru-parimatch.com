@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="100.0dip" android:width="296.0dip" android:viewportWidth="296.0" android:viewportHeight="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,8C0,3.582 3.582,0 8,0H288C292.418,0 296,3.582 296,8V92C296,96.418 292.418,100 288,100H8C3.582,100 0,96.418 0,92V8ZM0,8C0,3.582 3.582,0 8,0H288C292.418,0 296,3.582 296,8V92C296,96.418 292.418,100 288,100H8C3.582,100 0,96.418 0,92V8ZM0,8C0,3.582 3.582,0 8,0H288C292.418,0 296,3.582 296,8V92C296,96.418 292.418,100 288,100H8C3.582,100 0,96.418 0,92V8Z" />
+        <path android:fillColor="@drawable/$vip_description_card_platinum_background__0" android:pathData="M0,8C0,3.582 3.582,0 8,0H288C292.418,0 296,3.582 296,8V100C296,104.418 292.418,108 288,108H8C3.582,108 0,104.418 0,100V8Z" />
+        <path android:fillColor="@drawable/$vip_description_card_platinum_background__1" android:pathData="M0,8C0,3.582 3.582,0 8,0H288C292.418,0 296,3.582 296,8V100C296,104.418 292.418,108 288,108H8C3.582,108 0,104.418 0,100V8Z" android:fillAlpha="0.5" />
+    </group>
+</vector>

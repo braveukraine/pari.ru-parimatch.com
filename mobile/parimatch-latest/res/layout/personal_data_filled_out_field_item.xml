@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/clickSurface" android:background="@color/backgroundWhite" android:paddingLeft="@dimen/padding_standard" android:paddingRight="@dimen/padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:paddingHorizontal="@dimen/padding_standard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/text_size_normal" android:id="@id/hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Secondary" />
+        <TextView android:textSize="@dimen/text_size_medium" android:id="@id/field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginVertical="8.0dip" style="@style/Text.Primary" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/ivIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_marginStart="@dimen/margin_short" />
+</LinearLayout>

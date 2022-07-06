@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/salesforce_connection_banner" style="@style/SalesforceConnectionBanner"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/salesforce_connection_banner_text" style="@style/SalesforceConnectionBannerText" />
+    <ProgressBar android:id="@id/salesforce_connection_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" style="@style/SalesforceHorizontalProgressBar" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_short"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivSportIcon" android:layout_width="@dimen/default_icon_sport_size" android:layout_height="@dimen/default_icon_sport_size" android:layout_marginTop="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" />
+    <TextView android:textSize="@dimen/sport_text_size_normal" android:gravity="start|center" android:id="@id/tvSport" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:contentDescription="Sport" style="@style/SportText.Primary" />
+</LinearLayout>

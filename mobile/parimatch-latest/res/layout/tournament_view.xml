@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:paddingTop="@dimen/margin_short" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/ivFlag" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="ivFlag" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" />
+    <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tvChampionshipTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_extra_large" android:layout_marginEnd="@dimen/margin_extra_large" style="@style/EventDetailsItemText.ChampionshipTitle" />
+    <pm.tech.sport.event_overview.views.FavoriteEventButton android:layout_gravity="end|center" android:id="@id/favoriteButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/margin_short" />
+</merge>

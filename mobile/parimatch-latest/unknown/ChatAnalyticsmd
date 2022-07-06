@@ -1,0 +1,456 @@
+# ChatAnalytics
+
+**Table of Contents**
+
+
+- [CHAT_RESPONSE_AGENT_CANCEL_FILE_TRANSFER](#chat_response_agent_cancel_file_transfer)
+- [CHAT_RESPONSE_AGENT_HAS_FINISHED_TYPING](#chat_response_agent_has_finished_typing)
+- [CHAT_RESPONSE_AGENT_IS_TYPING](#chat_response_agent_is_typing)
+- [CHAT_RESPONSE_AGENT_JOINED](#chat_response_agent_joined)
+- [CHAT_RESPONSE_AGENT_JOINED_CONFERENCE](#chat_response_agent_joined_conference)
+- [CHAT_RESPONSE_AGENT_LEFT_CONFERENCE](#chat_response_agent_left_conference)
+- [CHAT_RESPONSE_AGENT_REQUEST_FILE_TRANSFER](#chat_response_agent_request_file_transfer)
+- [CHAT_RESPONSE_AGENT_TRANSFERRED_AGENT](#chat_response_agent_transferred_agent)
+- [CHAT_RESPONSE_CHATBOT_JOINED](#chat_response_chatbot_joined)
+- [CHAT_RESPONSE_CHATBOT_TRANSFERRED_AGENT](#chat_response_chatbot_transferred_agent)
+- [CHAT_RESPONSE_ERROR](#chat_response_error)
+- [CHAT_RESPONSE_FILE_TRANSFER_COMPLETE](#chat_response_file_transfer_complete)
+- [CHAT_RESPONSE_FILE_TRANSFER_FAILED](#chat_response_file_transfer_failed)
+- [CHAT_RESPONSE_INITIALIZED_CLIENT](#chat_response_initialized_client)
+- [CHAT_RESPONSE_LIFECYCLE_CHANGE](#chat_response_lifecycle_change)
+- [CHAT_RESPONSE_MESSAGE_RECEIVED](#chat_response_message_received)
+- [CHAT_RESPONSE_MESSAGE_SENT](#chat_response_message_sent)
+- [CHAT_RESPONSE_QUEUE_POSITION](#chat_response_queue_position)
+- [CHAT_RESPONSE_SESSION_CREATED](#chat_response_session_created)
+- [CHAT_RESPONSE_SESSION_ENDED](#chat_response_session_ended)
+- [CHAT_USER_END_SESSION](#chat_user_end_session)
+- [CHAT_USER_FILE_TRANSFER_UPLOAD_INITIATED](#chat_user_file_transfer_upload_initiated)
+- [CHAT_USER_HAS_FINISHED_TYPING](#chat_user_has_finished_typing)
+- [CHAT_USER_INITIALIZE_CLIENT](#chat_user_initialize_client)
+- [CHAT_USER_IS_TYPING](#chat_user_is_typing)
+- [CHAT_USER_SEND_MESSAGE](#chat_user_send_message)
+
+
+## CHAT_RESPONSE_AGENT_CANCEL_FILE_TRANSFER
+
+_The file transfer was cancelled by the agent._
+
+Constant: `ChatAnalytics.RESPONSE_AGENT_CANCEL_FILE_TRANSFER`
+
+#### Data
+
+- **CHAT_FILE_TRANSFER_STATUS**
+  - _The status of the file transfer.
+
+ @see FileTransferStatus_
+  - `com.salesforce.android.chat.core.model.FileTransferStatus`
+  - Constant: `ChatAnalytics.FILE_TRANSFER_STATUS`
+
+
+## CHAT_RESPONSE_AGENT_HAS_FINISHED_TYPING
+
+_The Agent has finished typing._
+
+Constant: `ChatAnalytics.RESPONSE_AGENT_HAS_FINISHED_TYPING`
+
+#### Data
+
+
+## CHAT_RESPONSE_AGENT_IS_TYPING
+
+_The Agent is currently typing._
+
+Constant: `ChatAnalytics.RESPONSE_AGENT_IS_TYPING`
+
+#### Data
+
+
+## CHAT_RESPONSE_AGENT_JOINED
+
+_The Agent has joined the chat session._
+
+Constant: `ChatAnalytics.RESPONSE_AGENT_JOINED`
+
+#### Data
+
+- **CHAT_DATA_CURRENT_LIFECYCLE_STATE**
+  - _The current Chat session lifecycle state.
+
+ @see ChatSessionState_
+  - `com.salesforce.android.chat.core.model.ChatSessionState`
+  - Constant: `ChatAnalytics.DATA_CURRENT_LIFECYCLE_STATE`
+
+- **CHAT_DATA_AGENT_NAME**
+  - _The name of the chat agent._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_AGENT_NAME`
+
+- **CHAT_DATA_AGENT_ID**
+  - _The LiveAgent ID of the Chat agent._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_AGENT_ID`
+
+
+## CHAT_RESPONSE_AGENT_JOINED_CONFERENCE
+
+_An additional agent has joined the chat session._
+
+Constant: `ChatAnalytics.RESPONSE_AGENT_JOINED_CONFERENCE`
+
+#### Data
+
+- **CHAT_DATA_CURRENT_LIFECYCLE_STATE**
+  - _The current Chat session lifecycle state.
+
+ @see ChatSessionState_
+  - `com.salesforce.android.chat.core.model.ChatSessionState`
+  - Constant: `ChatAnalytics.DATA_CURRENT_LIFECYCLE_STATE`
+
+
+## CHAT_RESPONSE_AGENT_LEFT_CONFERENCE
+
+_An additional agent has left the chat session._
+
+Constant: `ChatAnalytics.RESPONSE_AGENT_LEFT_CONFERENCE`
+
+#### Data
+
+- **CHAT_DATA_CURRENT_LIFECYCLE_STATE**
+  - _The current Chat session lifecycle state.
+
+ @see ChatSessionState_
+  - `com.salesforce.android.chat.core.model.ChatSessionState`
+  - Constant: `ChatAnalytics.DATA_CURRENT_LIFECYCLE_STATE`
+
+
+## CHAT_RESPONSE_AGENT_REQUEST_FILE_TRANSFER
+
+_The agent requested a file transfer._
+
+Constant: `ChatAnalytics.RESPONSE_AGENT_REQUEST_FILE_TRANSFER`
+
+#### Data
+
+
+## CHAT_RESPONSE_AGENT_TRANSFERRED_AGENT
+
+_The Agent has transferred the session to another agent._
+
+Constant: `ChatAnalytics.RESPONSE_AGENT_TRANSFERRED_AGENT`
+
+#### Data
+
+- **CHAT_DATA_CURRENT_LIFECYCLE_STATE**
+  - _The current Chat session lifecycle state.
+
+ @see ChatSessionState_
+  - `com.salesforce.android.chat.core.model.ChatSessionState`
+  - Constant: `ChatAnalytics.DATA_CURRENT_LIFECYCLE_STATE`
+
+- **CHAT_DATA_AGENT_NAME**
+  - _The name of the chat agent._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_AGENT_NAME`
+
+- **CHAT_DATA_AGENT_ID**
+  - _The LiveAgent ID of the Chat agent._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_AGENT_ID`
+
+
+## CHAT_RESPONSE_CHATBOT_JOINED
+
+_A Chatbot has joined the chat session._
+
+Constant: `ChatAnalytics.RESPONSE_CHATBOT_JOINED`
+
+#### Data
+
+- **CHAT_DATA_CURRENT_LIFECYCLE_STATE**
+  - _The current Chat session lifecycle state.
+
+ @see ChatSessionState_
+  - `com.salesforce.android.chat.core.model.ChatSessionState`
+  - Constant: `ChatAnalytics.DATA_CURRENT_LIFECYCLE_STATE`
+
+- **CHAT_DATA_AGENT_NAME**
+  - _The name of the chat agent._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_AGENT_NAME`
+
+- **CHAT_DATA_AGENT_ID**
+  - _The LiveAgent ID of the Chat agent._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_AGENT_ID`
+
+
+## CHAT_RESPONSE_CHATBOT_TRANSFERRED_AGENT
+
+_A Chatbot has transferred the session to an agent._
+
+Constant: `ChatAnalytics.RESPONSE_CHATBOT_TRANSFERRED_AGENT`
+
+#### Data
+
+- **CHAT_DATA_CURRENT_LIFECYCLE_STATE**
+  - _The current Chat session lifecycle state.
+
+ @see ChatSessionState_
+  - `com.salesforce.android.chat.core.model.ChatSessionState`
+  - Constant: `ChatAnalytics.DATA_CURRENT_LIFECYCLE_STATE`
+
+- **CHAT_DATA_AGENT_NAME**
+  - _The name of the chat agent._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_AGENT_NAME`
+
+- **CHAT_DATA_AGENT_ID**
+  - _The LiveAgent ID of the Chat agent._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_AGENT_ID`
+
+
+## CHAT_RESPONSE_ERROR
+
+_An error has occurred._
+
+Constant: `ChatAnalytics.RESPONSE_ERROR`
+
+#### Data
+
+- **CHAT_DATA_ERROR**
+  - _An error instance that is relevant within the context of an Error event.
+
+ @see Throwable_
+  - `java.lang.Throwable`
+  - Constant: `ChatAnalytics.DATA_ERROR`
+
+
+## CHAT_RESPONSE_FILE_TRANSFER_COMPLETE
+
+_The user completed a file transfer._
+
+Constant: `ChatAnalytics.RESPONSE_FILE_TRANSFER_COMPLETE`
+
+#### Data
+
+- **CHAT_FILE_TRANSFER_STATUS**
+  - _The status of the file transfer.
+
+ @see FileTransferStatus_
+  - `com.salesforce.android.chat.core.model.FileTransferStatus`
+  - Constant: `ChatAnalytics.FILE_TRANSFER_STATUS`
+
+
+## CHAT_RESPONSE_FILE_TRANSFER_FAILED
+
+_The user failed the file transfer._
+
+Constant: `ChatAnalytics.RESPONSE_FILE_TRANSFER_FAILED`
+
+#### Data
+
+- **CHAT_FILE_TRANSFER_STATUS**
+  - _The status of the file transfer.
+
+ @see FileTransferStatus_
+  - `com.salesforce.android.chat.core.model.FileTransferStatus`
+  - Constant: `ChatAnalytics.FILE_TRANSFER_STATUS`
+
+
+## CHAT_RESPONSE_INITIALIZED_CLIENT
+
+_The {@link ChatClient} has been initialized successfully._
+
+Constant: `ChatAnalytics.RESPONSE_INITIALIZED_CLIENT`
+
+#### Data
+
+
+## CHAT_RESPONSE_LIFECYCLE_CHANGE
+
+_The lifecycle state of the Chat Session has changed._
+
+Constant: `ChatAnalytics.RESPONSE_LIFECYCLE_CHANGE`
+
+#### Data
+
+- **CHAT_DATA_CURRENT_LIFECYCLE_STATE**
+  - _The current Chat session lifecycle state.
+
+ @see ChatSessionState_
+  - `com.salesforce.android.chat.core.model.ChatSessionState`
+  - Constant: `ChatAnalytics.DATA_CURRENT_LIFECYCLE_STATE`
+
+- **CHAT_DATA_PREVIOUS_LIFECYCLE_STATE**
+  - _The previous Chat session lifecycle state.
+
+ @see ChatSessionState_
+  - `com.salesforce.android.chat.core.model.ChatSessionState`
+  - Constant: `ChatAnalytics.DATA_PREVIOUS_LIFECYCLE_STATE`
+
+
+## CHAT_RESPONSE_MESSAGE_RECEIVED
+
+_A message has been received from the Agent._
+
+Constant: `ChatAnalytics.RESPONSE_MESSAGE_RECEIVED`
+
+#### Data
+
+- **CHAT_DATA_TIMESTAMP**
+  - _A timestamp that is relevant within the context of an analytics event.
+
+ @see Date_
+  - `java.util.Date`
+  - Constant: `ChatAnalytics.DATA_TIMESTAMP`
+
+
+## CHAT_RESPONSE_MESSAGE_SENT
+
+_A chat message has been successfully sent to the Agent._
+
+Constant: `ChatAnalytics.RESPONSE_MESSAGE_SENT`
+
+#### Data
+
+
+## CHAT_RESPONSE_QUEUE_POSITION
+
+_The queue position or estimate wait time has been updated._
+
+Constant: `ChatAnalytics.RESPONSE_QUEUE_POSITION`
+
+#### Data
+
+- **CHAT_DATA_CURRENT_LIFECYCLE_STATE**
+  - _The current Chat session lifecycle state.
+
+ @see ChatSessionState_
+  - `com.salesforce.android.chat.core.model.ChatSessionState`
+  - Constant: `ChatAnalytics.DATA_CURRENT_LIFECYCLE_STATE`
+
+- **CHAT_DATA_QUEUE_POSITION**
+  - _The current position in the queue._
+  - `java.lang.Integer`
+  - Constant: `ChatAnalytics.DATA_QUEUE_POSITION`
+
+- **CHAT_DATA_QUEUE_ESTIMATED_WAIT_TIME**
+  - _The current estimated wait time in the queue._
+  - `java.lang.Integer`
+  - Constant: `ChatAnalytics.DATA_QUEUE_ESTIMATED_WAIT_TIME`
+
+
+## CHAT_RESPONSE_SESSION_CREATED
+
+_The Chat Session has been created._
+
+Constant: `ChatAnalytics.RESPONSE_SESSION_CREATED`
+
+#### Data
+
+- **CHAT_DATA_LIVE_AGENT_SESSION_ID**
+  - _The LiveAgent Session ID returned once a Chat session has been created._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_LIVE_AGENT_SESSION_ID`
+
+
+## CHAT_RESPONSE_SESSION_ENDED
+
+_The Chat Session has ended._
+
+Constant: `ChatAnalytics.RESPONSE_SESSION_ENDED`
+
+#### Data
+
+- **CHAT_DATA_END_REASON**
+  - _The reason why the session has ended.
+
+ @see ChatEndReason_
+  - `com.salesforce.android.chat.core.model.ChatEndReason`
+  - Constant: `ChatAnalytics.DATA_END_REASON`
+
+
+## CHAT_USER_END_SESSION
+
+_The user has requested the termination of the Chat session._
+
+Constant: `ChatAnalytics.USER_END_SESSION`
+
+#### Data
+
+
+## CHAT_USER_FILE_TRANSFER_UPLOAD_INITIATED
+
+_The user file transfer upload has been initiated._
+
+Constant: `ChatAnalytics.USER_FILE_TRANSFER_UPLOAD_INITIATED`
+
+#### Data
+
+- **CHAT_FILE_TRANSFER_TYPE**
+  - _The media type of the file being transferred._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.FILE_TRANSFER_TYPE`
+
+- **CHAT_FILE_TRANSFER_BYTES**
+  - _The size (in bytes) of the file being transferred._
+  - `java.lang.Integer`
+  - Constant: `ChatAnalytics.FILE_TRANSFER_BYTES`
+
+
+## CHAT_USER_HAS_FINISHED_TYPING
+
+_The user has finished typing._
+
+Constant: `ChatAnalytics.USER_HAS_FINISHED_TYPING`
+
+#### Data
+
+
+## CHAT_USER_INITIALIZE_CLIENT
+
+_The user has requested a {@link ChatClient} instance, which will begin a new Chat session._
+
+Constant: `ChatAnalytics.USER_INITIALIZE_CLIENT`
+
+#### Data
+
+- **CHAT_DATA_LIVE_AGENT_POD**
+  - _The LiveAgent Pod used for Chat sessions._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_LIVE_AGENT_POD`
+
+- **CHAT_DATA_ORGANIZATION_ID**
+  - _The Salesforce Organization ID used to create Chat sessions._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_ORGANIZATION_ID`
+
+- **CHAT_DATA_BUTTON_ID**
+  - _The LiveAgent Button ID used to create Chat sessions._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_BUTTON_ID`
+
+- **CHAT_DATA_DEPLOYMENT_ID**
+  - _The LiveAgent Deployment ID used to create Chat sessions._
+  - `java.lang.String`
+  - Constant: `ChatAnalytics.DATA_DEPLOYMENT_ID`
+
+
+## CHAT_USER_IS_TYPING
+
+_The user is currently typing._
+
+Constant: `ChatAnalytics.USER_IS_TYPING`
+
+#### Data
+
+
+## CHAT_USER_SEND_MESSAGE
+
+_The user has sent a chat message._
+
+Constant: `ChatAnalytics.USER_SEND_MESSAGE`
+
+#### Data
+

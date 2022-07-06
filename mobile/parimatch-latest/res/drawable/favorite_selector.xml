@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="200" android:exitFadeDuration="200"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@color/transparent" />
+    <item android:state_selected="true" android:drawable="@drawable/ic_star_grey" />
+    <item android:state_selected="false" android:drawable="@drawable/ic_star_border_grey" />
+</selector>

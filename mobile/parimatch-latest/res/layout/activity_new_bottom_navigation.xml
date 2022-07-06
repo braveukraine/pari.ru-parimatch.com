@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/flRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/flBottomNavigationContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <fragment android:name="com.nativeapp.presentation.navigation.fullscreen.FullscreenNavigationFragment" android:id="@id/fragmentFullscreen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/fragmentFullscreen2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/vSplash" android:background="@drawable/background_splash" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <pm.tech.sport.common.ui.onboarding.OnboardingView android:id="@id/topExpressOnboardingView" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_speed="0.8" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

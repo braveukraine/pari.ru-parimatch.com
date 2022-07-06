@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chat_estimated_wait_time_minutes">
+        <item quantity="other">%1$s 分</item>
+    </plurals>
+    <plurals name="chat_minimized_unread_message_count">
+        <item quantity="other">%2$s からの %1$d 件の未読メッセージ</item>
+    </plurals>
+    <plurals name="express_boost_outcomes_count">
+        <item quantity="other">%1$s件の結果 - %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="sport_special_events_available_outcomes">
+        <item quantity="other">%d件の結果を選択できます</item>
+    </plurals>
+    <plurals name="top_express_bet_count">
+        <item quantity="other">%1$d ベット</item>
+    </plurals>
+</resources>

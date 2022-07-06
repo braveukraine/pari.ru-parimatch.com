@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/string_view_holder_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:pm="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center_vertical" android:id="@id/title" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="0.0dip" pm:layout_constraintBottom_toBottomOf="@id/editText" pm:layout_constraintStart_toStartOf="parent" pm:layout_constraintTop_toTopOf="@id/editText" pm:layout_constraintWidth_percent="0.3" style="@style/ViewHolder.Title" />
+    <EditText android:id="@id/editText" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="44.0dip" pm:layout_constraintEnd_toEndOf="parent" pm:layout_constraintStart_toEndOf="@id/title" pm:layout_constraintTop_toTopOf="parent" style="@style/ViewHolder.EditText" />
+    <TextView android:id="@id/errorHint" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" pm:layout_constraintEnd_toEndOf="parent" pm:layout_constraintStart_toStartOf="@id/editText" pm:layout_constraintTop_toBottomOf="@id/editText" style="@style/ViewHolder.ErrorHint" />
+</androidx.constraintlayout.widget.ConstraintLayout>

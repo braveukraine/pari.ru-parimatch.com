@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/mini_total_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sport_text_size_small_non_scalable" android:textColor="@color/textColorWhite" android:gravity="center_horizontal" android:id="@id/tvFirstMiniTotal" android:paddingTop="@dimen/padding_extra_short" android:layout_width="26.0dip" android:layout_height="wrap_content" android:contentDescription="tvFirstMiniTotal" />
+    <TextView android:textSize="@dimen/sport_text_size_small_non_scalable" android:textColor="@color/textColorWhite" android:gravity="center_horizontal" android:id="@id/tvSecondMiniTotal" android:paddingBottom="@dimen/padding_extra_short" android:layout_width="26.0dip" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:contentDescription="tvSecondMiniTotal" />
+</merge>

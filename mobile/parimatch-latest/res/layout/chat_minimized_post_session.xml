@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ServiceChat.MinimizedView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/chat_minimized_post_session_image" android:layout_width="@dimen/chat_minimized_connecting_icon_height" android:layout_height="@dimen/chat_minimized_connecting_icon_height" android:scaleType="fitCenter" android:layout_centerHorizontal="true" app:srcCompat="@drawable/chat_ic_minimized_connecting" />
+    <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/chat_minimized_post_session_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_minimized_post_session" android:layout_below="@id/chat_minimized_post_session_image" android:layout_centerHorizontal="true" style="@style/ServiceChatText.Minimized" />
+</RelativeLayout>

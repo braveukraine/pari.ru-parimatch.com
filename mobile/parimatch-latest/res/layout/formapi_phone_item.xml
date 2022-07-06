@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tech.pm.apm.core.views.inputforms.PhoneInputForm android:id="@id/phoneInputForm" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/InputForm"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <tech.pm.apm.core.views.inputforms.InputFormEditText android:id="@id/editText" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EditText.InputForm" />
+</tech.pm.apm.core.views.inputforms.PhoneInputForm>

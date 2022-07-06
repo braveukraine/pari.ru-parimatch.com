@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ivValidationIcon" android:layout_width="@dimen/margin_big" android:layout_height="@dimen/margin_big" android:scaleType="center" />
+    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorGreyDark" android:layout_gravity="center_vertical" android:id="@id/tvValidationText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginBottom="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" />
+</LinearLayout>

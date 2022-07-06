@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="express_boost_outcomes_count">
+        <item quantity="other">%1$s نتائج - %2$s</item>
+        <item quantity="one">%1$s نتیجہ - %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d نئی اطلاعات</item>
+        <item quantity="one">%d نئی اطلاع</item>
+    </plurals>
+    <plurals name="sport_special_events_available_outcomes">
+        <item quantity="other">%d دستیاب نتائج</item>
+        <item quantity="one">%d دستیاب نتیجہ</item>
+    </plurals>
+    <plurals name="top_express_bet_count">
+        <item quantity="other">%1$d شرطیں</item>
+        <item quantity="one">%1$dشرط</item>
+    </plurals>
+</resources>

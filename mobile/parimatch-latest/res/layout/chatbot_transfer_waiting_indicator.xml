@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chatbot_transfer_waiting_indicator_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.salesforce.android.service.common.ui.views.SalesforceLoadingDots android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/salesforce_message_notice" />
+    <com.salesforce.android.service.common.ui.views.SalesforceButton android:id="@id/chatbot_transfer_cancel_button" android:text="@string/chatbot_transferring_cancel_button_text" style="@style/ServiceChatTransferCancelButton" />
+</LinearLayout>

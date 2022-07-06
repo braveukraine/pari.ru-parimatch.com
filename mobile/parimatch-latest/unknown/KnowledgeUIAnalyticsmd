@@ -1,0 +1,479 @@
+# KnowledgeUIAnalytics
+
+**Table of Contents**
+
+
+- [KNOWLEDGE_UI_RESPONSE_CLOSED](#knowledge_ui_response_closed)
+- [KNOWLEDGE_UI_RESPONSE_COLLAPSED_CATEGORY_HEADER](#knowledge_ui_response_collapsed_category_header)
+- [KNOWLEDGE_UI_RESPONSE_EXPANDED_CATEGORY_HEADER](#knowledge_ui_response_expanded_category_header)
+- [KNOWLEDGE_UI_RESPONSE_INITIALIZED_CLIENT](#knowledge_ui_response_initialized_client)
+- [KNOWLEDGE_UI_RESPONSE_LAUNCHED](#knowledge_ui_response_launched)
+- [KNOWLEDGE_UI_RESPONSE_LOADED_ARTICLE_DETAIL_VIEW](#knowledge_ui_response_loaded_article_detail_view)
+- [KNOWLEDGE_UI_RESPONSE_LOADED_ARTICLE_LIST_VIEW](#knowledge_ui_response_loaded_article_list_view)
+- [KNOWLEDGE_UI_RESPONSE_LOADED_CATEGORY_DETAIL_VIEW](#knowledge_ui_response_loaded_category_detail_view)
+- [KNOWLEDGE_UI_RESPONSE_LOADED_MORE_ARTICLES](#knowledge_ui_response_loaded_more_articles)
+- [KNOWLEDGE_UI_RESPONSE_LOADED_SEARCH_RESULT](#knowledge_ui_response_loaded_search_result)
+- [KNOWLEDGE_UI_RESPONSE_LOADED_SEARCH_VIEW](#knowledge_ui_response_loaded_search_view)
+- [KNOWLEDGE_UI_RESPONSE_LOADED_SUPPORT_HOME_VIEW](#knowledge_ui_response_loaded_support_home_view)
+- [KNOWLEDGE_UI_RESPONSE_MAXIMIZED](#knowledge_ui_response_maximized)
+- [KNOWLEDGE_UI_RESPONSE_MINIMIZED](#knowledge_ui_response_minimized)
+- [KNOWLEDGE_UI_USER_CLEAR_SEARCH_TERM](#knowledge_ui_user_clear_search_term)
+- [KNOWLEDGE_UI_USER_CLOSE](#knowledge_ui_user_close)
+- [KNOWLEDGE_UI_USER_INITIALIZE_CLIENT](#knowledge_ui_user_initialize_client)
+- [KNOWLEDGE_UI_USER_INPUT_SEARCH_TERM](#knowledge_ui_user_input_search_term)
+- [KNOWLEDGE_UI_USER_LAUNCH](#knowledge_ui_user_launch)
+- [KNOWLEDGE_UI_USER_MAXIMIZE](#knowledge_ui_user_maximize)
+- [KNOWLEDGE_UI_USER_MINIMIZE](#knowledge_ui_user_minimize)
+- [KNOWLEDGE_UI_USER_MOVE_THUMBNAIL](#knowledge_ui_user_move_thumbnail)
+- [KNOWLEDGE_UI_USER_NAVIGATE_BACK](#knowledge_ui_user_navigate_back)
+- [KNOWLEDGE_UI_USER_SELECT_ARTICLE_DETAILS](#knowledge_ui_user_select_article_details)
+- [KNOWLEDGE_UI_USER_SELECT_ARTICLE_LIST](#knowledge_ui_user_select_article_list)
+- [KNOWLEDGE_UI_USER_SELECT_CATEGORY_DETAIL](#knowledge_ui_user_select_category_detail)
+- [KNOWLEDGE_UI_USER_SELECT_CATEGORY_HEADER](#knowledge_ui_user_select_category_header)
+- [KNOWLEDGE_UI_USER_SELECT_SEARCH_VIEW](#knowledge_ui_user_select_search_view)
+- [KNOWLEDGE_UI_USER_SHOW_MORE_ARTICLES](#knowledge_ui_user_show_more_articles)
+
+
+## KNOWLEDGE_UI_RESPONSE_CLOSED
+
+_The Knowledge UI has been closed._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_CLOSED`
+
+#### Data
+
+
+## KNOWLEDGE_UI_RESPONSE_COLLAPSED_CATEGORY_HEADER
+
+_A category summary on the Support Home view has been hidden._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_COLLAPSED_CATEGORY_HEADER`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_LABEL**
+  - _The display label for a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_LABEL`
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_NAME**
+  - _The unique name that identifies a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_NAME`
+
+
+## KNOWLEDGE_UI_RESPONSE_EXPANDED_CATEGORY_HEADER
+
+_A category summary on the Support Home view has been displayed._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_EXPANDED_CATEGORY_HEADER`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_LABEL**
+  - _The display label for a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_LABEL`
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_NAME**
+  - _The unique name that identifies a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_NAME`
+
+
+## KNOWLEDGE_UI_RESPONSE_INITIALIZED_CLIENT
+
+_The Knowledge UI has been successfully initialized._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_INITIALIZED_CLIENT`
+
+#### Data
+
+
+## KNOWLEDGE_UI_RESPONSE_LAUNCHED
+
+_The Knowledge UI has been launched._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_LAUNCHED`
+
+#### Data
+
+
+## KNOWLEDGE_UI_RESPONSE_LOADED_ARTICLE_DETAIL_VIEW
+
+_The Article Detail view has been loaded and is displaying the content of a Knowledge Article._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_LOADED_ARTICLE_DETAIL_VIEW`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_ARTICLE_ID**
+  - _The unique identifier for a Knowledge Article._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_ARTICLE_ID`
+
+- **KNOWLEDGE_UI_DATA_ARTICLE_TITLE**
+  - _The title of a Knowledge Article._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_ARTICLE_TITLE`
+
+
+## KNOWLEDGE_UI_RESPONSE_LOADED_ARTICLE_LIST_VIEW
+
+_The Article List view has been loaded._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_LOADED_ARTICLE_LIST_VIEW`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_LABEL**
+  - _The display label for a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_LABEL`
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_NAME**
+  - _The unique name that identifies a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_NAME`
+
+
+## KNOWLEDGE_UI_RESPONSE_LOADED_CATEGORY_DETAIL_VIEW
+
+_The Category Detail view has been loaded._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_LOADED_CATEGORY_DETAIL_VIEW`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_LABEL**
+  - _The display label for a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_LABEL`
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_NAME**
+  - _The unique name that identifies a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_NAME`
+
+
+## KNOWLEDGE_UI_RESPONSE_LOADED_MORE_ARTICLES
+
+_Additional articles have been loaded into the Article List view._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_LOADED_MORE_ARTICLES`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_LABEL**
+  - _The display label for a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_LABEL`
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_NAME**
+  - _The unique name that identifies a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_NAME`
+
+
+## KNOWLEDGE_UI_RESPONSE_LOADED_SEARCH_RESULT
+
+_Search results based on the user's query have been loaded into the Search View._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_LOADED_SEARCH_RESULT`
+
+#### Data
+
+
+## KNOWLEDGE_UI_RESPONSE_LOADED_SEARCH_VIEW
+
+_The Search View has been loaded._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_LOADED_SEARCH_VIEW`
+
+#### Data
+
+
+## KNOWLEDGE_UI_RESPONSE_LOADED_SUPPORT_HOME_VIEW
+
+_The Support Home view has been loaded and is displaying the categories at the top of the Root Category._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_LOADED_SUPPORT_HOME_VIEW`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_GROUP_NAME**
+  - _The Data Category Group Name that Knowledge has been configured with._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_GROUP_NAME`
+
+- **KNOWLEDGE_UI_DATA_ROOT_CATEGORY_NAME**
+  - _The Root Data Category Name that Knowledge UI has been configured with._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_ROOT_CATEGORY_NAME`
+
+
+## KNOWLEDGE_UI_RESPONSE_MAXIMIZED
+
+_The previously minimized Knowledge article has been maximized._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_MAXIMIZED`
+
+#### Data
+
+
+## KNOWLEDGE_UI_RESPONSE_MINIMIZED
+
+_A Knowledge article has been minimized._
+
+Constant: `KnowledgeUIAnalytics.RESPONSE_MINIMIZED`
+
+#### Data
+
+
+## KNOWLEDGE_UI_USER_CLEAR_SEARCH_TERM
+
+_The user has cleared the search term._
+
+Constant: `KnowledgeUIAnalytics.USER_CLEAR_SEARCH_TERM`
+
+#### Data
+
+
+## KNOWLEDGE_UI_USER_CLOSE
+
+_The Knowledge UI has been requested to close._
+
+Constant: `KnowledgeUIAnalytics.USER_CLOSE`
+
+#### Data
+
+
+## KNOWLEDGE_UI_USER_INITIALIZE_CLIENT
+
+_The Knowledge UI Client is now being initialized._
+
+Constant: `KnowledgeUIAnalytics.USER_INITIALIZE_CLIENT`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_COMMUNITY_URL**
+  - _The Community URL that Knowledge has been configured with._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_COMMUNITY_URL`
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_GROUP_NAME**
+  - _The Data Category Group Name that Knowledge has been configured with._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_GROUP_NAME`
+
+- **KNOWLEDGE_UI_DATA_ROOT_CATEGORY_NAME**
+  - _The Root Data Category Name that Knowledge UI has been configured with._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_ROOT_CATEGORY_NAME`
+
+- **KNOWLEDGE_UI_DATA_IS_CORE_CLIENT_PROVIDED**
+  - _Whether or not a pre-initialized KnowledgeCore client instance has been provided to Knowledge UI by your application._
+  - `java.lang.Boolean`
+  - Constant: `KnowledgeUIAnalytics.DATA_IS_CORE_CLIENT_PROVIDED`
+
+- **KNOWLEDGE_UI_DATA_IS_IMAGE_PROVIDER_PRESENT**
+  - _Whether or not a KnowledgeImageProvider implementation has been provided to Knowledge UI._
+  - `java.lang.Boolean`
+  - Constant: `KnowledgeUIAnalytics.DATA_IS_IMAGE_PROVIDER_PRESENT`
+
+
+## KNOWLEDGE_UI_USER_INPUT_SEARCH_TERM
+
+_The user has entered or modified the search term._
+
+Constant: `KnowledgeUIAnalytics.USER_INPUT_SEARCH_TERM`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_SEARCH_TERM**
+  - _The search term that has been entered by the user._
+  - `java.lang.CharSequence`
+  - Constant: `KnowledgeUIAnalytics.DATA_SEARCH_TERM`
+
+
+## KNOWLEDGE_UI_USER_LAUNCH
+
+_The Knowledge UI has been requested to launchHome._
+
+Constant: `KnowledgeUIAnalytics.USER_LAUNCH`
+
+#### Data
+
+
+## KNOWLEDGE_UI_USER_MAXIMIZE
+
+_The user has requested to maximize the previously minimized article._
+
+Constant: `KnowledgeUIAnalytics.USER_MAXIMIZE`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_ARTICLE_ID**
+  - _The unique identifier for a Knowledge Article._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_ARTICLE_ID`
+
+- **KNOWLEDGE_UI_DATA_ARTICLE_TITLE**
+  - _The title of a Knowledge Article._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_ARTICLE_TITLE`
+
+
+## KNOWLEDGE_UI_USER_MINIMIZE
+
+_The user has requested to minimize the current article._
+
+Constant: `KnowledgeUIAnalytics.USER_MINIMIZE`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_ARTICLE_ID**
+  - _The unique identifier for a Knowledge Article._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_ARTICLE_ID`
+
+- **KNOWLEDGE_UI_DATA_ARTICLE_TITLE**
+  - _The title of a Knowledge Article._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_ARTICLE_TITLE`
+
+
+## KNOWLEDGE_UI_USER_MOVE_THUMBNAIL
+
+_The user has moved the thumbnail._
+
+Constant: `KnowledgeUIAnalytics.USER_MOVE_THUMBNAIL`
+
+#### Data
+
+
+## KNOWLEDGE_UI_USER_NAVIGATE_BACK
+
+_The user has navigated back by pressing the Back Button on the Android Navigation Bar or the App Toolbar._
+
+Constant: `KnowledgeUIAnalytics.USER_NAVIGATE_BACK`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_KNOWLEDGE_FROM_SCENE**
+  - _The KnowledgeScene we are navigating away from._
+  - `com.salesforce.android.knowledge.ui.KnowledgeScene`
+  - Constant: `KnowledgeUIAnalytics.DATA_KNOWLEDGE_FROM_SCENE`
+
+- **KNOWLEDGE_UI_DATA_KNOWLEDGE_TO_SCENE**
+  - _The KnowledgeScene we are navigating into._
+  - `com.salesforce.android.knowledge.ui.KnowledgeScene`
+  - Constant: `KnowledgeUIAnalytics.DATA_KNOWLEDGE_TO_SCENE`
+
+
+## KNOWLEDGE_UI_USER_SELECT_ARTICLE_DETAILS
+
+_The user has chosen to view the details of an article._
+
+Constant: `KnowledgeUIAnalytics.USER_SELECT_ARTICLE_DETAILS`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_ARTICLE_ID**
+  - _The unique identifier for a Knowledge Article._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_ARTICLE_ID`
+
+- **KNOWLEDGE_UI_DATA_ARTICLE_TITLE**
+  - _The title of a Knowledge Article._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_ARTICLE_TITLE`
+
+
+## KNOWLEDGE_UI_USER_SELECT_ARTICLE_LIST
+
+_The user has chosen to view a list of articles within a category. This event may occur by pressing
+ the "Show More" button on the Support Home view for a category that does not have any sub-categories,
+ or by pressing the "Show More Articles" button on the Category Details view._
+
+Constant: `KnowledgeUIAnalytics.USER_SELECT_ARTICLE_LIST`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_LABEL**
+  - _The display label for a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_LABEL`
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_NAME**
+  - _The unique name that identifies a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_NAME`
+
+
+## KNOWLEDGE_UI_USER_SELECT_CATEGORY_DETAIL
+
+_The user has chosen to view more details about a category. This event may occur by pressing the
+ "Show More" button on the Support Home view for a category that has sub-categories._
+
+Constant: `KnowledgeUIAnalytics.USER_SELECT_CATEGORY_DETAIL`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_LABEL**
+  - _The display label for a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_LABEL`
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_NAME**
+  - _The unique name that identifies a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_NAME`
+
+
+## KNOWLEDGE_UI_USER_SELECT_CATEGORY_HEADER
+
+_The user has selected a category header on the Support Home view._
+
+Constant: `KnowledgeUIAnalytics.USER_SELECT_CATEGORY_HEADER`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_LABEL**
+  - _The display label for a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_LABEL`
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_NAME**
+  - _The unique name that identifies a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_NAME`
+
+
+## KNOWLEDGE_UI_USER_SELECT_SEARCH_VIEW
+
+_The user has chosen to load the Search view._
+
+Constant: `KnowledgeUIAnalytics.USER_SELECT_SEARCH_VIEW`
+
+#### Data
+
+
+## KNOWLEDGE_UI_USER_SHOW_MORE_ARTICLES
+
+_The user has started loading more articles within the article list._
+
+Constant: `KnowledgeUIAnalytics.USER_SHOW_MORE_ARTICLES`
+
+#### Data
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_LABEL**
+  - _The display label for a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_LABEL`
+
+- **KNOWLEDGE_UI_DATA_CATEGORY_NAME**
+  - _The unique name that identifies a Category._
+  - `java.lang.String`
+  - Constant: `KnowledgeUIAnalytics.DATA_CATEGORY_NAME`
+

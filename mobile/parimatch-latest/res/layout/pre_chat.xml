@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/ServiceChatTheme" android:orientation="vertical" android:id="@id/pre_chat_view" android:background="@color/salesforce_overlay" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/salesforce_contrast_inverted" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:theme="@style/SalesforceAppBarOverlay" android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/pre_chat_toolbar" app:navigationIcon="@drawable/chat_ic_close" style="@style/ChatToolbar">
+                <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/pre_chat_toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pre_chat_toolbar_title" style="@style/ChatStyleTextToolbarTitle" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/pre_chat_fields" android:paddingBottom="@dimen/pre_chat_padding_bottom" android:clickable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.4" android:contentDescription="@string/pre_chat_field_list_description" android:paddingStart="@dimen/pre_chat_padding_left" android:paddingEnd="@dimen/pre_chat_padding_right" />
+            <com.salesforce.android.service.common.ui.views.SalesforceButton android:textStyle="bold" android:textColor="@color/colorPrimary900" android:gravity="center" android:id="@id/pre_chat_accept" android:background="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="@dimen/pre_chat_action_button_height" android:minWidth="@dimen/chat_dialog_action_button_min_width" android:text="@string/pre_chat_button_start" android:alpha="0.3" android:textAllCaps="true" style="?buttonBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

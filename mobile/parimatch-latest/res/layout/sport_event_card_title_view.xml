@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flTitle" android:background="#fff5f5f5" android:paddingTop="@dimen/padding_extra_short" android:paddingBottom="@dimen/padding_extra_short" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/padding_extra_short"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/ivSportIcon" android:layout_width="@dimen/sport_card_title_image_size" android:layout_height="@dimen/sport_card_title_image_size" android:contentDescription="@string/sport_icon" android:layout_marginStart="@dimen/margin_short" />
+    <TextView android:layout_gravity="start|center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sport_card_title_text_margin_start" style="@style/SmallSingleLineBlackText" />
+</FrameLayout>

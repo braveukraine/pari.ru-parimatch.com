@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/background_tips_view_holder" android:layout_width="fill_parent" android:layout_height="@dimen/event_tips_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/trackInactiveSwitch" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvTips" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" />
+    <pm.tech.sport.bet_booster.view.pageIndicator.PageIndicatorView android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/pageIndicatorView" android:layout_width="wrap_content" android:layout_height="6.0dip" android:layout_marginBottom="8.0dip" app:piv_dotColor="@color/cashOutGray" app:piv_dotMinimumSize="4.0dip" app:piv_dotSelectedColor="@color/sports_color_link" app:piv_dotSelectedSize="6.0dip" app:piv_dotSize="6.0dip" app:piv_dotSpacing="8.0dip" app:piv_visibleDotCount="3" app:piv_visibleDotThreshold="1" />
+</FrameLayout>

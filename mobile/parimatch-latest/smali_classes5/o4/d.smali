@@ -1,0 +1,27 @@
+.class public interface abstract Lo4/d;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract get(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end method
+
+.method public abstract getSize(Landroid/graphics/Bitmap;)I
+.end method
+
+.method public abstract logBitmap(IILandroid/graphics/Bitmap$Config;)Ljava/lang/String;
+.end method
+
+.method public abstract logBitmap(Landroid/graphics/Bitmap;)Ljava/lang/String;
+.end method
+
+.method public abstract put(Landroid/graphics/Bitmap;)V
+.end method
+
+.method public abstract removeLast()Landroid/graphics/Bitmap;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end method

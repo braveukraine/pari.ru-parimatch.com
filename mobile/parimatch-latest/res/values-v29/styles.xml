@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/NoActionBarTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowEnterTransition">@null</item>
+        <item name="android:windowExitTransition">@null</item>
+        <item name="android:windowSharedElementEnterTransition">@null</item>
+        <item name="android:windowSharedElementExitTransition">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="NoActionBarTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/backgroundGreyLightExtra</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@string/font_fontFamily_condensed</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="md_dark_theme">false</item>
+        <item name="md_negative_color">@color/colorAccent</item>
+        <item name="md_neutral_color">@color/colorAccent</item>
+        <item name="md_positive_color">@color/colorAccent</item>
+        <item name="md_widget_color">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundWhite" android:layout_width="fill_parent" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/padding_extra_short" app:cardBackgroundColor="#1aff8c00" app:cardCornerRadius="@dimen/card_radius_medium" app:cardElevation="0.0dip">
+        <TextView android:textSize="@dimen/sport_text_size_small" android:textColor="@color/colorSecondary900" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/You_often_place_bets_on_these_markets" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

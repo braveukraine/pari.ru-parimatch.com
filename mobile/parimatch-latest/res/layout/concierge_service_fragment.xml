@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/include" layout="@layout/toolbar_left_align" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:background="@color/backgroundBlackLight" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <tech.pm.pmcommon.ui.PMLoadingView android:theme="@style/OverlayColorOrange" android:layout_gravity="center" android:id="@id/loadingView" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:indeterminate="true" style="?android:progressBarStyleSmallTitle" />
+        <tech.pm.pmcommon.ui.PMErrorView android:id="@id/errorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_standard" android:layout_marginRight="@dimen/margin_standard" app:subtitleTextColor="@android:color/white" app:titleTextColor="@android:color/white" />
+        <TextView android:textSize="@dimen/_text_size_medium" android:textColor="@color/textColorWhite" android:layout_gravity="center" android:id="@id/tvEmptyContent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vip_empty_list_label" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvContent" android:paddingBottom="@dimen/bottom_sheet_padding_with_bottom_bar" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

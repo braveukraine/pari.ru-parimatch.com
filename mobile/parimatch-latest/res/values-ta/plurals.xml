@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="express_boost_outcomes_count">
+        <item quantity="other">%1$s விளைபயன்கள் - %2$s</item>
+        <item quantity="one">%1$s முடிவு - %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d புதிய அறிவிப்புகள்</item>
+        <item quantity="one">%d புதிய அறிவிப்பு</item>
+    </plurals>
+    <plurals name="sport_special_events_available_outcomes">
+        <item quantity="other">%d முடிவுகள் உள்ளன</item>
+        <item quantity="one">%d முடிவு உள்ளது</item>
+    </plurals>
+    <plurals name="top_express_bet_count">
+        <item quantity="other">%1$d பந்தயங்கள்</item>
+        <item quantity="one">%1$d பந்தயங்கள்</item>
+    </plurals>
+</resources>

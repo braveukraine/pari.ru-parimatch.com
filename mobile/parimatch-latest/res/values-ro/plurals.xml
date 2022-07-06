@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chat_estimated_wait_time_minutes">
+        <item quantity="other">%1$s de minute</item>
+        <item quantity="one">%1$s minut</item>
+        <item quantity="few">%1$s minute</item>
+    </plurals>
+    <plurals name="chat_minimized_unread_message_count">
+        <item quantity="other">%1$d de mesaje necitite de la %2$s</item>
+        <item quantity="one">%1$d mesaj necitit de la %2$s</item>
+        <item quantity="few">%1$d mesaje necitite de la %2$s</item>
+    </plurals>
+    <plurals name="express_boost_outcomes_count">
+        <item quantity="other">%1$s rezultate - %2$s</item>
+        <item quantity="one">%1$s rezultat - %2$s</item>
+        <item quantity="few">%1$s rezultate - %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="sport_special_events_available_outcomes">
+        <item quantity="other">%d de rezultate disponibile</item>
+        <item quantity="one">%d rezultat disponibil</item>
+        <item quantity="few">%d rezultate disponibile</item>
+    </plurals>
+    <plurals name="top_express_bet_count">
+        <item quantity="other">%1$d pariuri</item>
+        <item quantity="one">%1$d pariu</item>
+        <item quantity="few">%1$d pariuri</item>
+    </plurals>
+</resources>

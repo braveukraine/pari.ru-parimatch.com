@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_above="@id/knowledge_search_title" android:contentDescription="@null" style="@style/KnowledgeSearch_EmptyResultsIcon" />
+    <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/knowledge_search_title" android:text="@string/knowledge_search_empty_title" style="@style/KnowledgeText.Bold.ErrorMessageTitle.Search_Empty" />
+    <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/knowledge_search_description" android:text="@string/knowledge_search_empty_description" android:layout_below="@id/knowledge_search_title" style="@style/KnowledgeText.ErrorMessageSubtext.Search_EmptySubtext" />
+</RelativeLayout>

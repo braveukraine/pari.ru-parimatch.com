@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flRoot" android:padding="@dimen/padding_short" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox android:gravity="center" android:id="@id/categoryFavoriteCheckBox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/favorite_selector_white" android:minWidth="0.0dip" android:minHeight="0.0dip" />
+</FrameLayout>

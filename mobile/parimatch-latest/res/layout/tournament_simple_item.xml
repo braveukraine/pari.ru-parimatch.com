@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/colorGreyLight" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/country_list_item_min_height" android:foreground="?selectableItemBackground" android:contentDescription="tournamentSimpleItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sport_text_size_medium" android:textColor="@color/textColorBlack" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/tvTournamentName" android:paddingTop="@dimen/margin_short" android:paddingBottom="@dimen/margin_short" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:contentDescription="tvTournamentName" android:textDirection="locale" android:layout_marginStart="@dimen/margin_big" android:layout_marginEnd="40.0dip" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/ivArrow" android:layout_width="40.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_arrow_right" android:contentDescription="ivArrow" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/colorDividerGrey" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+</FrameLayout>

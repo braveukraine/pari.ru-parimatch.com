@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/salesforce_message_feed_horizontal_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/salesforce_message_feed_horizontal_margin" android:layout_marginStart="@dimen/salesforce_message_feed_horizontal_margin" android:layout_marginEnd="@dimen/salesforce_message_feed_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/salesforce_agent_avatar_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/salesforce_agent_avatar" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="5.0dip" android:scaleType="fitCenter" app:srcCompat="@drawable/salesforce_agent_avatar" />
+            <com.salesforce.android.service.common.ui.views.SalesforceTextView android:textSize="20.0sp" android:textColor="@color/salesforce_brand_contrast" android:gravity="center" android:id="@id/agent_initial_avatar_textview" android:background="@drawable/agent_initial_avatar" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="5.0dip" />
+            <FrameLayout android:layout_width="10.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+                <ImageView android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/salesforce_message_bubble_received_speech_arrow" android:scaleType="fitStart" />
+            </FrameLayout>
+        </LinearLayout>
+        <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/salesforce_received_message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" style="@style/SalesforceStyleMessageBubbleReceived" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/salesforce_received_message_footer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="16.0dip" android:weightSum="1.0">
+        <Space android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" />
+        <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/salesforce_received_message_agent_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/SalesforceStyleTextTiny" />
+        <com.salesforce.android.service.common.ui.views.SalesforceTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/salesforce_received_message_footer_separator" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" style="@style/SalesforceStyleTextTiny" />
+        <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/salesforce_received_message_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/SalesforceStyleTextTiny" />
+    </LinearLayout>
+    <Space android:id="@id/salesforce_received_message_footer_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+</LinearLayout>

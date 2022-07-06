@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tech.pm.pmcommon.ui.PMSportLoadingView android:id="@id/llLoadingView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:type="live" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:paddingBottom="@dimen/bottom_navigation_height" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" />
+    <com.nativeapp.views.ErrorView android:id="@id/errorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardBackgroundColor="@color/backgroundBlackVeryLight" app:cardCornerRadius="@dimen/card_radius_big"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivItemImage" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="@dimen/margin_medium" android:layout_marginStart="@dimen/margin_large" android:layout_marginEnd="@dimen/margin_large" />
+        <TextView android:textSize="@dimen/_text_size_normal" android:textStyle="bold" android:textColor="@color/textColorWhite" android:id="@id/tvItemName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_medium" android:textAlignment="center" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" />
+        <TextView android:textSize="@dimen/_text_size_small" android:textColor="@color/textColorWhite" android:id="@id/tvItemPrice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_extra_short" android:layout_marginBottom="@dimen/margin_extra_short" android:textAlignment="center" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

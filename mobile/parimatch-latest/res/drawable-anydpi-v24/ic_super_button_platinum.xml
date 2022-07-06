@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="60.0dip" android:width="60.0dip" android:viewportWidth="60.0" android:viewportHeight="60.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_super_button_platinum__0" android:pathData="M30,60C46.5685,60 60,46.5685 60,30C60,13.4315 46.5685,0 30,0C13.4315,0 0,13.4315 0,30C0,46.5685 13.4315,60 30,60Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_super_button_platinum__1" android:pathData="M30,60C46.5685,60 60,46.5685 60,30C60,13.4315 46.5685,0 30,0C13.4315,0 0,13.4315 0,30C0,46.5685 13.4315,60 30,60Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff000000" android:pathData="M30,57C44.9117,57 57,44.9117 57,30C57,15.0883 44.9117,3 30,3C15.0883,3 3,15.0883 3,30C3,44.9117 15.0883,57 30,57Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_super_button_platinum__2" android:pathData="M10.9081,49.0918C21.4523,59.636 38.5477,59.636 49.0919,49.0918C59.636,38.5477 59.636,21.4522 49.0919,10.908C38.5477,0.3639 21.4523,0.3639 10.9081,10.908C0.364,21.4522 0.364,38.5477 10.9081,49.0918Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_super_button_platinum__3" android:pathData="M19.9999,29.3487L22.6308,20H34.8824L32.2511,29.3487H19.9999ZM24.1179,40L26.7488,30.6513H38.9999L36.369,40H24.1179Z" android:fillType="evenOdd" />
+</vector>

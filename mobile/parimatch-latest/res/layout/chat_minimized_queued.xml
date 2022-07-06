@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ServiceChat.MinimizedView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/chat_minimized_queued_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_minimized_queued" style="@style/ServiceChatText.Minimized" />
+    <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/chat_minimized_queued_counter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/chat_minimized_queued_text" android:layout_centerHorizontal="true" style="@style/ServiceChatText.Queued" />
+</RelativeLayout>

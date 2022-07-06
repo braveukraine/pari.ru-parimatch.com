@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/case_created_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0">
+        <ImageView android:layout_gravity="center" android:id="@id/cases_created_success_image" android:layout_width="94.0dip" android:layout_height="105.0dip" android:layout_margin="32.0dip" android:contentDescription="@null" app:srcCompat="@drawable/cases_ic_success_icon" />
+        <com.salesforce.android.service.common.ui.views.SalesforceTextView android:textSize="20.0sp" android:textColor="@color/salesforce_contrast_primary" android:text="@string/cases_case_created_success_message_text" android:lineSpacingExtra="6.0sp" style="@style/cases_caseCreatedMessageStyle" />
+        <com.salesforce.android.service.common.ui.views.SalesforceTextView android:textSize="16.0sp" android:textColor="@color/salesforce_contrast_secondary" android:layout_marginTop="16.0dip" android:text="@string/cases_case_created_success_message_sub_text" style="@style/cases_caseCreatedMessageStyle" />
+    </LinearLayout>
+</merge>

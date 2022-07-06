@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_extra_small" android:textColor="@color/market_type_filter_text_color_state_list" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvText" android:background="@drawable/market_type_filter_button_drawable" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_short" android:layout_marginBottom="@dimen/margin_short" android:textAllCaps="true" android:paddingStart="@dimen/margin_standard" android:paddingEnd="@dimen/margin_standard" android:layout_marginEnd="@dimen/margin_extra_short" />
+</merge>

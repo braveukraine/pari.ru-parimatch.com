@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Lokalise_plurals">
+        <item quantity="other">other</item>
+        <item quantity="zero">zero</item>
+        <item quantity="one">one</item>
+        <item quantity="two">two</item>
+        <item quantity="few">few</item>
+        <item quantity="many">many</item>
+    </plurals>
+    <plurals name="betslip_title_outcome">
+        <item quantity="other">@string/betslip_title_plurals_other</item>
+        <item quantity="one">@string/betslip_title_plurals_one</item>
+        <item quantity="two">@string/betslip_title_plurals_two</item>
+        <item quantity="few">@string/betslip_title_plurals_few</item>
+        <item quantity="many">@string/betslip_title_plurals_many</item>
+    </plurals>
+    <plurals name="chat_estimated_wait_time_minutes">
+        <item quantity="other">%1$s minutes</item>
+        <item quantity="one">%1$s minute</item>
+    </plurals>
+    <plurals name="chat_minimized_unread_message_count">
+        <item quantity="other">%1$d unread messages from %2$s</item>
+        <item quantity="one">%1$d unread message from %2$s</item>
+    </plurals>
+    <plurals name="daily_record_event_plural">
+        <item quantity="other">@string/daily_record_event_other</item>
+        <item quantity="one">@string/daily_record_event_one</item>
+        <item quantity="two">@string/daily_record_event_two</item>
+        <item quantity="few">@string/daily_record_event_few</item>
+        <item quantity="many">@string/daily_record_event_many</item>
+    </plurals>
+    <plurals name="express_boost_outcomes_count">
+        <item quantity="other">%1$s outcomes - %2$s</item>
+        <item quantity="one">%1$s outcome - %2$s</item>
+    </plurals>
+    <plurals name="min_length_plural_error">
+        <item quantity="other">@string/min_length_error</item>
+        <item quantity="one">@string/min_length_one_error</item>
+        <item quantity="two">@string/min_length_few_error</item>
+        <item quantity="few">@string/min_length_few_error</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="sport_special_events_available_outcomes">
+        <item quantity="other">%d available outcomes</item>
+        <item quantity="one">%d available outcome</item>
+    </plurals>
+    <plurals name="top_express_bet_count">
+        <item quantity="other">%1$d bets</item>
+        <item quantity="one">%1$d bet</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/ivTeamLogo" android:background="@drawable/grey_light_circle" android:padding="@dimen/padding_short" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerCrop" android:contentDescription="ivTeamLogo" />
+    <TextView android:textSize="@dimen/sport_text_size_small_non_scalable" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tvTeamName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_extra_short" android:lines="2" android:contentDescription="tvTeamName" style="@style/SportText.TeamName" />
+</merge>

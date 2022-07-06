@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundBlack" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_extra_large" android:textStyle="bold" android:textColor="@color/textColorAccent" android:layout_gravity="center" android:id="@id/tvOutOfService" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_out_of_service" android:textAlignment="center" android:layout_marginStart="@dimen/margin_standard" android:layout_marginEnd="@dimen/margin_standard" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ivUpdatedIcon" />
+    <ImageView android:id="@id/ivOutOfService" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+</FrameLayout>

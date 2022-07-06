@@ -1,0 +1,353 @@
+.class public final Ltech/pm/ams/chats/di/SupportChatsModule;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final INSTANCE:Ltech/pm/ams/chats/di/SupportChatsModule;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field public static final a:Ljava/lang/String;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field public static b:Ltech/pm/ams/chats/di/SupportChatsComponent;
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+.end field
+
+.field public static c:Lkotlinx/coroutines/CoroutineScope;
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+.end field
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Ltech/pm/ams/chats/di/SupportChatsModule;
+
+    invoke-direct {v0}, Ltech/pm/ams/chats/di/SupportChatsModule;-><init>()V
+
+    sput-object v0, Ltech/pm/ams/chats/di/SupportChatsModule;->INSTANCE:Ltech/pm/ams/chats/di/SupportChatsModule;
+
+    .line 1
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lkotlin/reflect/KClass;->getSimpleName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+
+    sput-object v0, Ltech/pm/ams/chats/di/SupportChatsModule;->a:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final declared-synchronized destroy()V
+    .locals 3
+
+    monitor-enter p0
+
+    .line 1
+    :try_start_0
+    sget-object v0, Ltech/pm/ams/chats/di/SupportChatsModule;->c:Lkotlinx/coroutines/CoroutineScope;
+
+    const/4 v1, 0x0
+
+    if-nez v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v2, 0x1
+
+    invoke-static {v0, v1, v2, v1}, Lkotlinx/coroutines/CoroutineScopeKt;->cancel$default(Lkotlinx/coroutines/CoroutineScope;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
+
+    .line 2
+    :goto_0
+    sput-object v1, Ltech/pm/ams/chats/di/SupportChatsModule;->c:Lkotlinx/coroutines/CoroutineScope;
+
+    .line 3
+    sput-object v1, Ltech/pm/ams/chats/di/SupportChatsModule;->b:Ltech/pm/ams/chats/di/SupportChatsComponent;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 4
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public final declared-synchronized get$support_chats_release()Ltech/pm/ams/chats/di/SupportChatsComponent;
+    .locals 3
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    monitor-enter p0
+
+    .line 1
+    :try_start_0
+    sget-object v0, Ltech/pm/ams/chats/di/SupportChatsModule;->b:Ltech/pm/ams/chats/di/SupportChatsComponent;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    if-eqz v0, :cond_0
+
+    monitor-exit p0
+
+    return-object v0
+
+    :cond_0
+    :try_start_1
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    sget-object v1, Ltech/pm/ams/chats/di/SupportChatsModule;->a:Ljava/lang/String;
+
+    const-string v2, " is uninitialized"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->stringPlus(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public final getSCOPE$support_chats_release()Lkotlinx/coroutines/CoroutineScope;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+
+    .line 1
+    sget-object v0, Ltech/pm/ams/chats/di/SupportChatsModule;->c:Lkotlinx/coroutines/CoroutineScope;
+
+    return-object v0
+.end method
+
+.method public final declared-synchronized init(Ltech/pm/ams/chats/di/SupportChatsDependency;)V
+    .locals 2
+    .param p1    # Ltech/pm/ams/chats/di/SupportChatsDependency;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    monitor-enter p0
+
+    :try_start_0
+    const-string v0, "dependency"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    invoke-static {}, Ltech/pm/ams/chats/di/DaggerSupportChatsComponent;->factory()Ltech/pm/ams/chats/di/SupportChatsComponent$Factory;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Ltech/pm/ams/chats/di/SupportChatsComponent$Factory;->create(Ltech/pm/ams/chats/di/SupportChatsDependency;)Ltech/pm/ams/chats/di/SupportChatsComponent;
+
+    move-result-object p1
+
+    sput-object p1, Ltech/pm/ams/chats/di/SupportChatsModule;->b:Ltech/pm/ams/chats/di/SupportChatsComponent;
+
+    .line 2
+    new-instance p1, Lkotlinx/coroutines/CoroutineName;
+
+    sget-object v0, Ltech/pm/ams/chats/di/SupportChatsModule;->a:Ljava/lang/String;
+
+    invoke-direct {p1, v0}, Lkotlinx/coroutines/CoroutineName;-><init>(Ljava/lang/String;)V
+
+    invoke-static {}, Lkotlinx/coroutines/Dispatchers;->getIO()Lkotlinx/coroutines/CoroutineDispatcher;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Lkotlin/coroutines/AbstractCoroutineContextElement;->plus(Lkotlin/coroutines/CoroutineContext;)Lkotlin/coroutines/CoroutineContext;
+
+    move-result-object p1
+
+    const/4 v0, 0x1
+
+    const/4 v1, 0x0
+
+    invoke-static {v1, v0, v1}, Lkotlinx/coroutines/SupervisorKt;->SupervisorJob$default(Lkotlinx/coroutines/Job;ILjava/lang/Object;)Lkotlinx/coroutines/CompletableJob;
+
+    move-result-object v0
+
+    invoke-interface {p1, v0}, Lkotlin/coroutines/CoroutineContext;->plus(Lkotlin/coroutines/CoroutineContext;)Lkotlin/coroutines/CoroutineContext;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lkotlinx/coroutines/CoroutineScopeKt;->CoroutineScope(Lkotlin/coroutines/CoroutineContext;)Lkotlinx/coroutines/CoroutineScope;
+
+    move-result-object p1
+
+    sput-object p1, Ltech/pm/ams/chats/di/SupportChatsModule;->c:Lkotlinx/coroutines/CoroutineScope;
+
+    .line 3
+    sget-object p1, Ltech/pm/ams/chats/di/SupportChatsModule;->b:Ltech/pm/ams/chats/di/SupportChatsComponent;
+
+    if-nez p1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-interface {p1}, Ltech/pm/ams/chats/di/Setupable;->remoteConfigStorage()Ltech/pm/ams/chats/data/config/RemoteConfigStorage;
+
+    move-result-object p1
+
+    if-nez p1, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    invoke-virtual {p1}, Ltech/pm/ams/chats/data/config/RemoteConfigStorage;->setup$support_chats_release()V
+
+    .line 4
+    :goto_0
+    sget-object p1, Ltech/pm/ams/chats/di/SupportChatsModule;->b:Ltech/pm/ams/chats/di/SupportChatsComponent;
+
+    if-nez p1, :cond_2
+
+    goto :goto_1
+
+    :cond_2
+    invoke-interface {p1}, Ltech/pm/ams/chats/di/Setupable;->zendeskChatManager()Ltech/pm/ams/chats/domain/zendesk/ZendeskChatManager;
+
+    move-result-object p1
+
+    if-nez p1, :cond_3
+
+    goto :goto_1
+
+    :cond_3
+    invoke-virtual {p1}, Ltech/pm/ams/chats/domain/zendesk/ZendeskChatManager;->setup$support_chats_release()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 5
+    :goto_1
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception p1
+
+    monitor-exit p0
+
+    throw p1
+.end method
+
+.method public final declared-synchronized salesforceChatManager()Ltech/pm/ams/chats/domain/salesforce/SalesforceChatManager;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    monitor-enter p0
+
+    .line 1
+    :try_start_0
+    invoke-virtual {p0}, Ltech/pm/ams/chats/di/SupportChatsModule;->get$support_chats_release()Ltech/pm/ams/chats/di/SupportChatsComponent;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ltech/pm/ams/chats/di/Ports;->salesforceChatManager()Ltech/pm/ams/chats/domain/salesforce/SalesforceChatManager;
+
+    move-result-object v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit p0
+
+    return-object v0
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public final setSCOPE$support_chats_release(Lkotlinx/coroutines/CoroutineScope;)V
+    .locals 0
+    .param p1    # Lkotlinx/coroutines/CoroutineScope;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
+        .end annotation
+    .end param
+
+    .line 1
+    sput-object p1, Ltech/pm/ams/chats/di/SupportChatsModule;->c:Lkotlinx/coroutines/CoroutineScope;
+
+    return-void
+.end method
+
+.method public final declared-synchronized zendeskChatManager()Ltech/pm/ams/chats/domain/zendesk/ZendeskChatManager;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    monitor-enter p0
+
+    .line 1
+    :try_start_0
+    invoke-virtual {p0}, Ltech/pm/ams/chats/di/SupportChatsModule;->get$support_chats_release()Ltech/pm/ams/chats/di/SupportChatsComponent;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ltech/pm/ams/chats/di/Setupable;->zendeskChatManager()Ltech/pm/ams/chats/domain/zendesk/ZendeskChatManager;
+
+    move-result-object v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit p0
+
+    return-object v0
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method

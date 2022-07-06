@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/_text_size_small" android:textColor="@color/textColorWhite" android:layout_gravity="center_vertical" android:id="@id/tvBookmakerComment" android:background="@color/backgroundQuarterTransparentBlack" android:paddingTop="10.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="15.0dip" android:paddingStart="15.0dip" android:paddingEnd="10.0dip" app:drawableStartCompat="@drawable/ic_bookmaker_message" />
+    <View android:id="@id/vBookmakerCommentDivider" android:background="@drawable/divider_vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+</merge>

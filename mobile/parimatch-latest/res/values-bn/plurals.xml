@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="express_boost_outcomes_count">
+        <item quantity="other">%1$s টি ফলাফল - %2$s</item>
+        <item quantity="one">%1$s টি ফলাফল - %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%dটি নতুন বিজ্ঞপ্তি</item>
+        <item quantity="one">%dটি নতুন বিজ্ঞপ্তি</item>
+    </plurals>
+    <plurals name="sport_special_events_available_outcomes">
+        <item quantity="other">%dটি উপলভ্য ফলাফল</item>
+        <item quantity="one">%dটি উপলভ্য ফলাফল</item>
+    </plurals>
+    <plurals name="top_express_bet_count">
+        <item quantity="other">%1$dটি বাজি</item>
+        <item quantity="one">%1$dটি বাজি</item>
+    </plurals>
+</resources>

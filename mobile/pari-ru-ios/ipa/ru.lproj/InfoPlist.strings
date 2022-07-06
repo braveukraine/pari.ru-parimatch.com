@@ -1,0 +1,21 @@
+/*
+ InfoPlist.strings
+ Fonbet
+ 
+ Created by Roma Bakenbard on 03.06.16.
+ Copyright © 2016 Boloid. All rights reserved.
+ */
+
+"CFBundleName" = "PARI";
+"CFBundleDisplayName" = "PARI";
+"INAlternativeAppName" = "Парибет";
+
+"sport.tab.name.live" = "Live";
+"sport.tab.name.prematch" = "Прематч";
+"line.anouncements.name" = "Анонс Лайв";
+"bet.type.toto" = "Суперэкспресс";
+"NSLocationWhenInUseUsageDescription" = "Это необходимо т.к. приложение работает только на территории Российской Федерации";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Это необходимо т.к. приложение работает только на территории Российской Федерации";
+"NSLocationAlwaysUsageDescription" = "Это необходимо т.к. приложение работает только на территории Российской Федерации";
+
+"NSUserTrackingUsageDescription" = "Разрешите нам использование данных о вашей активности. Мы сможем предлагать вам акции и показывать события, которые интересны именно вам. Все данные будут зашифрованы и надежно защищены.";

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_medium" android:layout_marginTop="@dimen/margin_standard" android:layout_marginRight="@dimen/margin_medium" android:layout_marginHorizontal="@dimen/margin_medium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_medium_extra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_verification_status_title" style="@style/Text.Primary" />
+    <TextView android:textSize="@dimen/text_size_medium_extra" android:id="@id/tvVerificationStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_extra_short" style="@style/Text.Primary" />
+</LinearLayout>

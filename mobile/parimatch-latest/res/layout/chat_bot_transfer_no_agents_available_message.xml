@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/chatbot_transfer_no_agents_available_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chatbot_transfer_no_agents_available_message" style="@style/ServiceChatTransferText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

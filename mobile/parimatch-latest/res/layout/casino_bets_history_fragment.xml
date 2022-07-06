@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/colorPrimary50" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar_left_align" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeToRefresh" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvCasinoBets" android:background="@color/backgroundGreyPrimary150" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <com.nativeapp.views.ErrorView android:id="@id/errorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/rlLoading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:theme="@style/OverlayColorOrange" android:id="@id/pbLoading" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="10.0dip" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_marginStart="77.0dip" android:layout_marginEnd="77.0dip" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

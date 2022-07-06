@@ -1,0 +1,7772 @@
+{
+  "markets": {
+    "0": [
+      {
+        "condition": "::::",
+        "translation": "Other outcomes"
+      }
+    ],
+    "1": [
+      {
+        "condition": "=H::=4::",
+        "translation": "Winner"
+      },
+      {
+        "condition": "=BB::::",
+        "translation": "Match winner"
+      },
+      {
+        "condition": "=AF::::",
+        "translation": "Match winner"
+      },
+      {
+        "condition": "=B::::",
+        "translation": "Match winner"
+      },
+      {
+        "condition": "=H::::",
+        "translation": "Match winner"
+      },
+      {
+        "condition": "::::",
+        "translation": "To win"
+      }
+    ],
+    "2": [
+      {
+        "condition": "=BB::=0::",
+        "translation": "Match result (excluding extra innings)"
+      },
+      {
+        "condition": ":=1:=0::",
+        "translation": "3-way betting"
+      },
+      {
+        "condition": "=CS::!0::",
+        "translation": "3-way betting in main time"
+      },
+      {
+        "condition": "::::",
+        "translation": "3-way betting"
+      }
+    ],
+    "3": [
+      {
+        "condition": "::::",
+        "translation": "Double chance"
+      }
+    ],
+    "4": [
+      {
+        "condition": "=BB::::",
+        "translation": "Handicap"
+      },
+      {
+        "condition": "=H::::",
+        "translation": "Handicap"
+      },
+      {
+        "condition": "::::",
+        "translation": "Handicap"
+      }
+    ],
+    "5": [
+      {
+        "condition": "=CK::::",
+        "translation": "Total runs"
+      },
+      {
+        "condition": "=UFC::::",
+        "translation": "Total rounds"
+      },
+      {
+        "condition": "=MA::::",
+        "translation": "Total rounds"
+      },
+      {
+        "condition": "=BX::::",
+        "translation": "Total rounds"
+      },
+      {
+        "condition": "::::",
+        "translation": "Total"
+      }
+    ],
+    "6": [
+      {
+        "condition": "=CK::::",
+        "translation": "Runs total. Even/odd"
+      },
+      {
+        "condition": "=F::::",
+        "translation": "Total. Even/odd"
+      },
+      {
+        "condition": "::::",
+        "translation": "Total. Even/odd"
+      }
+    ],
+    "7": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} runs total"
+      },
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} total"
+      }
+    ],
+    "9": [
+      {
+        "condition": "=CL::::",
+        "translation": "Will there be additional end"
+      },
+      {
+        "condition": "=CK::::",
+        "translation": "Will be superover"
+      },
+      {
+        "condition": "=BB::::",
+        "translation": "Will there be additional innings"
+      },
+      {
+        "condition": "=T::::",
+        "translation": "Tiebreak"
+      },
+      {
+        "condition": "=VB::::",
+        "translation": "Tiebreak"
+      },
+      {
+        "condition": "::::",
+        "translation": "Overtime"
+      }
+    ],
+    "10": [
+      {
+        "condition": "=KB::::",
+        "translation": "HT / FT"
+      },
+      {
+        "condition": "=B::::",
+        "translation": "HT / FT"
+      },
+      {
+        "condition": "::::",
+        "translation": "HT / FT"
+      }
+    ],
+    "11": [
+      {
+        "condition": "=H::::",
+        "translation": "{p1} period / match"
+      },
+      {
+        "condition": "::::",
+        "translation": "{p1} set / match"
+      }
+    ],
+    "13": [
+      {
+        "condition": "=FZ::::",
+        "translation": "Halves comparison"
+      },
+      {
+        "condition": "=RG::::",
+        "translation": "Halves comparison"
+      },
+      {
+        "condition": "=H::::",
+        "translation": "Highest scoring period"
+      },
+      {
+        "condition": "=F::::",
+        "translation": "Halves comparison"
+      },
+      {
+        "condition": "::::",
+        "translation": "Sets comparison"
+      }
+    ],
+    "14": [
+      {
+        "condition": "::::",
+        "translation": "Race to {p1}"
+      }
+    ],
+    "15": [
+      {
+        "condition": "::::",
+        "translation": "#competitor{p1} position on finish {p2}"
+      }
+    ],
+    "16": [
+      {
+        "condition": "::::",
+        "translation": "Correct score"
+      }
+    ],
+    "17": [
+      {
+        "condition": "=B::::",
+        "translation": "Race to {p1}"
+      },
+      {
+        "condition": "=CS::::",
+        "translation": "Race to {p1}"
+      },
+      {
+        "condition": "=T:::>4:",
+        "translation": "Race to {p1}"
+      },
+      {
+        "condition": "=T:::<5:",
+        "translation": "Race to {p1}"
+      },
+      {
+        "condition": "::::",
+        "translation": "Race to {p1}"
+      }
+    ],
+    "18": [
+      {
+        "condition": "::::",
+        "translation": "To qualify"
+      }
+    ],
+    "20": [
+      {
+        "condition": "::::",
+        "translation": "Match result and total {p1}"
+      }
+    ],
+    "23": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}{TeamID2}Top player"
+      }
+    ],
+    "24": [
+      {
+        "condition": "::::",
+        "translation": "H2H"
+      }
+    ],
+    "25": [
+      {
+        "condition": "::::",
+        "translation": "Goals amount"
+      }
+    ],
+    "26": [
+      {
+        "condition": "=UFC::::",
+        "translation": "Rounds Total"
+      },
+      {
+        "condition": "=MA::::",
+        "translation": "Rounds Total"
+      },
+      {
+        "condition": "=BX::::",
+        "translation": "Rounds Total"
+      },
+      {
+        "condition": "=H::::",
+        "translation": "Score Exactly"
+      },
+      {
+        "condition": "::::",
+        "translation": "Score Exactly"
+      }
+    ],
+    "27": [
+      {
+        "condition": "=H::::",
+        "translation": "{Team{p1}} exact goals"
+      },
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} exact goals"
+      }
+    ],
+    "28": [
+      {
+        "condition": "=H::!0::",
+        "translation": "Both teams to score"
+      },
+      {
+        "condition": "::::",
+        "translation": "Both teams to score"
+      }
+    ],
+    "30": [
+      {
+        "condition": "=H::::",
+        "translation": "{Team{p1}} score in each period"
+      },
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} score in both halves"
+      }
+    ],
+    "31": [
+      {
+        "condition": "::::",
+        "translation": "Red Card"
+      }
+    ],
+    "37": [
+      {
+        "condition": "::::",
+        "translation": "To deuce"
+      }
+    ],
+    "38": [
+      {
+        "condition": "::::",
+        "translation": "Game score"
+      }
+    ],
+    "39": [
+      {
+        "condition": "::::",
+        "translation": "Winning margin"
+      }
+    ],
+    "41": [
+      {
+        "condition": ":::=2:",
+        "translation": "Goal in {p1} half"
+      },
+      {
+        "condition": "::::",
+        "translation": "Goal in {p1} half"
+      }
+    ],
+    "42": [
+      {
+        "condition": "=H::::",
+        "translation": "Goal Scored in all periods"
+      },
+      {
+        "condition": "::::",
+        "translation": "Goal Scored in both halves"
+      }
+    ],
+    "43": [
+      {
+        "condition": ":::=2:",
+        "translation": "Both halves total under {p2}"
+      },
+      {
+        "condition": ":::=1:",
+        "translation": "Both halves total over {p2}"
+      }
+    ],
+    "44": [
+      {
+        "condition": ":::=10:",
+        "translation": "Last goal in interval"
+      },
+      {
+        "condition": ":::=2:",
+        "translation": "Second goal"
+      },
+      {
+        "condition": ":::=1:",
+        "translation": "First goal in interval"
+      }
+    ],
+    "45": [
+      {
+        "condition": "::::",
+        "translation": "Last goal"
+      }
+    ],
+    "47": [
+      {
+        "condition": "::::",
+        "translation": "Winning margin {Team{p1}} 1 goal"
+      }
+    ],
+    "48": [
+      {
+        "condition": "::::",
+        "translation": "Winning margin {Team{p1}} 1 goal or draw"
+      }
+    ],
+    "50": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} win to nil"
+      }
+    ],
+    "51": [
+      {
+        "condition": "::::",
+        "translation": "Win before full rounds"
+      }
+    ],
+    "52": [
+      {
+        "condition": "::::",
+        "translation": "Winning on points"
+      }
+    ],
+    "53": [
+      {
+        "condition": "::::",
+        "translation": "The ball to appear {p1}"
+      }
+    ],
+    "54": [
+      {
+        "condition": "::::",
+        "translation": "First number odd/even"
+      }
+    ],
+    "55": [
+      {
+        "condition": "::::",
+        "translation": "First number"
+      }
+    ],
+    "57": [
+      {
+        "condition": "::::",
+        "translation": "Last number odd/even"
+      }
+    ],
+    "58": [
+      {
+        "condition": "::::",
+        "translation": "Last number"
+      }
+    ],
+    "59": [
+      {
+        "condition": "::::",
+        "translation": "The smallest number odd/even"
+      }
+    ],
+    "60": [
+      {
+        "condition": "::::",
+        "translation": "The smallest number"
+      }
+    ],
+    "61": [
+      {
+        "condition": "::::",
+        "translation": "The biggest number odd/even"
+      }
+    ],
+    "62": [
+      {
+        "condition": "::::",
+        "translation": "The biggest number"
+      }
+    ],
+    "63": [
+      {
+        "condition": "::::",
+        "translation": "The sum of numbers (range)"
+      }
+    ],
+    "64": [
+      {
+        "condition": "::::",
+        "translation": "Quantity of numbers  (range)"
+      }
+    ],
+    "65": [
+      {
+        "condition": "=B::::",
+        "translation": "{Team{p1}} wins all quarters"
+      },
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} win both halves"
+      }
+    ],
+    "66": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} win at least one half"
+      }
+    ],
+    "67": [
+      {
+        "condition": "::::",
+        "translation": "Extra points"
+      }
+    ],
+    "69": [
+      {
+        "condition": "::::",
+        "translation": "Red cards amount"
+      }
+    ],
+    "70": [
+      {
+        "condition": "::::",
+        "translation": "Penalties amount"
+      }
+    ],
+    "71": [
+      {
+        "condition": "=MA::::",
+        "translation": "{TeamID1}Will win title"
+      },
+      {
+        "condition": "=UFC::::",
+        "translation": "{TeamID1}Will win title"
+      },
+      {
+        "condition": "=BX::::",
+        "translation": "{TeamID1}Will win title"
+      },
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Winner"
+      }
+    ],
+    "72": [
+      {
+        "condition": "::::=500",
+        "translation": "{TeamID1}Will be the last"
+      },
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Place in {p2}-{p3}"
+      }
+    ],
+    "74": [
+      {
+        "condition": "=HB::::",
+        "translation": "Most scoring half"
+      },
+      {
+        "condition": "::::",
+        "translation": "Most scoring half"
+      }
+    ],
+    "78": [
+      {
+        "condition": "::::",
+        "translation": "Penalty"
+      }
+    ],
+    "81": [
+      {
+        "condition": "::::",
+        "translation": "Winning margin"
+      }
+    ],
+    "82": [
+      {
+        "condition": "::::",
+        "translation": "Anytime Correct Score"
+      }
+    ],
+    "84": [
+      {
+        "condition": "::::",
+        "translation": "Draw in at least one half"
+      }
+    ],
+    "87": [
+      {
+        "condition": "::::",
+        "translation": "Goal #{p1} will score"
+      }
+    ],
+    "88": [
+      {
+        "condition": "::::",
+        "translation": "Scoring draw"
+      }
+    ],
+    "89": [
+      {
+        "condition": "::::",
+        "translation": "Most scoring quarter"
+      }
+    ],
+    "90": [
+      {
+        "condition": "::::",
+        "translation": "Most scoring half"
+      }
+    ],
+    "95": [
+      {
+        "condition": "::::",
+        "translation": "Goal"
+      }
+    ],
+    "97": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to win both halves"
+      }
+    ],
+    "98": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to win first quarter  and match"
+      }
+    ],
+    "99": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to win first half and match"
+      }
+    ],
+    "100": [
+      {
+        "condition": "::::",
+        "translation": "Number of home wins"
+      }
+    ],
+    "101": [
+      {
+        "condition": "::::",
+        "translation": "Number of away wins"
+      }
+    ],
+    "102": [
+      {
+        "condition": "::::",
+        "translation": "Number of draws"
+      }
+    ],
+    "103": [
+      {
+        "condition": "::::",
+        "translation": "Number of home teams points"
+      }
+    ],
+    "104": [
+      {
+        "condition": "::::",
+        "translation": "Number of away teams points"
+      }
+    ],
+    "105": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} total goals. Even/odd"
+      }
+    ],
+    "106": [
+      {
+        "condition": "::::",
+        "translation": "Rebound #{p1}"
+      }
+    ],
+    "107": [
+      {
+        "condition": "::::",
+        "translation": "Foul #{p1}"
+      }
+    ],
+    "108": [
+      {
+        "condition": "::::",
+        "translation": "Who will score first"
+      }
+    ],
+    "110": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to score {p2} or {p3} goals"
+      }
+    ],
+    "111": [
+      {
+        "condition": "::::",
+        "translation": "Who will kick-off"
+      }
+    ],
+    "112": [
+      {
+        "condition": "::::",
+        "translation": "Anytime own goal"
+      }
+    ],
+    "113": [
+      {
+        "condition": "::::",
+        "translation": "Substitute to score"
+      }
+    ],
+    "114": [
+      {
+        "condition": "::::",
+        "translation": "Red card for {Team{p1}}"
+      }
+    ],
+    "115": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will hit penalty"
+      }
+    ],
+    "117": [
+      {
+        "condition": "=F:=66:::",
+        "translation": "Shot on target #{p1}"
+      },
+      {
+        "condition": "=F:=8:::",
+        "translation": "Yellow card #{p1}"
+      },
+      {
+        "condition": "=F:=4:::",
+        "translation": "Corner #{p1}"
+      },
+      {
+        "condition": "=F:=2:::",
+        "translation": "Foul #{p1}"
+      },
+      {
+        "condition": "=F::::",
+        "translation": "Goal #{p1} to score"
+      },
+      {
+        "condition": "=WP::::",
+        "translation": "Goal #{p1} to score"
+      },
+      {
+        "condition": "=HB::::",
+        "translation": "Goal #{p1} to score"
+      },
+      {
+        "condition": "::::",
+        "translation": "Point #{p1}"
+      }
+    ],
+    "118": [
+      {
+        "condition": "=H::::",
+        "translation": "Who will score goal #{p1}"
+      },
+      {
+        "condition": "=BF::::",
+        "translation": "Who will score goal #{p1}"
+      },
+      {
+        "condition": "=FH::::",
+        "translation": "Who will score goal #{p1}"
+      },
+      {
+        "condition": "=FZ::::",
+        "translation": "Who will score goal #{p1}"
+      },
+      {
+        "condition": "=VF::::",
+        "translation": "Who will score goal #{p1}"
+      },
+      {
+        "condition": "=F::::",
+        "translation": "Who will score goal #{p1}"
+      },
+      {
+        "condition": "=HB::::",
+        "translation": "Who will score goal #{p1}"
+      },
+      {
+        "condition": "::::",
+        "translation": "Point #{p1}"
+      },
+      {
+        "condition": "=F:=66:::",
+        "translation": "Shot on target #{p1}"
+      },
+      {
+        "condition": "=F:=8:::",
+        "translation": "Yellow card #{p1}"
+      },
+      {
+        "condition": "=F:=4:::",
+        "translation": "Corner #{p1}"
+      },
+      {
+        "condition": "=F:=2:::",
+        "translation": "Foul #{p1}"
+      }
+    ],
+    "121": [
+      {
+        "condition": "::::",
+        "translation": "The {p2} half time result and the {p3} half total goals"
+      }
+    ],
+    "122": [
+      {
+        "condition": "::::",
+        "translation": "Who will score first goal"
+      }
+    ],
+    "123": [
+      {
+        "condition": "::::",
+        "translation": "First to score / match result"
+      }
+    ],
+    "124": [
+      {
+        "condition": "::::",
+        "translation": "Both teams to score in the {p1} half and in the {p2} half"
+      }
+    ],
+    "125": [
+      {
+        "condition": "::::",
+        "translation": "Match result and both teams to score"
+      }
+    ],
+    "126": [
+      {
+        "condition": "::::",
+        "translation": "To score more than {p1} goals"
+      }
+    ],
+    "127": [
+      {
+        "condition": "::::",
+        "translation": "The {p1} half result and the {p2} half result"
+      }
+    ],
+    "128": [
+      {
+        "condition": "=H::::",
+        "translation": "The {p1} period result and Total {p2} period {p3}"
+      }
+    ],
+    "130": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to score its first goal"
+      }
+    ],
+    "134": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to score {p2} goals in a row"
+      }
+    ],
+    "135": [
+      {
+        "condition": "::::",
+        "translation": "At least one team score {p1} in a row"
+      }
+    ],
+    "136": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Highest scoring half"
+      }
+    ],
+    "137": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} come from behind and win"
+      }
+    ],
+    "138": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} come from behind and draw"
+      }
+    ],
+    "139": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} come from behind and win or draw"
+      }
+    ],
+    "141": [
+      {
+        "condition": "::::",
+        "translation": "Win {Team{p1}} no bet"
+      }
+    ],
+    "142": [
+      {
+        "condition": "::::",
+        "translation": "To win first set and match"
+      }
+    ],
+    "143": [
+      {
+        "condition": "::::",
+        "translation": "What happens first"
+      }
+    ],
+    "144": [
+      {
+        "condition": "::::",
+        "translation": "What happens first in the first {p1} minutes of the match"
+      }
+    ],
+    "145": [
+      {
+        "condition": "::::",
+        "translation": "To win including overtime"
+      }
+    ],
+    "146": [
+      {
+        "condition": "::::",
+        "translation": "Tiebreak winner"
+      }
+    ],
+    "150": [
+      {
+        "condition": "::::",
+        "translation": "What happens first"
+      }
+    ],
+    "151": [
+      {
+        "condition": "::::",
+        "translation": "Winning method"
+      }
+    ],
+    "152": [
+      {
+        "condition": "::::",
+        "translation": "What happens first"
+      }
+    ],
+    "153": [
+      {
+        "condition": "::::",
+        "translation": "Total 3-way"
+      }
+    ],
+    "154": [
+      {
+        "condition": "::::",
+        "translation": "Penalty #{p1} to score"
+      }
+    ],
+    "155": [
+      {
+        "condition": "::::",
+        "translation": "What happens first"
+      }
+    ],
+    "156": [
+      {
+        "condition": "::::",
+        "translation": "Penalty and red card"
+      }
+    ],
+    "157": [
+      {
+        "condition": "::::",
+        "translation": "Last goal 2-way"
+      }
+    ],
+    "158": [
+      {
+        "condition": "::::",
+        "translation": "Tiebreak score"
+      }
+    ],
+    "159": [
+      {
+        "condition": "::=1::",
+        "translation": "Total Goal Minutes (additional time = 45 )"
+      },
+      {
+        "condition": "::::",
+        "translation": "Total Goal Minutes (additional time = 45 or 90 mins)"
+      }
+    ],
+    "160": [
+      {
+        "condition": "::::",
+        "translation": "Winner"
+      }
+    ],
+    "161": [
+      {
+        "condition": "::::",
+        "translation": "Time of the {p1}st goal"
+      }
+    ],
+    "162": [
+      {
+        "condition": "::::",
+        "translation": "Player will score {p1} or more goals"
+      }
+    ],
+    "163": [
+      {
+        "condition": "::::",
+        "translation": "To win first set but will lose match"
+      }
+    ],
+    "164": [
+      {
+        "condition": "::::",
+        "translation": "Total Goal Minutes (additional time = 45 mins)"
+      }
+    ],
+    "165": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to score a goal"
+      }
+    ],
+    "167": [
+      {
+        "condition": "::::",
+        "translation": "Match winner will be defined in overtime"
+      }
+    ],
+    "168": [
+      {
+        "condition": "::::",
+        "translation": "Match winner will be defined in shootout"
+      }
+    ],
+    "170": [
+      {
+        "condition": "::::",
+        "translation": "Come From Behind and Win"
+      }
+    ],
+    "173": [
+      {
+        "condition": "=H::::",
+        "translation": "Min number of goals in the match"
+      }
+    ],
+    "174": [
+      {
+        "condition": "=H::::",
+        "translation": "Max number of goals in the match"
+      }
+    ],
+    "175": [
+      {
+        "condition": "::::",
+        "translation": "Min number of shots on goal in the match"
+      }
+    ],
+    "176": [
+      {
+        "condition": "::::",
+        "translation": "Max number of shots on goal in the match"
+      }
+    ],
+    "178": [
+      {
+        "condition": "::::",
+        "translation": "Will be played 5th set"
+      }
+    ],
+    "179": [
+      {
+        "condition": "::::",
+        "translation": "Home run total"
+      }
+    ],
+    "180": [
+      {
+        "condition": "::::",
+        "translation": "Who will do more sets of 180 points"
+      }
+    ],
+    "181": [
+      {
+        "condition": "::::",
+        "translation": "The number of sets of 180 points"
+      }
+    ],
+    "182": [
+      {
+        "condition": "::::",
+        "translation": "Who will do first set of 180 points"
+      }
+    ],
+    "183": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} number of sets of 180 points"
+      }
+    ],
+    "184": [
+      {
+        "condition": "::::",
+        "translation": "The number of moves"
+      }
+    ],
+    "185": [
+      {
+        "condition": "::::",
+        "translation": "The method of the first points"
+      }
+    ],
+    "186": [
+      {
+        "condition": "::::",
+        "translation": "The method of the last points"
+      }
+    ],
+    "187": [
+      {
+        "condition": "::::",
+        "translation": "Maximum lead on points {Team {p1}}"
+      }
+    ],
+    "188": [
+      {
+        "condition": "::::",
+        "translation": "At least one team score {p1} or more goals"
+      }
+    ],
+    "189": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to score first and lose"
+      }
+    ],
+    "190": [
+      {
+        "condition": "::::",
+        "translation": "Correct Score (Multiscore)"
+      }
+    ],
+    "191": [
+      {
+        "condition": "=H::::>4",
+        "translation": "{Team{p1}} winning margin {p2} pucks"
+      },
+      {
+        "condition": "=H::::=4",
+        "translation": "{Team{p1}} winning margin {p2} pucks"
+      },
+      {
+        "condition": "=H::::=3",
+        "translation": "{Team{p1}} winning margin {p2} pucks"
+      },
+      {
+        "condition": "=H::::=2",
+        "translation": "{Team{p1}} winning margin {p2} pucks"
+      },
+      {
+        "condition": "=H::::=1",
+        "translation": "{Team{p1}} winning margin {p2} pucks"
+      }
+    ],
+    "192": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1} will score {p2} or more goals"
+      }
+    ],
+    "193": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to score first and win"
+      }
+    ],
+    "195": [
+      {
+        "condition": "::::",
+        "translation": "Asian Total"
+      }
+    ],
+    "196": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to score first and draw"
+      }
+    ],
+    "197": [
+      {
+        "condition": "::::",
+        "translation": "Min number of goals"
+      }
+    ],
+    "198": [
+      {
+        "condition": "::::",
+        "translation": "Max number of goals"
+      }
+    ],
+    "199": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1} to score"
+      }
+    ],
+    "200": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1} To Score Last Goal and Scorecast"
+      }
+    ],
+    "201": [
+      {
+        "condition": "::::",
+        "translation": "First goal before {p1} minute"
+      }
+    ],
+    "202": [
+      {
+        "condition": "::::",
+        "translation": "Last goal after {p1} minute"
+      }
+    ],
+    "203": [
+      {
+        "condition": "::::",
+        "translation": "At what stage match will be finished"
+      }
+    ],
+    "204": [
+      {
+        "condition": "::::",
+        "translation": "Both teams to score twice"
+      }
+    ],
+    "205": [
+      {
+        "condition": "::::",
+        "translation": "Draw no bet"
+      }
+    ],
+    "206": [
+      {
+        "condition": "::::",
+        "translation": "Who will score first goal"
+      }
+    ],
+    "207": [
+      {
+        "condition": "::::",
+        "translation": "At what round fight will be finished"
+      }
+    ],
+    "208": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} win and under {p2}"
+      }
+    ],
+    "209": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} win and over {p2}"
+      }
+    ],
+    "210": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} won't lose and under {p2}"
+      }
+    ],
+    "211": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} won't lose and over {p2}"
+      }
+    ],
+    "212": [
+      {
+        "condition": "::::",
+        "translation": "Draw and under {p1}"
+      }
+    ],
+    "213": [
+      {
+        "condition": "::::",
+        "translation": "Draw and over {p1}"
+      }
+    ],
+    "214": [
+      {
+        "condition": "=H::::",
+        "translation": "Highest scoring period"
+      }
+    ],
+    "215": [
+      {
+        "condition": "=H::::",
+        "translation": "Lowest scoring period"
+      }
+    ],
+    "216": [
+      {
+        "condition": "::::",
+        "translation": "In each period over {p1}"
+      }
+    ],
+    "217": [
+      {
+        "condition": "::::",
+        "translation": "In each period under {p1}"
+      }
+    ],
+    "218": [
+      {
+        "condition": "::::",
+        "translation": "Each team will score over {p1}"
+      }
+    ],
+    "219": [
+      {
+        "condition": "::::",
+        "translation": "Each team will score under {p1}"
+      }
+    ],
+    "220": [
+      {
+        "condition": "=H::::",
+        "translation": "{Team{p1}} To score first and win"
+      }
+    ],
+    "221": [
+      {
+        "condition": "=H::::=2",
+        "translation": "Highest scoring period {p1} or {p2}"
+      },
+      {
+        "condition": "=H:::=2:",
+        "translation": "Highest scoring period {p1} or {p2}"
+      },
+      {
+        "condition": "=H::::",
+        "translation": "Highest scoring period"
+      }
+    ],
+    "223": [
+      {
+        "condition": "=F::::",
+        "translation": "Scored Penalties Total"
+      }
+    ],
+    "224": [
+      {
+        "condition": "=H::::",
+        "translation": "{Team{p1}} To score first and los"
+      }
+    ],
+    "227": [
+      {
+        "condition": "::::",
+        "translation": "Highest scoring period total"
+      }
+    ],
+    "228": [
+      {
+        "condition": "=H::::",
+        "translation": "Lowest scoring period total"
+      }
+    ],
+    "229": [
+      {
+        "condition": "=T::::",
+        "translation": "{Team{p1}} exact number of games won"
+      }
+    ],
+    "230": [
+      {
+        "condition": "=H:::=2:",
+        "translation": "Draw at least in two periods"
+      },
+      {
+        "condition": "=H:::=1:",
+        "translation": "Draw at least in one period"
+      }
+    ],
+    "231": [
+      {
+        "condition": "=H::::",
+        "translation": "{Team{p1}} will win at least one period"
+      },
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will win at least one set"
+      }
+    ],
+    "232": [
+      {
+        "condition": "=H::::",
+        "translation": "{Team{p1}} will win at least two period"
+      }
+    ],
+    "233": [
+      {
+        "condition": "::::",
+        "translation": "H+R+E - Hits, runs, errors"
+      }
+    ],
+    "234": [
+      {
+        "condition": "::::",
+        "translation": "First team to score"
+      }
+    ],
+    "235": [
+      {
+        "condition": "::::",
+        "translation": "Number of sets in the match"
+      }
+    ],
+    "242": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1}  To Score Last Goal and Wincast"
+      }
+    ],
+    "243": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1}  To Score {p2} Goal and Wincast"
+      }
+    ],
+    "244": [
+      {
+        "condition": "::::",
+        "translation": "Knife kill"
+      }
+    ],
+    "245": [
+      {
+        "condition": "::::",
+        "translation": "HE Grenade kill"
+      }
+    ],
+    "246": [
+      {
+        "condition": "::::",
+        "translation": "Bomb will be planted on round #{p1}"
+      }
+    ],
+    "247": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to win both pistol rounds"
+      }
+    ],
+    "248": [
+      {
+        "condition": "::::",
+        "translation": "Molotov kill"
+      }
+    ],
+    "249": [
+      {
+        "condition": "=H::::",
+        "translation": "{Team{p1}} to win all periods"
+      }
+    ],
+    "250": [
+      {
+        "condition": "=H::::",
+        "translation": "{Team{p1}} to win by {p2} or {p3} goals"
+      }
+    ],
+    "251": [
+      {
+        "condition": "=H:::>2:",
+        "translation": "Either team to win by {p1} goals or more"
+      },
+      {
+        "condition": "=H:::=2:",
+        "translation": "Either team to win by {p1} goals"
+      },
+      {
+        "condition": "=H:::=1:",
+        "translation": "Either team to win by {p1} goal"
+      }
+    ],
+    "254": [
+      {
+        "condition": "::::",
+        "translation": "Correct number of sets"
+      }
+    ],
+    "255": [
+      {
+        "condition": "::::",
+        "translation": "Winning comparison"
+      }
+    ],
+    "258": [
+      {
+        "condition": "=B::::",
+        "translation": "Most scoring quarter total"
+      },
+      {
+        "condition": "::::",
+        "translation": "Highest scoring set total"
+      }
+    ],
+    "259": [
+      {
+        "condition": "=B::::",
+        "translation": "Lowest scoring quarter total"
+      },
+      {
+        "condition": "::::",
+        "translation": "Lowest scoring set total (without 5th set)"
+      }
+    ],
+    "260": [
+      {
+        "condition": "::::",
+        "translation": "Handicap by Set"
+      }
+    ],
+    "261": [
+      {
+        "condition": "=CS::::",
+        "translation": "To Win More Rounds For Terrorist"
+      }
+    ],
+    "262": [
+      {
+        "condition": "=CS::::",
+        "translation": "To Win More Rounds For Counter Terrorist"
+      }
+    ],
+    "263": [
+      {
+        "condition": "=CS::::",
+        "translation": "First kill in round #{p2}"
+      }
+    ],
+    "264": [
+      {
+        "condition": "::::",
+        "translation": "Total points"
+      }
+    ],
+    "265": [
+      {
+        "condition": "::::",
+        "translation": "Total penalty time, minutes"
+      }
+    ],
+    "266": [
+      {
+        "condition": "::::",
+        "translation": "Total goals in powerplay"
+      }
+    ],
+    "267": [
+      {
+        "condition": "::::",
+        "translation": "Total shorthanded goals"
+      }
+    ],
+    "268": [
+      {
+        "condition": "::::",
+        "translation": "Max amount of penalty minutes"
+      }
+    ],
+    "269": [
+      {
+        "condition": "::::",
+        "translation": "Min amount of penalty minutes"
+      }
+    ],
+    "270": [
+      {
+        "condition": "::::",
+        "translation": "Shots on goal"
+      }
+    ],
+    "271": [
+      {
+        "condition": "::::",
+        "translation": "Total goals in overtime"
+      }
+    ],
+    "272": [
+      {
+        "condition": "::::",
+        "translation": "Total matches, winner will not miss"
+      }
+    ],
+    "273": [
+      {
+        "condition": "::::",
+        "translation": "Total goals  will be scored in the empty gate"
+      }
+    ],
+    "274": [
+      {
+        "condition": "::::",
+        "translation": "Total wins with a difference of {p1} or more goals"
+      }
+    ],
+    "275": [
+      {
+        "condition": "::::",
+        "translation": "Total matches, with a Penalty shots"
+      }
+    ],
+    "276": [
+      {
+        "condition": "::::",
+        "translation": "Total scored goals"
+      }
+    ],
+    "284": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} wins in round {p2}"
+      }
+    ],
+    "285": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} total runs"
+      }
+    ],
+    "286": [
+      {
+        "condition": "::::",
+        "translation": "Who gets more runs, 1st over for each team"
+      }
+    ],
+    "287": [
+      {
+        "condition": "::::",
+        "translation": "Wide balls total"
+      }
+    ],
+    "288": [
+      {
+        "condition": "::::",
+        "translation": "Extras total"
+      }
+    ],
+    "289": [
+      {
+        "condition": "::::",
+        "translation": "Wickets total"
+      }
+    ],
+    "290": [
+      {
+        "condition": "::::",
+        "translation": "Average total"
+      }
+    ],
+    "291": [
+      {
+        "condition": "::::",
+        "translation": "Average total {Team{p1}}"
+      }
+    ],
+    "301": [
+      {
+        "condition": "::::",
+        "translation": "Total Kills"
+      }
+    ],
+    "302": [
+      {
+        "condition": "::::",
+        "translation": "Total time (minutes)"
+      }
+    ],
+    "304": [
+      {
+        "condition": "::::",
+        "translation": "First blood"
+      }
+    ],
+    "305": [
+      {
+        "condition": "::::",
+        "translation": "First points"
+      }
+    ],
+    "306": [
+      {
+        "condition": "::::",
+        "translation": "First successful free throw"
+      }
+    ],
+    "307": [
+      {
+        "condition": "::::",
+        "translation": "First 2-point field goal"
+      }
+    ],
+    "308": [
+      {
+        "condition": "::::",
+        "translation": "First 3-point field goal"
+      }
+    ],
+    "309": [
+      {
+        "condition": "::::",
+        "translation": "First turnover"
+      }
+    ],
+    "310": [
+      {
+        "condition": "::::",
+        "translation": "First block shot"
+      }
+    ],
+    "311": [
+      {
+        "condition": "::::",
+        "translation": "First steal"
+      }
+    ],
+    "312": [
+      {
+        "condition": "::::",
+        "translation": "First foul"
+      }
+    ],
+    "313": [
+      {
+        "condition": "::::",
+        "translation": "Last points"
+      }
+    ],
+    "314": [
+      {
+        "condition": "::::",
+        "translation": "Last successful free throw"
+      }
+    ],
+    "315": [
+      {
+        "condition": "::::",
+        "translation": "Last 2-point field goal"
+      }
+    ],
+    "316": [
+      {
+        "condition": "::::",
+        "translation": "Last 3-point field goal"
+      }
+    ],
+    "317": [
+      {
+        "condition": "::::",
+        "translation": "Last turnover"
+      }
+    ],
+    "318": [
+      {
+        "condition": "::::",
+        "translation": "Last block shot"
+      }
+    ],
+    "319": [
+      {
+        "condition": "::::",
+        "translation": "Last steal"
+      }
+    ],
+    "320": [
+      {
+        "condition": "::::",
+        "translation": "Last foul"
+      }
+    ],
+    "321": [
+      {
+        "condition": "::::",
+        "translation": "Last rebound"
+      }
+    ],
+    "322": [
+      {
+        "condition": "::::",
+        "translation": "The method of the first points {Team{p1}}"
+      }
+    ],
+    "323": [
+      {
+        "condition": "::::",
+        "translation": "The method of the last points {Team{p1}}"
+      }
+    ],
+    "324": [
+      {
+        "condition": "::::",
+        "translation": "Will take first {p1} kills"
+      }
+    ],
+    "325": [
+      {
+        "condition": "::::",
+        "translation": "Highest scoring game total"
+      }
+    ],
+    "326": [
+      {
+        "condition": "::::",
+        "translation": "Lowest scoring game total"
+      }
+    ],
+    "327": [
+      {
+        "condition": "::::",
+        "translation": "Most scoring 1-st half total"
+      }
+    ],
+    "328": [
+      {
+        "condition": "::::",
+        "translation": "Lowest scoring 1-st half total"
+      }
+    ],
+    "329": [
+      {
+        "condition": "::::",
+        "translation": "Most scoring quarter total"
+      }
+    ],
+    "330": [
+      {
+        "condition": "::::",
+        "translation": "Lowest scoring quarter total"
+      }
+    ],
+    "331": [
+      {
+        "condition": "::::",
+        "translation": "Number of home wins in main time"
+      }
+    ],
+    "332": [
+      {
+        "condition": "::::",
+        "translation": "Number of away wins in main time"
+      }
+    ],
+    "333": [
+      {
+        "condition": "::::",
+        "translation": "Number of draws in main time"
+      }
+    ],
+    "334": [
+      {
+        "condition": "::::",
+        "translation": "Number of home wins include overtime"
+      }
+    ],
+    "335": [
+      {
+        "condition": "::::",
+        "translation": "Number of away wins include overtime"
+      }
+    ],
+    "336": [
+      {
+        "condition": "::::",
+        "translation": "Number of home wins in 1-st half"
+      }
+    ],
+    "337": [
+      {
+        "condition": "::::",
+        "translation": "Number of home wins in 1-st quarter"
+      }
+    ],
+    "338": [
+      {
+        "condition": "::::",
+        "translation": "Guests maximum points difference"
+      }
+    ],
+    "339": [
+      {
+        "condition": "::::",
+        "translation": "Correct number of maps"
+      }
+    ],
+    "340": [
+      {
+        "condition": "::::",
+        "translation": "Number of away wins in 1-st half"
+      }
+    ],
+    "341": [
+      {
+        "condition": "::::",
+        "translation": "Number of away wins in 1-st quarter"
+      }
+    ],
+    "342": [
+      {
+        "condition": "::::",
+        "translation": "Number of draws in  1-st half"
+      }
+    ],
+    "343": [
+      {
+        "condition": "::::",
+        "translation": "Number of draws in 1-st quarter"
+      }
+    ],
+    "344": [
+      {
+        "condition": "::::",
+        "translation": "Number of draws  in quarter"
+      }
+    ],
+    "345": [
+      {
+        "condition": "::::",
+        "translation": "Hosts maximum points difference"
+      }
+    ],
+    "346": [
+      {
+        "condition": "::::",
+        "translation": "Who first"
+      }
+    ],
+    "347": [
+      {
+        "condition": "::::",
+        "translation": "Match point total"
+      }
+    ],
+    "348": [
+      {
+        "condition": "::::",
+        "translation": "Set point total"
+      }
+    ],
+    "349": [
+      {
+        "condition": "::::",
+        "translation": "Percentage of points won {Team {p1}} on the first serve"
+      }
+    ],
+    "350": [
+      {
+        "condition": "::::",
+        "translation": "Percentage of points won {Team {p1}} on the second serve"
+      }
+    ],
+    "351": [
+      {
+        "condition": "::::",
+        "translation": "Any Set To Nil"
+      }
+    ],
+    "352": [
+      {
+        "condition": "::::",
+        "translation": "To win match after lossing 0-1"
+      }
+    ],
+    "353": [
+      {
+        "condition": "::::",
+        "translation": "Which player will make the first break"
+      }
+    ],
+    "354": [
+      {
+        "condition": "::::",
+        "translation": "Total destruction Roshans"
+      }
+    ],
+    "355": [
+      {
+        "condition": "::::",
+        "translation": "A courier will be killed"
+      }
+    ],
+    "356": [
+      {
+        "condition": "::::",
+        "translation": "Godlike will take place"
+      }
+    ],
+    "357": [
+      {
+        "condition": "::::",
+        "translation": "Team to kill first Roshan"
+      }
+    ],
+    "359": [
+      {
+        "condition": "::::",
+        "translation": "Total tower destructions"
+      }
+    ],
+    "362": [
+      {
+        "condition": "::::",
+        "translation": "Way of ending"
+      }
+    ],
+    "363": [
+      {
+        "condition": "::::",
+        "translation": "Race to {p1} rounds"
+      }
+    ],
+    "366": [
+      {
+        "condition": "::::",
+        "translation": "Score after first 2 maps"
+      }
+    ],
+    "367": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} win 1-st map and win match"
+      }
+    ],
+    "368": [
+      {
+        "condition": "::::",
+        "translation": "Will take 1st tower"
+      }
+    ],
+    "374": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will take first blood and win 1st map"
+      }
+    ],
+    "375": [
+      {
+        "condition": "::::",
+        "translation": "Divine Rapier"
+      }
+    ],
+    "376": [
+      {
+        "condition": "::::",
+        "translation": "Aegis of the Immortal snatched"
+      }
+    ],
+    "377": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will kill Roshan 2 times in a row"
+      }
+    ],
+    "378": [
+      {
+        "condition": "::::",
+        "translation": "Handicap (including overtime)"
+      }
+    ],
+    "379": [
+      {
+        "condition": "::::",
+        "translation": "Total (including overtime)"
+      }
+    ],
+    "380": [
+      {
+        "condition": "::::",
+        "translation": "Total. Even/odd (including overtime)"
+      }
+    ],
+    "389": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will qualify to PlayOff"
+      }
+    ],
+    "390": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will qualify to PlayOff"
+      }
+    ],
+    "391": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will qualify to Quarterfinal"
+      }
+    ],
+    "392": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will qualify to Semifinal"
+      }
+    ],
+    "393": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will qualify to Final"
+      }
+    ],
+    "394": [
+      {
+        "condition": "::::",
+        "translation": "The winner will be faster at the finish then the second competitor on {p1}-{p2} (sec)"
+      }
+    ],
+    "395": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1}. Finish position"
+      }
+    ],
+    "396": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Misses total"
+      }
+    ],
+    "397": [
+      {
+        "condition": "::::",
+        "translation": "#competitor{p1} - #competitor{p2}. Misses. 1X2"
+      }
+    ],
+    "398": [
+      {
+        "condition": "::::",
+        "translation": "#competitor{p1} - #competitor{p2}. Misses. Handicap"
+      }
+    ],
+    "399": [
+      {
+        "condition": "::::",
+        "translation": "#competitor{p1} - #competitor{p2}. Misses. Total"
+      }
+    ],
+    "401": [
+      {
+        "condition": "::::",
+        "translation": "Result and both to score"
+      }
+    ],
+    "402": [
+      {
+        "condition": "::::",
+        "translation": "Without draw and both to score"
+      }
+    ],
+    "403": [
+      {
+        "condition": "::::",
+        "translation": "Match result (Without draw )"
+      }
+    ],
+    "407": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}}  win in extra time"
+      }
+    ],
+    "408": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} wins in penalty"
+      }
+    ],
+    "409": [
+      {
+        "condition": "=H::::",
+        "translation": "Most scoring home team total"
+      }
+    ],
+    "410": [
+      {
+        "condition": "=H::::",
+        "translation": "Most scoring away team total"
+      }
+    ],
+    "411": [
+      {
+        "condition": "=H::::",
+        "translation": "Most scoring half total"
+      }
+    ],
+    "412": [
+      {
+        "condition": "::::",
+        "translation": "Most scoring home team total"
+      }
+    ],
+    "413": [
+      {
+        "condition": "::::",
+        "translation": "Most scoring away team total"
+      }
+    ],
+    "414": [
+      {
+        "condition": "::::",
+        "translation": "Most scoring half total"
+      }
+    ],
+    "415": [
+      {
+        "condition": "::::",
+        "translation": "Most scoring team total"
+      }
+    ],
+    "417": [
+      {
+        "condition": "::::",
+        "translation": "Total points"
+      }
+    ],
+    "418": [
+      {
+        "condition": "::::",
+        "translation": "Number of matches in which 0 or 1 goals will be scored"
+      }
+    ],
+    "419": [
+      {
+        "condition": "::::",
+        "translation": "Number of matches in which 2 or 3 goals will be scored"
+      }
+    ],
+    "420": [
+      {
+        "condition": "::::",
+        "translation": "Number of matches in which 4 or more goals will be scored"
+      }
+    ],
+    "421": [
+      {
+        "condition": "::::",
+        "translation": "At least one match will end with score {p1}:{p2}"
+      }
+    ],
+    "422": [
+      {
+        "condition": "::::",
+        "translation": "At least one match will end with score {p1}:{p2} or {p3}:{p4}"
+      }
+    ],
+    "424": [
+      {
+        "condition": "::::",
+        "translation": "Most scoring team total"
+      }
+    ],
+    "427": [
+      {
+        "condition": "::::",
+        "translation": "Last match corner"
+      }
+    ],
+    "428": [
+      {
+        "condition": "::::",
+        "translation": "Half with most corners"
+      }
+    ],
+    "429": [
+      {
+        "condition": "::::",
+        "translation": "Corners in first {p1} minutes"
+      }
+    ],
+    "430": [
+      {
+        "condition": "::::",
+        "translation": "First corner"
+      }
+    ],
+    "431": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will not miss the goal"
+      }
+    ],
+    "432": [
+      {
+        "condition": "::::",
+        "translation": "All teams will score different points"
+      }
+    ],
+    "433": [
+      {
+        "condition": "::::",
+        "translation": "How many points will the team that takes place #{p1}"
+      }
+    ],
+    "452": [
+      {
+        "condition": "::::",
+        "translation": "Number of even over than number of odd"
+      }
+    ],
+    "453": [
+      {
+        "condition": "::::",
+        "translation": "Number of odd over than number of even"
+      }
+    ],
+    "454": [
+      {
+        "condition": "::::",
+        "translation": "Numbers of even and odd are equal"
+      }
+    ],
+    "455": [
+      {
+        "condition": "::::",
+        "translation": "Sum of the smallest and the biggest numbers"
+      }
+    ],
+    "457": [
+      {
+        "condition": "::::",
+        "translation": "Amount of numbers from {p3} to {p4} inclusive"
+      }
+    ],
+    "459": [
+      {
+        "condition": "::::",
+        "translation": "Amount of even numbers"
+      }
+    ],
+    "460": [
+      {
+        "condition": "::::",
+        "translation": "Amount of odd numbers"
+      }
+    ],
+    "461": [
+      {
+        "condition": "::::",
+        "translation": "At least one of the numbers is multiple of {p1}"
+      }
+    ],
+    "462": [
+      {
+        "condition": "::::",
+        "translation": "Sum of all numbers (range)"
+      }
+    ],
+    "463": [
+      {
+        "condition": "::::",
+        "translation": "Sum of all dropped numbers"
+      }
+    ],
+    "464": [
+      {
+        "condition": "::::",
+        "translation": "Sum of the smallest and biggest number"
+      }
+    ],
+    "468": [
+      {
+        "condition": "::::",
+        "translation": "Adjacent numbers will drop"
+      }
+    ],
+    "469": [
+      {
+        "condition": "::::",
+        "translation": "Sum of all dropped even numbers"
+      }
+    ],
+    "470": [
+      {
+        "condition": "::::",
+        "translation": "Sum of all dropped odd numbers"
+      }
+    ],
+    "471": [
+      {
+        "condition": "::::",
+        "translation": "Sum of even numbers over than sum of odd"
+      }
+    ],
+    "472": [
+      {
+        "condition": "::::",
+        "translation": "Ball number {p1}. Even/odd"
+      }
+    ],
+    "473": [
+      {
+        "condition": "::::",
+        "translation": "Dropped ball"
+      }
+    ],
+    "474": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} to lead during the match"
+      }
+    ],
+    "476": [
+      {
+        "condition": "::::",
+        "translation": "The first number over than the last"
+      }
+    ],
+    "477": [
+      {
+        "condition": "::::",
+        "translation": "In the match will be scored goals by head"
+      }
+    ],
+    "478": [
+      {
+        "condition": "::::",
+        "translation": "Win {Team{p1}}  win without being behind"
+      }
+    ],
+    "479": [
+      {
+        "condition": "::::",
+        "translation": "Penalty or red card"
+      }
+    ],
+    "480": [
+      {
+        "condition": "::::",
+        "translation": "Hit the crossbar or posts"
+      }
+    ],
+    "481": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will score right leg"
+      }
+    ],
+    "482": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will score left leg"
+      }
+    ],
+    "483": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will score head"
+      }
+    ],
+    "484": [
+      {
+        "condition": "::::",
+        "translation": "Total Goal Minutes"
+      }
+    ],
+    "485": [
+      {
+        "condition": "::::",
+        "translation": "In the match will be scored goals by right leg"
+      }
+    ],
+    "486": [
+      {
+        "condition": "::::",
+        "translation": "In the match will be scored goals by left leg"
+      }
+    ],
+    "487": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} win"
+      }
+    ],
+    "488": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} win"
+      }
+    ],
+    "489": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} win"
+      }
+    ],
+    "490": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} win"
+      }
+    ],
+    "491": [
+      {
+        "condition": "::::",
+        "translation": "Total Goal Minutes (additional time = 45 mins)"
+      }
+    ],
+    "492": [
+      {
+        "condition": "::::",
+        "translation": "All goalless intervals over {p1} minutes"
+      }
+    ],
+    "493": [
+      {
+        "condition": "::::",
+        "translation": "All goalless intervals {Team{p1}} over {p2} minutes"
+      }
+    ],
+    "494": [
+      {
+        "condition": "::::",
+        "translation": "All goalless intervals under {p1} minutes"
+      }
+    ],
+    "495": [
+      {
+        "condition": "::::",
+        "translation": "All goalless intervals {Team{p1}} under {p2} minutes"
+      }
+    ],
+    "496": [
+      {
+        "condition": "::::",
+        "translation": "Total goals beyond penalty area"
+      }
+    ],
+    "497": [
+      {
+        "condition": "::::",
+        "translation": "Total goals within penalty area"
+      }
+    ],
+    "498": [
+      {
+        "condition": "::::",
+        "translation": "Total goals within goal area"
+      }
+    ],
+    "499": [
+      {
+        "condition": "::::",
+        "translation": "To win"
+      }
+    ],
+    "500": [
+      {
+        "condition": "::::",
+        "translation": "Match winner will be defined by penalty"
+      }
+    ],
+    "501": [
+      {
+        "condition": "::::",
+        "translation": "Tied Match"
+      }
+    ],
+    "502": [
+      {
+        "condition": "::::",
+        "translation": "Dismissal #{p1} method (2 ways)"
+      }
+    ],
+    "503": [
+      {
+        "condition": "::::",
+        "translation": "Dismissal #{p1} method (6 ways)"
+      }
+    ],
+    "504": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} total range"
+      }
+    ],
+    "505": [
+      {
+        "condition": "::::",
+        "translation": "Team with highest scoring over"
+      }
+    ],
+    "506": [
+      {
+        "condition": "::::",
+        "translation": "Total in highest scoring over"
+      }
+    ],
+    "507": [
+      {
+        "condition": "::::",
+        "translation": "Winner after {p1} overs"
+      }
+    ],
+    "508": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} total after {p2} overs"
+      }
+    ],
+    "509": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} total before dissmissal #{p3}"
+      }
+    ],
+    "510": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} first {p3} overs total"
+      }
+    ],
+    "511": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} first {p2} overs range total"
+      }
+    ],
+    "512": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Runs total in delivery {p3}"
+      }
+    ],
+    "513": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Runs total. Even/odd"
+      }
+    ],
+    "550": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Goals total"
+      }
+    ],
+    "551": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Conceded goals total"
+      }
+    ],
+    "552": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Earned points total"
+      }
+    ],
+    "553": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will has fastest lap"
+      }
+    ],
+    "554": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will reach finish"
+      }
+    ],
+    "555": [
+      {
+        "condition": "::::",
+        "translation": "Tournament goals total"
+      }
+    ],
+    "556": [
+      {
+        "condition": "::::",
+        "translation": "In what stage will finish participation #competitor{p1}"
+      }
+    ],
+    "557": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will score least goals in tournament"
+      }
+    ],
+    "558": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will score most goals in tournament"
+      }
+    ],
+    "559": [
+      {
+        "condition": "::::",
+        "translation": "#competitor{p1} exact earned points in group"
+      }
+    ],
+    "560": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Total earned points in group"
+      }
+    ],
+    "561": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Total scored goals in group"
+      }
+    ],
+    "562": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Total conceded goals in group"
+      }
+    ],
+    "563": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will score most goals in group"
+      }
+    ],
+    "564": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will score least goals in group"
+      }
+    ],
+    "565": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will conceded most goals in group"
+      }
+    ],
+    "566": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will conceded least goals in group"
+      }
+    ],
+    "567": [
+      {
+        "condition": "::::",
+        "translation": "Number of draw matches in group"
+      }
+    ],
+    "568": [
+      {
+        "condition": "::::",
+        "translation": "Group winner will earn {p1} points"
+      }
+    ],
+    "569": [
+      {
+        "condition": "::::",
+        "translation": "Group loser will Earn {p1} points"
+      }
+    ],
+    "570": [
+      {
+        "condition": "::::",
+        "translation": "Goals total in group"
+      }
+    ],
+    "571": [
+      {
+        "condition": "::::",
+        "translation": "At least one team will score more than {p1} goals"
+      }
+    ],
+    "572": [
+      {
+        "condition": "::::",
+        "translation": "At least one team will score {p1} goals"
+      }
+    ],
+    "573": [
+      {
+        "condition": "::::",
+        "translation": "At least one team will concede more than {p1} goals"
+      }
+    ],
+    "574": [
+      {
+        "condition": "::::",
+        "translation": "At least one team will concede {p1} goals"
+      }
+    ],
+    "575": [
+      {
+        "condition": "::::",
+        "translation": "{p1} teams will earn equal number of points"
+      }
+    ],
+    "576": [
+      {
+        "condition": "::::",
+        "translation": "Total earned points odd/even"
+      }
+    ],
+    "577": [
+      {
+        "condition": "::::",
+        "translation": "All fights will end inside the distance"
+      }
+    ],
+    "578": [
+      {
+        "condition": "::::",
+        "translation": "All fights will end by decision"
+      }
+    ],
+    "579": [
+      {
+        "condition": "::::",
+        "translation": "At least one fight will end by split decision"
+      }
+    ],
+    "580": [
+      {
+        "condition": ":::=0:",
+        "translation": "No fights will end by KO/TKO"
+      },
+      {
+        "condition": ":::>1:",
+        "translation": "{p1} numbers of fights will end by KO/TKO"
+      },
+      {
+        "condition": ":::=1:",
+        "translation": "{p1} numbers of fights will end by KO/TKO"
+      }
+    ],
+    "581": [
+      {
+        "condition": ":::=0:",
+        "translation": "No fights will end by submission, hold or lock"
+      },
+      {
+        "condition": ":::>1:",
+        "translation": "{p1} number of fights will end by submission, hold or lock"
+      },
+      {
+        "condition": ":::=1:",
+        "translation": "{p1} number of fights will end by submission, hold or lock"
+      }
+    ],
+    "582": [
+      {
+        "condition": ":::=0:",
+        "translation": "No fights will end by decision"
+      },
+      {
+        "condition": ":::>1:",
+        "translation": "{p1} number of fights will end by decision"
+      },
+      {
+        "condition": ":::=1:",
+        "translation": "{p1} number of fights will end by decision"
+      }
+    ],
+    "583": [
+      {
+        "condition": "::::",
+        "translation": "{p1} fights will end by KO/TKO/DQ"
+      }
+    ],
+    "584": [
+      {
+        "condition": "::::",
+        "translation": "{p1} number of fights will end by submission, hold or lock"
+      }
+    ],
+    "585": [
+      {
+        "condition": "::::",
+        "translation": "{p1} number of fights will end by decision"
+      }
+    ],
+    "586": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Best goalscorer"
+      }
+    ],
+    "587": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will win group"
+      }
+    ],
+    "588": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Not finish race"
+      }
+    ],
+    "589": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Whose team will win"
+      }
+    ],
+    "590": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Leader after lap #{p2}"
+      }
+    ],
+    "591": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Racer from what team leaves race first"
+      }
+    ],
+    "592": [
+      {
+        "condition": "::::",
+        "translation": "Safety car"
+      }
+    ],
+    "593": [
+      {
+        "condition": "::::",
+        "translation": "Total racers qualified"
+      }
+    ],
+    "594": [
+      {
+        "condition": "::::",
+        "translation": "Total racers not finished lap #{p1}"
+      }
+    ],
+    "595": [
+      {
+        "condition": "::::",
+        "translation": "Winner separation from racer that finish on position #{p1} (seconds)"
+      }
+    ],
+    "596": [
+      {
+        "condition": "::::",
+        "translation": "Winner starting position"
+      }
+    ],
+    "597": [
+      {
+        "condition": "::::",
+        "translation": "Session #{p2} winner{TeamID1}"
+      }
+    ],
+    "598": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will get to session #{p2}"
+      }
+    ],
+    "602": [
+      {
+        "condition": ":::>5:",
+        "translation": "Score after first {p1} game"
+      },
+      {
+        "condition": "::::",
+        "translation": "Score after first {p1} game"
+      }
+    ],
+    "607": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} win 1-st map and lose match"
+      }
+    ],
+    "610": [
+      {
+        "condition": "::::",
+        "translation": "KO in Round"
+      }
+    ],
+    "611": [
+      {
+        "condition": "::::",
+        "translation": "At what round fight will be finished"
+      }
+    ],
+    "612": [
+      {
+        "condition": "::::",
+        "translation": "At what round fight will be finished"
+      }
+    ],
+    "613": [
+      {
+        "condition": "::::",
+        "translation": "Winning Inside Distance"
+      }
+    ],
+    "614": [
+      {
+        "condition": "::::",
+        "translation": "Winning method"
+      }
+    ],
+    "615": [
+      {
+        "condition": "::::",
+        "translation": "Winning method"
+      }
+    ],
+    "616": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} wins by Decision"
+      }
+    ],
+    "617": [
+      {
+        "condition": "::::",
+        "translation": "Winning by Decision"
+      }
+    ],
+    "618": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Wins by Unanimous Decision"
+      }
+    ],
+    "619": [
+      {
+        "condition": "::::",
+        "translation": "Winning by Unanimous Decision"
+      }
+    ],
+    "620": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Wins by Split Decision"
+      }
+    ],
+    "621": [
+      {
+        "condition": "::::",
+        "translation": "Win by Split Decision"
+      }
+    ],
+    "622": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Win by KO, TKO or DQ"
+      }
+    ],
+    "623": [
+      {
+        "condition": "::::",
+        "translation": "Win by KO, TKO or DQ"
+      }
+    ],
+    "624": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Wins by Submission"
+      }
+    ],
+    "625": [
+      {
+        "condition": "::::",
+        "translation": "Winning by Submission"
+      }
+    ],
+    "626": [
+      {
+        "condition": "::::",
+        "translation": "{Team1} Wins in Rounds {p1}-{p2}"
+      }
+    ],
+    "627": [
+      {
+        "condition": "::::",
+        "translation": "{Team2} Wins in Rounds {p1}-{p2}"
+      }
+    ],
+    "628": [
+      {
+        "condition": "::::",
+        "translation": "{Team1} Wins in Round #{p1} or Decision"
+      }
+    ],
+    "629": [
+      {
+        "condition": "::::",
+        "translation": "{Team2} Wins in Round #{p1} or Decision"
+      }
+    ],
+    "630": [
+      {
+        "condition": "::::",
+        "translation": "Win in Rounds {p1}-{p2}"
+      }
+    ],
+    "631": [
+      {
+        "condition": "::::",
+        "translation": "Winning in round #{p1} or Decision"
+      }
+    ],
+    "632": [
+      {
+        "condition": "::::",
+        "translation": "{Team1} Wins by KO/TKO/DQ in Round #{p1}"
+      }
+    ],
+    "633": [
+      {
+        "condition": "::::",
+        "translation": "{Team2} Wins by KO/TKO/DQ in Round #{p1}"
+      }
+    ],
+    "634": [
+      {
+        "condition": "::::",
+        "translation": "Winning by KO/TKO/DQ in Round #{p1}"
+      }
+    ],
+    "635": [
+      {
+        "condition": "::::",
+        "translation": "{Team1} Wins by Submission  in Round #{p1}"
+      }
+    ],
+    "636": [
+      {
+        "condition": "::::",
+        "translation": "{Team2} Wins by Submission  in Round #{p1}"
+      }
+    ],
+    "637": [
+      {
+        "condition": "::::",
+        "translation": "Winning by Submission in Round #{p1}"
+      }
+    ],
+    "638": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} The fastest КО/ТКО in the Fight Night"
+      }
+    ],
+    "639": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} The fastest Submission in the Fight Night"
+      }
+    ],
+    "640": [
+      {
+        "condition": "::::",
+        "translation": "Fight to end within 00:00 - 00:59 sec. of Round 1"
+      }
+    ],
+    "641": [
+      {
+        "condition": "::::",
+        "translation": "Winning in round #{p1}"
+      }
+    ],
+    "642": [
+      {
+        "condition": "::::",
+        "translation": "Fight Night"
+      }
+    ],
+    "643": [
+      {
+        "condition": "::::",
+        "translation": "Yellow or red card from 1st to {p1} min (dynamic value)"
+      }
+    ],
+    "644": [
+      {
+        "condition": "::::",
+        "translation": "Yellow or red card after {p1} min (dynamic value)"
+      }
+    ],
+    "645": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Yellow or red card from 1st to {p2} min (dynamic value)"
+      }
+    ],
+    "650": [
+      {
+        "condition": "::::",
+        "translation": "Yellow or red card"
+      }
+    ],
+    "651": [
+      {
+        "condition": "::::",
+        "translation": "Yellow or red card {Team{p1}}"
+      }
+    ],
+    "652": [
+      {
+        "condition": "::::",
+        "translation": "Half with most yellow cards"
+      }
+    ],
+    "653": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1} will get a yellow or red card"
+      }
+    ],
+    "654": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1} will get a red card"
+      }
+    ],
+    "656": [
+      {
+        "condition": "::::",
+        "translation": "Total fouls against #player{p1}"
+      }
+    ],
+    "657": [
+      {
+        "condition": "::::",
+        "translation": "Who will make the most fouls #player{p1} - #player{p2}"
+      }
+    ],
+    "658": [
+      {
+        "condition": "::::",
+        "translation": "Against who will make the most fouls #player{p1} - #player{p2}"
+      }
+    ],
+    "710": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Winning Inside Distance"
+      }
+    ],
+    "712": [
+      {
+        "condition": "::::",
+        "translation": "Any fighter's corner will throw out the towel"
+      }
+    ],
+    "713": [
+      {
+        "condition": "::::",
+        "translation": "Both fighters are knockeddown"
+      }
+    ],
+    "714": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will be knockeddown"
+      }
+    ],
+    "715": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will be knockeddown and win"
+      }
+    ],
+    "716": [
+      {
+        "condition": "::::",
+        "translation": "Knockdown in the first round"
+      }
+    ],
+    "717": [
+      {
+        "condition": "::::",
+        "translation": "Victory round Odd"
+      }
+    ],
+    "718": [
+      {
+        "condition": "::::",
+        "translation": "Fight will end in the first 60 seconds"
+      }
+    ],
+    "719": [
+      {
+        "condition": "::::",
+        "translation": "Knockdown in the first 60 seconds"
+      }
+    ],
+    "720": [
+      {
+        "condition": "::::",
+        "translation": "Knockout (KO) in the {p1} round"
+      }
+    ],
+    "721": [
+      {
+        "condition": "::::",
+        "translation": "Knockdown in the {p1} round"
+      }
+    ],
+    "722": [
+      {
+        "condition": "::::",
+        "translation": "Leg kick during a fight"
+      }
+    ],
+    "723": [
+      {
+        "condition": "::::",
+        "translation": "Elbow strike during a fight"
+      }
+    ],
+    "724": [
+      {
+        "condition": "::::",
+        "translation": "Any fighter will fall out of the Boxing ring"
+      }
+    ],
+    "725": [
+      {
+        "condition": "::::",
+        "translation": "Any fighter will brok hand during a fight"
+      }
+    ],
+    "726": [
+      {
+        "condition": "::::",
+        "translation": "Any fighter will bite an opponent"
+      }
+    ],
+    "727": [
+      {
+        "condition": "::::",
+        "translation": "Fan will runs out into the ring during a fight"
+      }
+    ],
+    "728": [
+      {
+        "condition": "::::",
+        "translation": "Any fighter will lose glove during a fight"
+      }
+    ],
+    "729": [
+      {
+        "condition": "::::",
+        "translation": "Fighters don`t hug after a fight"
+      }
+    ],
+    "730": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will take first blood and lose 1st map"
+      }
+    ],
+    "731": [
+      {
+        "condition": "::::",
+        "translation": "Vards Total"
+      }
+    ],
+    "732": [
+      {
+        "condition": "::::",
+        "translation": "Teleports Total"
+      }
+    ],
+    "733": [
+      {
+        "condition": "::::",
+        "translation": "BuyBack Total"
+      }
+    ],
+    "734": [
+      {
+        "condition": "::::",
+        "translation": "Megacreeps"
+      }
+    ],
+    "735": [
+      {
+        "condition": "::::",
+        "translation": "Rampage"
+      }
+    ],
+    "736": [
+      {
+        "condition": "::::",
+        "translation": "First Glif"
+      }
+    ],
+    "737": [
+      {
+        "condition": "::::",
+        "translation": "Firs BuyBack"
+      }
+    ],
+    "738": [
+      {
+        "condition": "::::",
+        "translation": "Map Result and Total"
+      }
+    ],
+    "739": [
+      {
+        "condition": "::::",
+        "translation": "First yellow or red card"
+      }
+    ],
+    "740": [
+      {
+        "condition": "::::",
+        "translation": "Last yellow or red card"
+      }
+    ],
+    "741": [
+      {
+        "condition": "::::",
+        "translation": "Both teams to score and Total {p1}"
+      }
+    ],
+    "743": [
+      {
+        "condition": "::::",
+        "translation": "First goal will score"
+      }
+    ],
+    "744": [
+      {
+        "condition": "::::",
+        "translation": "First goal {Team{p1}} will score"
+      }
+    ],
+    "745": [
+      {
+        "condition": "::::",
+        "translation": "Both teams to score and {Team{p1}} wins"
+      }
+    ],
+    "746": [
+      {
+        "condition": "::::",
+        "translation": "Both teams to score and draw"
+      }
+    ],
+    "747": [
+      {
+        "condition": "::::",
+        "translation": "Early goal in the match (before {p1} minute)"
+      }
+    ],
+    "750": [
+      {
+        "condition": "::::",
+        "translation": "The end of the fight in the minute"
+      }
+    ],
+    "751": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will win in first 60 seconds"
+      }
+    ],
+    "752": [
+      {
+        "condition": "::::",
+        "translation": "Round #{p1} will be started"
+      }
+    ],
+    "753": [
+      {
+        "condition": "::::",
+        "translation": "Score after first 2 sets"
+      }
+    ],
+    "754": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will win {p2} games in a row on serve"
+      }
+    ],
+    "800": [
+      {
+        "condition": "::::",
+        "translation": "Asian Handicap"
+      }
+    ],
+    "801": [
+      {
+        "condition": "=H:=1:::",
+        "translation": "Total points #player{p1}"
+      },
+      {
+        "condition": "=CK::::",
+        "translation": "Total Runs #player{p1}"
+      },
+      {
+        "condition": "::::",
+        "translation": "Total #player{p1}"
+      }
+    ],
+    "802": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1} To Score Goal and Wincast"
+      }
+    ],
+    "803": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1}  To Score {p2} Goal and Wincast"
+      }
+    ],
+    "804": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1}  To Score Last Goal and Wincast"
+      }
+    ],
+    "805": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1} to Score Goal and Scorecast"
+      }
+    ],
+    "806": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1} to Score {p2} Goal and Score Сast"
+      }
+    ],
+    "807": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1} To Score Last Goal and Scorecast"
+      }
+    ],
+    "808": [
+      {
+        "condition": "::::",
+        "translation": "Who will score more goals in the match #player{p1} - #player{p2}"
+      }
+    ],
+    "809": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1} to score in both halves"
+      }
+    ],
+    "810": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1} will play all match"
+      }
+    ],
+    "811": [
+      {
+        "condition": "::::",
+        "translation": "Tiebreak. Point #{p1}"
+      }
+    ],
+    "812": [
+      {
+        "condition": "::::",
+        "translation": "Both teams to score in both halves"
+      }
+    ],
+    "813": [
+      {
+        "condition": "=DT::::",
+        "translation": "To win {p1} Leg"
+      }
+    ],
+    "814": [
+      {
+        "condition": "::::",
+        "translation": "Score after {p1} minute"
+      }
+    ],
+    "815": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} will score before {p2} minute"
+      }
+    ],
+    "816": [
+      {
+        "condition": "=F::::",
+        "translation": "Will be corner"
+      }
+    ],
+    "817": [
+      {
+        "condition": "=F::::",
+        "translation": "{Team{p1}} Will be corner"
+      }
+    ],
+    "818": [
+      {
+        "condition": "::::",
+        "translation": "The first number over than the second"
+      }
+    ],
+    "819": [
+      {
+        "condition": "::::",
+        "translation": "The first number over than the third"
+      }
+    ],
+    "820": [
+      {
+        "condition": "::::",
+        "translation": "At least one of the numbers is multiple of {p1} (0- not multiple)"
+      }
+    ],
+    "821": [
+      {
+        "condition": "::::",
+        "translation": "Sum of all numbers is multiple {p1} (0-is not multiple)"
+      }
+    ],
+    "823": [
+      {
+        "condition": "::::",
+        "translation": "At least number {p1} or {p2} will drop"
+      }
+    ],
+    "824": [
+      {
+        "condition": "::::",
+        "translation": "All of numbers are from {p1} to {p2} inclusively"
+      }
+    ],
+    "825": [
+      {
+        "condition": "::::",
+        "translation": "Sum of odd numbers over than sum of even"
+      }
+    ],
+    "826": [
+      {
+        "condition": "::::",
+        "translation": "Matching numbers will appear"
+      }
+    ],
+    "827": [
+      {
+        "condition": "::::",
+        "translation": "Sum of all dropped numbers. Even/odd"
+      }
+    ],
+    "828": [
+      {
+        "condition": "::::",
+        "translation": "Sum of all dropped numbers"
+      }
+    ],
+    "829": [
+      {
+        "condition": "::::",
+        "translation": "Difference between the biggest and the smallest numbers"
+      }
+    ],
+    "830": [
+      {
+        "condition": "::::",
+        "translation": "Sum of the smallest and the biggest numbers. Even/odd"
+      }
+    ],
+    "831": [
+      {
+        "condition": "::::",
+        "translation": "Difference between the biggest and the smallest numbers"
+      }
+    ],
+    "832": [
+      {
+        "condition": "::::",
+        "translation": "Comparison of the number of balls with even and odd numbers"
+      }
+    ],
+    "900": [
+      {
+        "condition": "::::",
+        "translation": "{FreeFormTemplateID}"
+      }
+    ],
+    "901": [
+      {
+        "condition": "::::",
+        "translation": "{FreeFormTemplateID}"
+      }
+    ],
+    "905": [
+      {
+        "condition": "::::",
+        "translation": "Most Sixes"
+      }
+    ],
+    "906": [
+      {
+        "condition": "::::",
+        "translation": "The best result of the first partnership"
+      }
+    ],
+    "907": [
+      {
+        "condition": "::::",
+        "translation": "Series winner"
+      }
+    ],
+    "908": [
+      {
+        "condition": "::::",
+        "translation": "Toss winner"
+      }
+    ],
+    "909": [
+      {
+        "condition": "::::",
+        "translation": "Most Fours"
+      }
+    ],
+    "910": [
+      {
+        "condition": "::::",
+        "translation": "Most Run Outs Whilst Fielding"
+      }
+    ],
+    "911": [
+      {
+        "condition": "::::",
+        "translation": "Total Fours"
+      }
+    ],
+    "912": [
+      {
+        "condition": "::::",
+        "translation": "Total Sixes"
+      }
+    ],
+    "913": [
+      {
+        "condition": "::::",
+        "translation": "Will score {p1} runs"
+      }
+    ],
+    "914": [
+      {
+        "condition": "::::",
+        "translation": "Best score for the first {p1} overs"
+      }
+    ],
+    "915": [
+      {
+        "condition": "::::",
+        "translation": "Highest individual score"
+      }
+    ],
+    "916": [
+      {
+        "condition": "::::",
+        "translation": "Total  Run Outs"
+      }
+    ],
+    "941": [
+      {
+        "condition": "::::",
+        "translation": "Will ACE"
+      }
+    ],
+    "942": [
+      {
+        "condition": "::::",
+        "translation": "Zeus X27 kill"
+      }
+    ],
+    "943": [
+      {
+        "condition": "::::",
+        "translation": "To win more clutch rounds"
+      }
+    ],
+    "944": [
+      {
+        "condition": "::::",
+        "translation": "More first kills"
+      }
+    ],
+    "945": [
+      {
+        "condition": "::::",
+        "translation": "Total rounds won by time running out"
+      }
+    ],
+    "946": [
+      {
+        "condition": "::::",
+        "translation": "Total rounds won by bomb explosion"
+      }
+    ],
+    "947": [
+      {
+        "condition": "::::",
+        "translation": "Total rounds won by bomb defusing"
+      }
+    ],
+    "948": [
+      {
+        "condition": "::::",
+        "translation": "Who destroy first barak"
+      }
+    ],
+    "949": [
+      {
+        "condition": "::::",
+        "translation": "First blood before creeps"
+      }
+    ],
+    "950": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}{TeamID2}H2H"
+      }
+    ],
+    "951": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Goals total"
+      }
+    ],
+    "952": [
+      {
+        "condition": "::::",
+        "translation": "Map Pick {Team{p1}}"
+      }
+    ],
+    "953": [
+      {
+        "condition": "=CS::::",
+        "translation": "To Win More Rounds For Terrorist"
+      }
+    ],
+    "954": [
+      {
+        "condition": "=CS::::",
+        "translation": "To Win More Rounds For Counter Terrorist"
+      }
+    ],
+    "955": [
+      {
+        "condition": "=CK::::",
+        "translation": "#player{p1} to score {p2} runs"
+      }
+    ],
+    "957": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} dismissal"
+      }
+    ],
+    "958": [
+      {
+        "condition": "=CK::::",
+        "translation": "Top bowler"
+      }
+    ],
+    "959": [
+      {
+        "condition": "=CK::::",
+        "translation": "Top batter"
+      }
+    ],
+    "960": [
+      {
+        "condition": "=CK::::",
+        "translation": "Team with top batter"
+      }
+    ],
+    "961": [
+      {
+        "condition": "=CK::::",
+        "translation": "Team with top bowler"
+      }
+    ],
+    "962": [
+      {
+        "condition": "=CK::::",
+        "translation": "Which team wins the coin toss"
+      }
+    ],
+    "963": [
+      {
+        "condition": "=CK::::",
+        "translation": "Player of the match"
+      }
+    ],
+    "964": [
+      {
+        "condition": "=CK::::",
+        "translation": "#player{p1} Total dismissals"
+      }
+    ],
+    "965": [
+      {
+        "condition": "=CK::::",
+        "translation": "Top batter total"
+      }
+    ],
+    "966": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} Top bowler"
+      }
+    ],
+    "967": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} Top batter"
+      }
+    ],
+    "968": [
+      {
+        "condition": "=CK::::",
+        "translation": "#player{p1} Total Fours"
+      }
+    ],
+    "969": [
+      {
+        "condition": "=CK::::",
+        "translation": "#player{p1} Total Sixes"
+      }
+    ],
+    "970": [
+      {
+        "condition": "=CK::::",
+        "translation": "Most keeper catches"
+      }
+    ],
+    "971": [
+      {
+        "condition": "=CK::::",
+        "translation": "Most catches"
+      }
+    ],
+    "972": [
+      {
+        "condition": "=CK::::",
+        "translation": "Most keeper stumpings"
+      }
+    ],
+    "973": [
+      {
+        "condition": "=CK::::",
+        "translation": "Most Extras"
+      }
+    ],
+    "974": [
+      {
+        "condition": "=CK::::",
+        "translation": "Total in highest scoring over"
+      }
+    ],
+    "975": [
+      {
+        "condition": "=CK::::",
+        "translation": "Dismissals Total"
+      }
+    ],
+    "976": [
+      {
+        "condition": "=CK::::",
+        "translation": "At least one player will #{p1} runs"
+      }
+    ],
+    "977": [
+      {
+        "condition": "=CK::::",
+        "translation": "1st. Partnership. Best result"
+      }
+    ],
+    "978": [
+      {
+        "condition": "=CK::::",
+        "translation": "Total Ducks"
+      }
+    ],
+    "980": [
+      {
+        "condition": "=CK::::",
+        "translation": "Bowlers H2H. #player{p1} or #player{p2}"
+      }
+    ],
+    "981": [
+      {
+        "condition": "=CK::::",
+        "translation": "Batters H2H. #player{p1} or #player{p2}"
+      }
+    ],
+    "982": [
+      {
+        "condition": "=CK::::",
+        "translation": "#player{p1} Dismissal method"
+      }
+    ],
+    "983": [
+      {
+        "condition": "=CK::::",
+        "translation": "Dismissal #{p1} method (7 ways)"
+      }
+    ],
+    "984": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} total at #{p3} dismissal"
+      }
+    ],
+    "985": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} total dismissals at first {p3} overs"
+      }
+    ],
+    "986": [
+      {
+        "condition": "=CK::::",
+        "translation": "Team with highest score at #{p1} dismissal"
+      }
+    ],
+    "987": [
+      {
+        "condition": "=CK::::",
+        "translation": "Win at first {p1} overs"
+      }
+    ],
+    "988": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} total runs at first {p3} overs"
+      }
+    ],
+    "989": [
+      {
+        "condition": "=CK::::",
+        "translation": "Partnership. Will be first Batter Out"
+      }
+    ],
+    "990": [
+      {
+        "condition": "=CK::::",
+        "translation": "First Ball Of Match"
+      }
+    ],
+    "991": [
+      {
+        "condition": "=CK::::",
+        "translation": "Series winner"
+      }
+    ],
+    "992": [
+      {
+        "condition": "=CK::::",
+        "translation": "Series Correct Score"
+      }
+    ],
+    "993": [
+      {
+        "condition": "=CK::::",
+        "translation": "Series Handicap"
+      }
+    ],
+    "994": [
+      {
+        "condition": "=CK::::",
+        "translation": "Series winner after 2 Tests"
+      }
+    ],
+    "995": [
+      {
+        "condition": "=CK::::",
+        "translation": "Result of the 1st Match Test/Series"
+      }
+    ],
+    "996": [
+      {
+        "condition": "=CK::::",
+        "translation": "Team with Highest Innings Score"
+      }
+    ],
+    "997": [
+      {
+        "condition": "=CK::::",
+        "translation": "Player of the Series"
+      }
+    ],
+    "998": [
+      {
+        "condition": "=CK::::",
+        "translation": "Partnership. Н2Н. #player{p1} or #player{p2}"
+      }
+    ],
+    "999": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Downgrade in class"
+      }
+    ],
+    "1000": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Will rise in class"
+      }
+    ],
+    "1001": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Position on finish {p2}"
+      }
+    ],
+    "1002": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Winner"
+      }
+    ],
+    "1003": [
+      {
+        "condition": "=B::::",
+        "translation": "First successful free throw"
+      }
+    ],
+    "1004": [
+      {
+        "condition": "=B::::",
+        "translation": "First 2-point field goal"
+      }
+    ],
+    "1005": [
+      {
+        "condition": "=B::::",
+        "translation": "First 3-point field goal"
+      }
+    ],
+    "1006": [
+      {
+        "condition": "=B::::",
+        "translation": "First turnover"
+      }
+    ],
+    "1007": [
+      {
+        "condition": "=B::::",
+        "translation": "First block shot"
+      }
+    ],
+    "1008": [
+      {
+        "condition": "=B::::",
+        "translation": "First steal"
+      }
+    ],
+    "1009": [
+      {
+        "condition": "=B::::",
+        "translation": "First foul"
+      }
+    ],
+    "1010": [
+      {
+        "condition": "=B::::",
+        "translation": "Last points"
+      }
+    ],
+    "1011": [
+      {
+        "condition": "=B::::",
+        "translation": "Last successful free throw"
+      }
+    ],
+    "1012": [
+      {
+        "condition": "=B::::",
+        "translation": "Last 2-point field goal"
+      }
+    ],
+    "1013": [
+      {
+        "condition": "=B::::",
+        "translation": "Last 3-point field goal"
+      }
+    ],
+    "1014": [
+      {
+        "condition": "=B::::",
+        "translation": "Last turnover"
+      }
+    ],
+    "1015": [
+      {
+        "condition": "=B::::",
+        "translation": "Last block shot"
+      }
+    ],
+    "1016": [
+      {
+        "condition": "=B::::",
+        "translation": "Last steal"
+      }
+    ],
+    "1017": [
+      {
+        "condition": "=B::::",
+        "translation": "Last foul"
+      }
+    ],
+    "1018": [
+      {
+        "condition": "=B::::",
+        "translation": "Last rebound"
+      }
+    ],
+    "1019": [
+      {
+        "condition": "=B::::",
+        "translation": "The method of the first points {Team{p1}}"
+      }
+    ],
+    "1020": [
+      {
+        "condition": "=B::::",
+        "translation": "The method of the last points {Team{p1}}"
+      }
+    ],
+    "1021": [
+      {
+        "condition": "=B::::",
+        "translation": "The method of the first points"
+      }
+    ],
+    "1022": [
+      {
+        "condition": "=B::::",
+        "translation": "The method of the last points"
+      }
+    ],
+    "1023": [
+      {
+        "condition": "=B::::",
+        "translation": "Maximum lead on points {Team {p1}}"
+      }
+    ],
+    "1024": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Best French player"
+      }
+    ],
+    "1025": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Best Norwegian player"
+      }
+    ],
+    "1026": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Best German player"
+      }
+    ],
+    "1027": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Best Russian player"
+      }
+    ],
+    "1028": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Best Austrian player"
+      }
+    ],
+    "1029": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Best Italian player"
+      }
+    ],
+    "1030": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Best Ukrainian player"
+      }
+    ],
+    "1031": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Leader after the first shooting"
+      }
+    ],
+    "1032": [
+      {
+        "condition": "::::",
+        "translation": "Winner race"
+      }
+    ],
+    "1033": [
+      {
+        "condition": "::::",
+        "translation": "#player{p1}. Finish position (3-ways)"
+      }
+    ],
+    "1034": [
+      {
+        "condition": "::::",
+        "translation": "#competitor{p1} - #competitor{p2}. Misses. Team total #competitor{p1}"
+      }
+    ],
+    "1035": [
+      {
+        "condition": "::::",
+        "translation": "#competitor{p1} - #competitor{p2}. Misses. Team total #competitor{p2}"
+      }
+    ],
+    "1036": [
+      {
+        "condition": "::::",
+        "translation": "{TeamID1}Winner's country"
+      }
+    ],
+    "1037": [
+      {
+        "condition": "=CK::::",
+        "translation": "Total Boundaries"
+      }
+    ],
+    "1038": [
+      {
+        "condition": "=CK:::=3:",
+        "translation": "Third Ball Of Match"
+      },
+      {
+        "condition": "=CK:::=2:",
+        "translation": "Second Ball Of Match"
+      },
+      {
+        "condition": "=CK::::",
+        "translation": "{p1} Ball Of Match"
+      }
+    ],
+    "1039": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} Fours total"
+      }
+    ],
+    "1040": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} Sixes total"
+      }
+    ],
+    "1041": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} Dismissal total"
+      }
+    ],
+    "1042": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} Run Outs total"
+      }
+    ],
+    "1043": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} Total in highest scoring over"
+      }
+    ],
+    "1044": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} Wide balls total"
+      }
+    ],
+    "1045": [
+      {
+        "condition": "=CK::::",
+        "translation": "{Team{p1}} Extras total"
+      }
+    ],
+    "1046": [
+      {
+        "condition": "=CK::::",
+        "translation": "Dismissal #{p1} method (2 ways)"
+      }
+    ],
+    "1047": [
+      {
+        "condition": "=PO::::",
+        "translation": "#player{p1} demonstrates a positive ROI following the show"
+      }
+    ],
+    "1048": [
+      {
+        "condition": ":::=2:",
+        "translation": "Second goal"
+      }
+    ],
+    "1049": [
+      {
+        "condition": "::::",
+        "translation": "Total. Raid Points"
+      }
+    ],
+    "1050": [
+      {
+        "condition": "::::",
+        "translation": "Total. Tackle Points"
+      }
+    ],
+    "1051": [
+      {
+        "condition": "::::",
+        "translation": "Double chance and Total {p1}"
+      }
+    ],
+    "1052": [
+      {
+        "condition": "::::",
+        "translation": "Who win rest of the match (Current score {p1}-{p2})"
+      }
+    ],
+    "1053": [
+      {
+        "condition": "::::",
+        "translation": "Strikeouts total"
+      }
+    ],
+    "1054": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Strikeouts total"
+      }
+    ],
+    "1055": [
+      {
+        "condition": "::::",
+        "translation": "At Bats total"
+      }
+    ],
+    "1056": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} At Bats total"
+      }
+    ],
+    "1057": [
+      {
+        "condition": "::::",
+        "translation": "Double plays total"
+      }
+    ],
+    "1058": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Double plays total"
+      }
+    ],
+    "1059": [
+      {
+        "condition": "::::",
+        "translation": "Errors total"
+      }
+    ],
+    "1060": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Errors total"
+      }
+    ],
+    "1061": [
+      {
+        "condition": "::::",
+        "translation": "Hits total"
+      }
+    ],
+    "1062": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Hits total"
+      }
+    ],
+    "1063": [
+      {
+        "condition": "::::",
+        "translation": "Stolen bases total"
+      }
+    ],
+    "1064": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Stolen bases total"
+      }
+    ],
+    "1065": [
+      {
+        "condition": "::::",
+        "translation": "H+R+E - Hits, runs, errors {Team{p1}}"
+      }
+    ],
+    "1066": [
+      {
+        "condition": "::::",
+        "translation": "{Team{p1}} Home runs total"
+      }
+    ],
+    "1067": [
+      {
+        "condition": "::::",
+        "translation": "ERA total #player{p1}"
+      }
+    ],
+    "1068": [
+      {
+        "condition": "::::",
+        "translation": "Hits total #player{p1}"
+      }
+    ],
+    "1069": [
+      {
+        "condition": "::::",
+        "translation": "Runs total #player{p1}"
+      }
+    ],
+    "1070": [
+      {
+        "condition": "::::",
+        "translation": "Errors total #player{p1}"
+      }
+    ]
+  },
+  "outcomes": {
+    "0": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team1}",
+        "shortTranslation": "1"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team1}",
+        "shortTranslation": "1"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team1}",
+        "shortTranslation": "1"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team1}",
+        "shortTranslation": "1"
+      },
+      {
+        "condition": "=H:=1:::::",
+        "translation": "{Team1}",
+        "shortTranslation": "1"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team1}",
+        "shortTranslation": "1"
+      }
+    ],
+    "1": [
+      {
+        "condition": "::::::",
+        "translation": "Draw",
+        "shortTranslation": "X"
+      }
+    ],
+    "3": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team2}",
+        "shortTranslation": "2"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team2}",
+        "shortTranslation": "2"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team2}",
+        "shortTranslation": "2"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team2}",
+        "shortTranslation": "2"
+      },
+      {
+        "condition": "=H:=1:::::",
+        "translation": "{Team2}",
+        "shortTranslation": "2"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team2}",
+        "shortTranslation": "2"
+      }
+    ],
+    "4": [
+      {
+        "condition": "=BX::::::",
+        "translation": "Over {p1} rounds",
+        "shortTranslation": "Over {p1}"
+      },
+      {
+        "condition": ":=164:::::",
+        "translation": "Over {s1}",
+        "shortTranslation": "Over {s1}"
+      },
+      {
+        "condition": ":=487:::::",
+        "translation": "Over {s1}",
+        "shortTranslation": "Over {s1}"
+      },
+      {
+        "condition": ":=417:::::",
+        "translation": "Over {s1}",
+        "shortTranslation": "Over {s1}"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Over {p1}",
+        "shortTranslation": "Over {p1}"
+      }
+    ],
+    "5": [
+      {
+        "condition": "=BX::::::",
+        "translation": "Under {p1} rounds",
+        "shortTranslation": "Under {p1}"
+      },
+      {
+        "condition": ":=1048:::::",
+        "translation": "Under {s1}",
+        "shortTranslation": "Under {s1}"
+      },
+      {
+        "condition": ":=44:::::",
+        "translation": "Under {s1}",
+        "shortTranslation": "Under {s1}"
+      },
+      {
+        "condition": ":=164:::::",
+        "translation": "Under {s1}",
+        "shortTranslation": "Under {s1}"
+      },
+      {
+        "condition": ":=487:::::",
+        "translation": "Under {s1}",
+        "shortTranslation": "Under {s1}"
+      },
+      {
+        "condition": ":=417:::::",
+        "translation": "Under {s1}",
+        "shortTranslation": "Under {s1}"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Under {p1}",
+        "shortTranslation": "Under {p1}"
+      }
+    ],
+    "6": [
+      {
+        "condition": "::::::",
+        "translation": "Even",
+        "shortTranslation": "Even"
+      }
+    ],
+    "7": [
+      {
+        "condition": "::::::",
+        "translation": "Odd",
+        "shortTranslation": "Odd"
+      }
+    ],
+    "8": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team1} or draw",
+        "shortTranslation": "1X"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team1} or draw",
+        "shortTranslation": "1X"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team1} or draw",
+        "shortTranslation": "1X"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team1} or draw",
+        "shortTranslation": "1X"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team1} or draw",
+        "shortTranslation": "1X"
+      }
+    ],
+    "9": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team2} or draw",
+        "shortTranslation": "X2"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team2} or draw",
+        "shortTranslation": "X2"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team2} or draw",
+        "shortTranslation": "X2"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team2} or draw",
+        "shortTranslation": "X2"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team2} or draw",
+        "shortTranslation": "X2"
+      }
+    ],
+    "10": [
+      {
+        "condition": "::::::",
+        "translation": "No draw",
+        "shortTranslation": "1 or 2"
+      }
+    ],
+    "11": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team1}",
+        "shortTranslation": "1"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team1}",
+        "shortTranslation": "1"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team1}",
+        "shortTranslation": "1"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team1}",
+        "shortTranslation": "1"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team1}",
+        "shortTranslation": "1"
+      }
+    ],
+    "12": [
+      {
+        "condition": ":=353:::::",
+        "translation": "No break",
+        "shortTranslation": "No break"
+      },
+      {
+        "condition": "::::::",
+        "translation": "None",
+        "shortTranslation": "None"
+      }
+    ],
+    "13": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team2}",
+        "shortTranslation": "2"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team2}",
+        "shortTranslation": "2"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team2}",
+        "shortTranslation": "2"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team2}",
+        "shortTranslation": "2"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team2}",
+        "shortTranslation": "2"
+      }
+    ],
+    "14": [
+      {
+        "condition": "::::::",
+        "translation": "Yes",
+        "shortTranslation": "Yes"
+      }
+    ],
+    "15": [
+      {
+        "condition": "::::::",
+        "translation": "No",
+        "shortTranslation": "No"
+      }
+    ],
+    "16": [
+      {
+        "condition": "=F:=123:::::",
+        "translation": "To score first {Team1} and win {Team1}",
+        "shortTranslation": "To score first 1 and win 1"
+      },
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team1} / {Team1}",
+        "shortTranslation": "1 / 1"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team1} / {Team1}",
+        "shortTranslation": "1 / 1"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team1} / {Team1}",
+        "shortTranslation": "1 / 1"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team1} / {Team1}",
+        "shortTranslation": "1 / 1"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team1} / {Team1}",
+        "shortTranslation": "1 / 1"
+      }
+    ],
+    "17": [
+      {
+        "condition": "=F:=123:::::",
+        "translation": "To score first {Team1} and draw",
+        "shortTranslation": "To score first 1 and Х"
+      },
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team1} / Draw",
+        "shortTranslation": "1 / Х"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team1} / Draw",
+        "shortTranslation": "1 / Х"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team1} / Draw",
+        "shortTranslation": "1 / Х"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team1} / Draw",
+        "shortTranslation": "1 / Х"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team1} / Draw",
+        "shortTranslation": "1 / Х"
+      }
+    ],
+    "18": [
+      {
+        "condition": "=F:=123:::::",
+        "translation": "To score first {Team1} and win {Team2}",
+        "shortTranslation": "To score first 1 and win 2"
+      },
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team1} / {Team2}",
+        "shortTranslation": "1 / 2"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team1} / {Team2}",
+        "shortTranslation": "1 / 2"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team1} / {Team2}",
+        "shortTranslation": "1 / 2"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team1} / {Team2}",
+        "shortTranslation": "1 / 2"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team1} / {Team2}",
+        "shortTranslation": "1 / 2"
+      }
+    ],
+    "19": [
+      {
+        "condition": "=BB::::::",
+        "translation": "Draw / {Team1}",
+        "shortTranslation": "Х / 1"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "Draw / {Team1}",
+        "shortTranslation": "Х / 1"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "Draw / {Team1}",
+        "shortTranslation": "Х / 1"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "Draw / {Team1}",
+        "shortTranslation": "Х / 1"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Draw / {Team1}",
+        "shortTranslation": "Х / 1"
+      }
+    ],
+    "20": [
+      {
+        "condition": "::::::",
+        "translation": "Draw / Draw",
+        "shortTranslation": "Х / Х"
+      }
+    ],
+    "21": [
+      {
+        "condition": "=BB::::::",
+        "translation": "Draw / {Team2}",
+        "shortTranslation": "Х / 2"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "Draw / {Team2}",
+        "shortTranslation": "Х / 2"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "Draw / {Team2}",
+        "shortTranslation": "Х / 2"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "Draw / {Team2}",
+        "shortTranslation": "Х / 2"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Draw / {Team2}",
+        "shortTranslation": "Х / 2"
+      }
+    ],
+    "22": [
+      {
+        "condition": "=F:=123:::::",
+        "translation": "To score first {Team2} and win {Team1}",
+        "shortTranslation": "To score first 2 and win 1"
+      },
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team2} / {Team1}",
+        "shortTranslation": "2 / 1"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team2} / {Team1}",
+        "shortTranslation": "2 / 1"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team2} / {Team1}",
+        "shortTranslation": "2 / 1"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team2} / {Team1}",
+        "shortTranslation": "2 / 1"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team2} / {Team1}",
+        "shortTranslation": "2 / 1"
+      }
+    ],
+    "23": [
+      {
+        "condition": "=F:=123:::::",
+        "translation": "To score first {Team2} and draw",
+        "shortTranslation": "To score first 2 and Х"
+      },
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team2} / Draw",
+        "shortTranslation": "2 / Х"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team2} / Draw",
+        "shortTranslation": "2 / Х"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team2} / Draw",
+        "shortTranslation": "2 / Х"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team2} / Draw",
+        "shortTranslation": "2 / Х"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team2} / Draw",
+        "shortTranslation": "2 / Х"
+      }
+    ],
+    "24": [
+      {
+        "condition": "=F:=123:::::",
+        "translation": "To score first {Team2} and win {Team2}",
+        "shortTranslation": "To score first 2 and win 2"
+      },
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team2} / {Team2}",
+        "shortTranslation": "2 / 2"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team2} / {Team2}",
+        "shortTranslation": "2 / 2"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team2} / {Team2}",
+        "shortTranslation": "2 / 2"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team2} / {Team2}",
+        "shortTranslation": "2 / 2"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team2} / {Team2}",
+        "shortTranslation": "2 / 2"
+      }
+    ],
+    "25": [
+      {
+        "condition": ":=750:::::",
+        "translation": "{s1} minute",
+        "shortTranslation": "{s1} minute"
+      },
+      {
+        "condition": ":=153:::::",
+        "translation": "Exactly {p1}",
+        "shortTranslation": "Exactly {p1}"
+      },
+      {
+        "condition": ":=559:::::",
+        "translation": "{s1}",
+        "shortTranslation": "{s1}"
+      },
+      {
+        "condition": ":=567:::::",
+        "translation": "{s1}",
+        "shortTranslation": "{s1}"
+      },
+      {
+        "condition": ":=229:::::",
+        "translation": "{s1}",
+        "shortTranslation": "{s1}"
+      },
+      {
+        "condition": ":=339:::::",
+        "translation": "{s1}",
+        "shortTranslation": "{s1}"
+      },
+      {
+        "condition": ":=27:::::",
+        "translation": "{s1}",
+        "shortTranslation": "{s1}"
+      },
+      {
+        "condition": ":=26:::::",
+        "translation": "{s1}",
+        "shortTranslation": "{s1}"
+      },
+      {
+        "condition": ":=254:::::",
+        "translation": "{s1}",
+        "shortTranslation": "{s1}"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Exact",
+        "shortTranslation": "Exact"
+      }
+    ],
+    "26": [
+      {
+        "condition": ":=159:::::",
+        "translation": "From {p1} to {p2} inclusive",
+        "shortTranslation": "From {p1} to {p2} inclusive"
+      },
+      {
+        "condition": ":=164:::::",
+        "translation": "From {s1} to {s2} inclusive",
+        "shortTranslation": "From {s1} to {s2} inclusive"
+      },
+      {
+        "condition": ":=567:::::",
+        "translation": "{s1} or {s2}",
+        "shortTranslation": "{s1} or {s2}"
+      },
+      {
+        "condition": ":=25:::::",
+        "translation": "{s1} or {s2}",
+        "shortTranslation": "{s1} or {s2}"
+      },
+      {
+        "condition": ":=1048:::::",
+        "translation": "From {s1} to {s2} minutes",
+        "shortTranslation": "From {s1} to {s2} minutes"
+      },
+      {
+        "condition": ":=161:::::",
+        "translation": "From {s1} to {s2} minutes",
+        "shortTranslation": "From {s1} to {s2} minutes"
+      },
+      {
+        "condition": ":=44:::::",
+        "translation": "From {s1} to {s2} minutes",
+        "shortTranslation": "From {s1} to {s2} minutes"
+      },
+      {
+        "condition": ":=417:::::=2",
+        "translation": "{s1}-{s2} points",
+        "shortTranslation": "{s1}-{s2}"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{s1}-{s2}",
+        "shortTranslation": "{s1}-{s2}"
+      }
+    ],
+    "27": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team1} / Over",
+        "shortTranslation": "1 / Over"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team1} / Over",
+        "shortTranslation": "1 / Over"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team1} / Over",
+        "shortTranslation": "1 / Over"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team1} / Over",
+        "shortTranslation": "1 / Over"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team1} / Over",
+        "shortTranslation": "1 / Over"
+      }
+    ],
+    "28": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team1} / Under",
+        "shortTranslation": "1 / Under"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team1} / Under",
+        "shortTranslation": "1 / Under"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team1} / Under",
+        "shortTranslation": "1 / Under"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team1} / Under",
+        "shortTranslation": "1 / Under"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team1} / Under",
+        "shortTranslation": "1 / Under"
+      }
+    ],
+    "29": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team2} / Over",
+        "shortTranslation": "2 / Over"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team2} / Over",
+        "shortTranslation": "2 / Over"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team2} / Over",
+        "shortTranslation": "2 / Over"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team2} / Over",
+        "shortTranslation": "2 / Over"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team2} / Over",
+        "shortTranslation": "2 / Over"
+      }
+    ],
+    "30": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team2} / Under",
+        "shortTranslation": "2 / Under"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team2} / Under",
+        "shortTranslation": "2 / Under"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team2} / Under",
+        "shortTranslation": "2 / Under"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team2} / Under",
+        "shortTranslation": "2 / Under"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team2} / Under",
+        "shortTranslation": "2 / Under"
+      }
+    ],
+    "31": [
+      {
+        "condition": "::::::",
+        "translation": "{Team1} or draw / Over",
+        "shortTranslation": "1 or Х / Over"
+      }
+    ],
+    "32": [
+      {
+        "condition": "::::::",
+        "translation": "{Team1} or draw / Under",
+        "shortTranslation": "1 or Х / Under"
+      }
+    ],
+    "33": [
+      {
+        "condition": "::::::",
+        "translation": "{Team2} or draw / Over",
+        "shortTranslation": "2 or Х / Over"
+      }
+    ],
+    "34": [
+      {
+        "condition": "::::::",
+        "translation": "{Team2} or draw / Under",
+        "shortTranslation": "2 or Х / Under"
+      }
+    ],
+    "35": [
+      {
+        "condition": ":=13:::::",
+        "translation": "{s1} < {s2}",
+        "shortTranslation": "{s1} < {s2}"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Under",
+        "shortTranslation": "Under"
+      }
+    ],
+    "36": [
+      {
+        "condition": ":=13:::::",
+        "translation": "{s1} > {s2}",
+        "shortTranslation": "{s1} > {s2}"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Over",
+        "shortTranslation": "Over"
+      }
+    ],
+    "37": [
+      {
+        "condition": "::::::",
+        "translation": "Over {p2}",
+        "shortTranslation": "Over {p2}"
+      }
+    ],
+    "38": [
+      {
+        "condition": "::::::",
+        "translation": "Under {p2}",
+        "shortTranslation": "Under {p2}"
+      }
+    ],
+    "39": [
+      {
+        "condition": "::::::",
+        "translation": "{s1} or under",
+        "shortTranslation": "{s1} or under"
+      }
+    ],
+    "40": [
+      {
+        "condition": "::::::",
+        "translation": "Both",
+        "shortTranslation": "Both"
+      }
+    ],
+    "41": [
+      {
+        "condition": "::::::",
+        "translation": "Head",
+        "shortTranslation": "Head"
+      }
+    ],
+    "42": [
+      {
+        "condition": "=F:=87:::::",
+        "translation": "Penalty",
+        "shortTranslation": "Penalty"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Penalty",
+        "shortTranslation": "Penalty"
+      }
+    ],
+    "43": [
+      {
+        "condition": "=F:=87:::::",
+        "translation": "Free kick",
+        "shortTranslation": "Free kick"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Free kick",
+        "shortTranslation": "Free kick"
+      }
+    ],
+    "44": [
+      {
+        "condition": "::::::",
+        "translation": "Auto goal",
+        "shortTranslation": "Auto goal"
+      }
+    ],
+    "45": [
+      {
+        "condition": "=F:=87:::::",
+        "translation": "Kick",
+        "shortTranslation": "Kick"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Kick",
+        "shortTranslation": "Kick"
+      }
+    ],
+    "46": [
+      {
+        "condition": "::::::",
+        "translation": "Out",
+        "shortTranslation": "Out"
+      }
+    ],
+    "47": [
+      {
+        "condition": "::::::",
+        "translation": "Foul",
+        "shortTranslation": "Foul"
+      }
+    ],
+    "48": [
+      {
+        "condition": "::::::",
+        "translation": "ShotOnTarget",
+        "shortTranslation": "ShotOnTarget"
+      }
+    ],
+    "49": [
+      {
+        "condition": "::::::",
+        "translation": "Corner",
+        "shortTranslation": "Corner"
+      }
+    ],
+    "50": [
+      {
+        "condition": "::::::",
+        "translation": "Offside",
+        "shortTranslation": "Offside"
+      }
+    ],
+    "51": [
+      {
+        "condition": "::::::",
+        "translation": "Goal",
+        "shortTranslation": "Goal"
+      }
+    ],
+    "52": [
+      {
+        "condition": "::::::",
+        "translation": "After regular time",
+        "shortTranslation": "After regular time"
+      }
+    ],
+    "55": [
+      {
+        "condition": ":=121:::::",
+        "translation": "X / Over {p1}",
+        "shortTranslation": "X / Over {p1}"
+      }
+    ],
+    "56": [
+      {
+        "condition": ":=121:::::",
+        "translation": "X / Under {p1}",
+        "shortTranslation": "X / Under {p1}"
+      }
+    ],
+    "57": [
+      {
+        "condition": "::::::",
+        "translation": "Yes / Yes",
+        "shortTranslation": "Yes / Yes"
+      }
+    ],
+    "58": [
+      {
+        "condition": "::::::",
+        "translation": "Yes / No",
+        "shortTranslation": "Yes / No"
+      }
+    ],
+    "59": [
+      {
+        "condition": "::::::",
+        "translation": "No / Yes",
+        "shortTranslation": "No / Yes"
+      }
+    ],
+    "60": [
+      {
+        "condition": "::::::",
+        "translation": "No / No",
+        "shortTranslation": "No / No"
+      }
+    ],
+    "61": [
+      {
+        "condition": "=H::::::",
+        "translation": "Neither",
+        "shortTranslation": "Neither"
+      }
+    ],
+    "62": [
+      {
+        "condition": "=H:::::=2:",
+        "translation": "In {s1} period",
+        "shortTranslation": "In {s1} period"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "In {s1} period",
+        "shortTranslation": "In {s1} period"
+      },
+      {
+        "condition": "::::::",
+        "translation": "In {s1} half",
+        "shortTranslation": "In {s1} half"
+      }
+    ],
+    "63": [
+      {
+        "condition": "::::::",
+        "translation": "In {s1} half",
+        "shortTranslation": "In {s1} half"
+      }
+    ],
+    "64": [
+      {
+        "condition": "::::::",
+        "translation": "#player{p1}",
+        "shortTranslation": "#player{p1}"
+      }
+    ],
+    "65": [
+      {
+        "condition": "::::::",
+        "translation": "#player{p2}",
+        "shortTranslation": "#player{p2}"
+      }
+    ],
+    "66": [
+      {
+        "condition": "::::::",
+        "translation": "{Team1} / Over {p1}",
+        "shortTranslation": "1 / Over {p1}"
+      }
+    ],
+    "67": [
+      {
+        "condition": "::::::",
+        "translation": "{Team1} / Under {p1}",
+        "shortTranslation": "1 / Under {p1}"
+      }
+    ],
+    "68": [
+      {
+        "condition": "::::::",
+        "translation": "{Team2} / Over {p1}",
+        "shortTranslation": "2 / Over {p1}"
+      }
+    ],
+    "69": [
+      {
+        "condition": "::::::",
+        "translation": "{Team2} / Under {p1}",
+        "shortTranslation": "2 / Under {p1}"
+      }
+    ],
+    "71": [
+      {
+        "condition": "=F::::::",
+        "translation": "1st half",
+        "shortTranslation": "1st half"
+      },
+      {
+        "condition": "=HB::::::",
+        "translation": "1st half",
+        "shortTranslation": "1st half"
+      },
+      {
+        "condition": "::::::",
+        "translation": "1st half",
+        "shortTranslation": "1st half"
+      }
+    ],
+    "72": [
+      {
+        "condition": "=F::::::",
+        "translation": "2nd half",
+        "shortTranslation": "2nd half"
+      },
+      {
+        "condition": "=HB::::::",
+        "translation": "2nd half",
+        "shortTranslation": "2nd half"
+      },
+      {
+        "condition": "::::::",
+        "translation": "2nd half",
+        "shortTranslation": "2nd half"
+      }
+    ],
+    "73": [
+      {
+        "condition": "=CS::::::",
+        "translation": "Team kill",
+        "shortTranslation": "Team kill"
+      }
+    ],
+    "74": [
+      {
+        "condition": "=CS::::::",
+        "translation": "Bomb defused",
+        "shortTranslation": "Bomb defused"
+      }
+    ],
+    "75": [
+      {
+        "condition": "=CS::::::",
+        "translation": "Detonation of bomb",
+        "shortTranslation": "Detonation of bomb"
+      }
+    ],
+    "76": [
+      {
+        "condition": "=CS::::::",
+        "translation": "End of round time",
+        "shortTranslation": "End of round time"
+      }
+    ],
+    "78": [
+      {
+        "condition": "::::::",
+        "translation": "{Team{s1}} To Win {s2}-{s3}, {s4}-{s5} или {s6}-{s7}",
+        "shortTranslation": "{Team{s1}} To {s2}-{s3}, {s4}-{s5} или {s6}-{s7}"
+      }
+    ],
+    "79": [
+      {
+        "condition": "::::::",
+        "translation": "Draw  {s1}-{s2}, {s3}-{s4}, {s5}-{s6} or {s7}-{s8}",
+        "shortTranslation": "Х {s1}-{s2}, {s3}-{s4}, {s5}-{s6} or {s7}-{s8}"
+      }
+    ],
+    "83": [
+      {
+        "condition": "::::::",
+        "translation": "Equal",
+        "shortTranslation": "Equal"
+      }
+    ],
+    "84": [
+      {
+        "condition": "::::::",
+        "translation": "Neither",
+        "shortTranslation": "Neither"
+      }
+    ],
+    "86": [
+      {
+        "condition": "=BT:=398:::<0::",
+        "translation": "#player{p1}(-{p3})",
+        "shortTranslation": "#player{p1}(-{p3})"
+      },
+      {
+        "condition": "=BT:=398:::>0::",
+        "translation": "#player{p1}(+{p3})",
+        "shortTranslation": "#player{p1}(+{p3})"
+      },
+      {
+        "condition": "=BT:=398:::=0::",
+        "translation": "#player{p1}({p3})",
+        "shortTranslation": "#player{p1}({p3})"
+      },
+      {
+        "condition": "=BB::<0::::",
+        "translation": "{Team1}(-{p1})",
+        "shortTranslation": "1(-{p1})"
+      },
+      {
+        "condition": "=AF::<0::::",
+        "translation": "{Team1}(-{p1})",
+        "shortTranslation": "1(-{p1})"
+      },
+      {
+        "condition": "=B::<0::::",
+        "translation": "{Team1}(-{p1})",
+        "shortTranslation": "1(-{p1})"
+      },
+      {
+        "condition": "=H::<0::::",
+        "translation": "{Team1}(-{p1})",
+        "shortTranslation": "1(-{p1})"
+      },
+      {
+        "condition": "::<0::::",
+        "translation": "{Team1}(-{p1})",
+        "shortTranslation": "1(-{p1})"
+      },
+      {
+        "condition": "=BB::>0::::",
+        "translation": "{Team1}(+{p1})",
+        "shortTranslation": "1(+{p1})"
+      },
+      {
+        "condition": "=AF::>0::::",
+        "translation": "{Team1}(+{p1})",
+        "shortTranslation": "1(+{p1})"
+      },
+      {
+        "condition": "=B::>0::::",
+        "translation": "{Team1}(+{p1})",
+        "shortTranslation": "1(+{p1})"
+      },
+      {
+        "condition": "=H::>0::::",
+        "translation": "{Team1}(+{p1})",
+        "shortTranslation": "1(+{p1})"
+      },
+      {
+        "condition": "::>0::::",
+        "translation": "{Team1}(+{p1})",
+        "shortTranslation": "1(+{p1})"
+      },
+      {
+        "condition": "=BB::=0::::",
+        "translation": "{Team1}({p1})",
+        "shortTranslation": "1({p1})"
+      },
+      {
+        "condition": "=AF::=0::::",
+        "translation": "{Team1}({p1})",
+        "shortTranslation": "1({p1})"
+      },
+      {
+        "condition": "=B::=0::::",
+        "translation": "{Team1}({p1})",
+        "shortTranslation": "1({p1})"
+      },
+      {
+        "condition": "=H::=0::::",
+        "translation": "{Team1}({p1})",
+        "shortTranslation": "1({p1})"
+      },
+      {
+        "condition": "::=0::::",
+        "translation": "{Team1}({p1})",
+        "shortTranslation": "1({p1})"
+      }
+    ],
+    "87": [
+      {
+        "condition": "=BT:=398:::<0::",
+        "translation": "#player{p2}(+{p3})",
+        "shortTranslation": "#player{p2}(+{p3})"
+      },
+      {
+        "condition": "=BT:=398:::>0::",
+        "translation": "#player{p2}(-{p3})",
+        "shortTranslation": "#player{p2}(-{p3})"
+      },
+      {
+        "condition": "=BT:=398:::=0::",
+        "translation": "#player{p2}({p3})",
+        "shortTranslation": "#player{p2}({p3})"
+      },
+      {
+        "condition": "=BB::<0::::",
+        "translation": "{Team2}(+{p1})",
+        "shortTranslation": "2(+{p1})"
+      },
+      {
+        "condition": "=AF::<0::::",
+        "translation": "{Team2}(+{p1})",
+        "shortTranslation": "2(+{p1})"
+      },
+      {
+        "condition": "=B::<0::::",
+        "translation": "{Team2}(+{p1})",
+        "shortTranslation": "2(+{p1})"
+      },
+      {
+        "condition": "=H::<0::::",
+        "translation": "{Team2}(+{p1})",
+        "shortTranslation": "2(+{p1})"
+      },
+      {
+        "condition": "::<0::::",
+        "translation": "{Team2}(+{p1})",
+        "shortTranslation": "2(+{p1})"
+      },
+      {
+        "condition": "=BB::>0::::",
+        "translation": "{Team2}(-{p1})",
+        "shortTranslation": "2(-{p1})"
+      },
+      {
+        "condition": "=AF::>0::::",
+        "translation": "{Team2}(-{p1})",
+        "shortTranslation": "2(-{p1})"
+      },
+      {
+        "condition": "=B::>0::::",
+        "translation": "{Team2}(-{p1})",
+        "shortTranslation": "2(-{p1})"
+      },
+      {
+        "condition": "=H::>0::::",
+        "translation": "{Team2}(-{p1})",
+        "shortTranslation": "2(-{p1})"
+      },
+      {
+        "condition": "::>0::::",
+        "translation": "{Team2}(-{p1})",
+        "shortTranslation": "2(-{p1})"
+      },
+      {
+        "condition": "=BB::=0::::",
+        "translation": "{Team2}({p1})",
+        "shortTranslation": "2({p1})"
+      },
+      {
+        "condition": "=AF::=0::::",
+        "translation": "{Team2}({p1})",
+        "shortTranslation": "2({p1})"
+      },
+      {
+        "condition": "=B::=0::::",
+        "translation": "{Team2}({p1})",
+        "shortTranslation": "2({p1})"
+      },
+      {
+        "condition": "=H::=0::::",
+        "translation": "{Team2}({p1})",
+        "shortTranslation": "2({p1})"
+      },
+      {
+        "condition": "::=0::::",
+        "translation": "{Team2}({p1})",
+        "shortTranslation": "2({p1})"
+      }
+    ],
+    "88": [
+      {
+        "condition": ":=13:::::",
+        "translation": "{s1} = {s2}",
+        "shortTranslation": "{s1} = {s2}"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Equally",
+        "shortTranslation": "Equally"
+      }
+    ],
+    "89": [
+      {
+        "condition": "=B::::::",
+        "translation": "Quarter #{s1}",
+        "shortTranslation": "Quarter #{s1}"
+      },
+      {
+        "condition": "=BX::::::",
+        "translation": "Round #{s1}",
+        "shortTranslation": "Round #{s1}"
+      },
+      {
+        "condition": "::::::",
+        "translation": "Period #{s1}",
+        "shortTranslation": "Period #{s1}"
+      }
+    ],
+    "90": [
+      {
+        "condition": "::::::",
+        "translation": "{Team1} to {s1}",
+        "shortTranslation": "{Team1}:{s1}"
+      }
+    ],
+    "91": [
+      {
+        "condition": "::::::",
+        "translation": "{Team2} to {s1}",
+        "shortTranslation": "{Team2}:{s1}"
+      }
+    ],
+    "95": [
+      {
+        "condition": "::::::",
+        "translation": "Win {Team1} and both to score",
+        "shortTranslation": "Win {Team1} and both to score"
+      }
+    ],
+    "96": [
+      {
+        "condition": "::::::",
+        "translation": "Win {Team1} and at least one not to score",
+        "shortTranslation": "Win {Team1} and at least one not to score"
+      }
+    ],
+    "97": [
+      {
+        "condition": "::::::",
+        "translation": "Draw and both to score",
+        "shortTranslation": "Draw and both to score"
+      }
+    ],
+    "98": [
+      {
+        "condition": "::::::",
+        "translation": "Draw and at least one not to score",
+        "shortTranslation": "Draw and at least one not to score"
+      }
+    ],
+    "99": [
+      {
+        "condition": "::::::",
+        "translation": "Draw and both no score",
+        "shortTranslation": "Draw and both no score"
+      }
+    ],
+    "100": [
+      {
+        "condition": "::::::",
+        "translation": "Draw / Over",
+        "shortTranslation": "X / Over"
+      }
+    ],
+    "101": [
+      {
+        "condition": "::::::",
+        "translation": "Draw / Under",
+        "shortTranslation": "X / Under"
+      }
+    ],
+    "102": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{s1}-{s2}",
+        "shortTranslation": "{s1}-{s2}"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{s1}-{s2}",
+        "shortTranslation": "{s1}-{s2}"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{s1}-{s2}",
+        "shortTranslation": "{s1}-{s2}"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{s1}-{s2}",
+        "shortTranslation": "{s1}-{s2}"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{s1}-{s2}",
+        "shortTranslation": "{s1}-{s2}"
+      }
+    ],
+    "106": [
+      {
+        "condition": "::::::",
+        "translation": "Win {Team2} and both to score",
+        "shortTranslation": "Win {Team2} and both to score"
+      }
+    ],
+    "107": [
+      {
+        "condition": "::::::",
+        "translation": "Win {Team2} and at least one not to score",
+        "shortTranslation": "Win {Team2} and at least one not to score"
+      }
+    ],
+    "152": [
+      {
+        "condition": "::::::",
+        "translation": "{Team{s1}} after regular time",
+        "shortTranslation": "{s1} after regular time"
+      }
+    ],
+    "153": [
+      {
+        "condition": "::::::",
+        "translation": "{Team{s1}} after overtime",
+        "shortTranslation": "{s1} after overtime"
+      }
+    ],
+    "154": [
+      {
+        "condition": "::::::",
+        "translation": "{Team{s1}} after shootout penalties",
+        "shortTranslation": "{s1} after shootout penalties"
+      }
+    ],
+    "155": [
+      {
+        "condition": ":::::=1:",
+        "translation": "Win {Team1} and at least one not to score",
+        "shortTranslation": "Win 1 and at least one not to score"
+      },
+      {
+        "condition": "=BB:::::=2:",
+        "translation": "Win {Team1} and both teams to score",
+        "shortTranslation": "Win 1 and both teams to score"
+      },
+      {
+        "condition": "=AF:::::=2:",
+        "translation": "Win {Team1} and both teams to score",
+        "shortTranslation": "Win 1 and both teams to score"
+      },
+      {
+        "condition": "=B:::::=2:",
+        "translation": "Win {Team1} and both teams to score",
+        "shortTranslation": "Win 1 and both teams to score"
+      },
+      {
+        "condition": "=H:::::=2:",
+        "translation": "Win {Team1} and both teams to score",
+        "shortTranslation": "Win 1 and both teams to score"
+      },
+      {
+        "condition": ":::::=2:",
+        "translation": "Win {Team1} and both teams to score",
+        "shortTranslation": "Win 1 and both teams to score"
+      }
+    ],
+    "156": [
+      {
+        "condition": ":::::=0:",
+        "translation": "Draw and both not to score",
+        "shortTranslation": "Draw and both not to score"
+      },
+      {
+        "condition": ":::::=1:",
+        "translation": "Draw and at least one not to score",
+        "shortTranslation": "Draw and at least one not to score"
+      },
+      {
+        "condition": ":::::=2:",
+        "translation": "Draw and both teams to score",
+        "shortTranslation": "Draw and both teams to score"
+      }
+    ],
+    "157": [
+      {
+        "condition": ":::::=1:",
+        "translation": "Win {Team2} and at least one not to score",
+        "shortTranslation": "Win 2 and at least one not to score"
+      },
+      {
+        "condition": "=BB:::::=2:",
+        "translation": "Win {Team2} and both teams to score",
+        "shortTranslation": "Win 2 and both teams to score"
+      },
+      {
+        "condition": "=AF:::::=2:",
+        "translation": "Win {Team2} and both teams to score",
+        "shortTranslation": "Win 2 and both teams to score"
+      },
+      {
+        "condition": "=B:::::=2:",
+        "translation": "Win {Team2} and both teams to score",
+        "shortTranslation": "Win 2 and both teams to score"
+      },
+      {
+        "condition": "=H:::::=2:",
+        "translation": "Win {Team2} and both teams to score",
+        "shortTranslation": "Win 2 and both teams to score"
+      },
+      {
+        "condition": ":::::=2:",
+        "translation": "Win {Team2} and both teams to score",
+        "shortTranslation": "Win 2 and both teams to score"
+      }
+    ],
+    "158": [
+      {
+        "condition": ":=161:::::",
+        "translation": "No goals",
+        "shortTranslation": "No goals"
+      },
+      {
+        "condition": ":=123:::::",
+        "translation": "No goals",
+        "shortTranslation": "No goals"
+      },
+      {
+        "condition": "::::::",
+        "translation": "No goal",
+        "shortTranslation": "No goal"
+      }
+    ],
+    "159": [
+      {
+        "condition": ":=81::::<5:",
+        "translation": "{Team{s1}} with a difference of {s2} goals",
+        "shortTranslation": "{s1} with a difference of {s2} goals"
+      },
+      {
+        "condition": ":=81::::>4:",
+        "translation": "{Team{s1}} with a difference of {s2} goals",
+        "shortTranslation": "{s1} with a difference of {s2} goals"
+      },
+      {
+        "condition": ":=81::::=1:",
+        "translation": "{Team{s1}} with a difference of {s2} goal",
+        "shortTranslation": "{s1} with a difference of {s2} goal"
+      }
+    ],
+    "160": [
+      {
+        "condition": "::::::",
+        "translation": "{Team{s1}} in {s2} and over",
+        "shortTranslation": "{s1} in {s2} and over"
+      }
+    ],
+    "163": [
+      {
+        "condition": "::::::",
+        "translation": "{s1} and more",
+        "shortTranslation": "{s1} and more"
+      }
+    ],
+    "164": [
+      {
+        "condition": "::::::",
+        "translation": "2-Point",
+        "shortTranslation": "2-Point"
+      }
+    ],
+    "165": [
+      {
+        "condition": "::::::",
+        "translation": "3-Point",
+        "shortTranslation": "3-Point"
+      }
+    ],
+    "166": [
+      {
+        "condition": "::::::",
+        "translation": "Free throw",
+        "shortTranslation": "Free throw"
+      }
+    ],
+    "167": [
+      {
+        "condition": "::::::=2",
+        "translation": "{s1}-{s2}",
+        "shortTranslation": "{s1}-{s2}"
+      },
+      {
+        "condition": ":=395:::::=1",
+        "translation": "{s1}+",
+        "shortTranslation": "{s1}+"
+      },
+      {
+        "condition": "::::::=1",
+        "translation": "{s1}",
+        "shortTranslation": "{s1}"
+      }
+    ],
+    "168": [
+      {
+        "condition": "::::::",
+        "translation": "Over {p3}",
+        "shortTranslation": "Over {p3}"
+      }
+    ],
+    "169": [
+      {
+        "condition": "::::::",
+        "translation": "Under {p3}",
+        "shortTranslation": "Under {p3}"
+      }
+    ],
+    "300": [
+      {
+        "condition": "=BB::::::=2",
+        "translation": "{Team1} {s1}-{s2}",
+        "shortTranslation": "Team #1 {s1}-{s2}"
+      },
+      {
+        "condition": "=AF::::::=2",
+        "translation": "{Team1} {s1}-{s2}",
+        "shortTranslation": "Team #1 {s1}-{s2}"
+      },
+      {
+        "condition": "=B::::::=2",
+        "translation": "{Team1} {s1}-{s2}",
+        "shortTranslation": "Team #1 {s1}-{s2}"
+      },
+      {
+        "condition": "=H::::::=2",
+        "translation": "{Team1} {s1}-{s2}",
+        "shortTranslation": "Team #1 {s1}-{s2}"
+      },
+      {
+        "condition": "::::::=2",
+        "translation": "{Team1} {s1}-{s2}",
+        "shortTranslation": "Team #1 {s1}-{s2}"
+      },
+      {
+        "condition": "=BB::::::=1",
+        "translation": "{Team1} {s1}",
+        "shortTranslation": "Team #1 {s1}"
+      },
+      {
+        "condition": "=AF::::::=1",
+        "translation": "{Team1} {s1}",
+        "shortTranslation": "Team #1 {s1}"
+      },
+      {
+        "condition": "=B::::::=1",
+        "translation": "{Team1} {s1}",
+        "shortTranslation": "Team #1 {s1}"
+      },
+      {
+        "condition": "=H::::::=1",
+        "translation": "{Team1} {s1}",
+        "shortTranslation": "Team #1 {s1}"
+      },
+      {
+        "condition": "::::::=1",
+        "translation": "{Team1} {s1}",
+        "shortTranslation": "Team #1 {s1}"
+      }
+    ],
+    "301": [
+      {
+        "condition": "=BB::::::=1",
+        "translation": "{Team2} {s1}",
+        "shortTranslation": "Team #2 {s1}"
+      },
+      {
+        "condition": "=AF::::::=1",
+        "translation": "{Team2} {s1}",
+        "shortTranslation": "Team #2 {s1}"
+      },
+      {
+        "condition": "=B::::::=1",
+        "translation": "{Team2} {s1}",
+        "shortTranslation": "Team #2 {s1}"
+      },
+      {
+        "condition": "=H::::::=1",
+        "translation": "{Team2} {s1}",
+        "shortTranslation": "Team #2 {s1}"
+      },
+      {
+        "condition": "::::::=1",
+        "translation": "{Team2} {s1}",
+        "shortTranslation": "Team #2 {s1}"
+      },
+      {
+        "condition": "=BB::::::=2",
+        "translation": "{Team2} {s1}-{s2}",
+        "shortTranslation": "Team #2 {s1}-{s2}"
+      },
+      {
+        "condition": "=AF::::::=2",
+        "translation": "{Team2} {s1}-{s2}",
+        "shortTranslation": "Team #2 {s1}-{s2}"
+      },
+      {
+        "condition": "=B::::::=2",
+        "translation": "{Team2} {s1}-{s2}",
+        "shortTranslation": "Team #2 {s1}-{s2}"
+      },
+      {
+        "condition": "=H::::::=2",
+        "translation": "{Team2} {s1}-{s2}",
+        "shortTranslation": "Team #2 {s1}-{s2}"
+      },
+      {
+        "condition": "::::::=2",
+        "translation": "{Team2} {s1}-{s2}",
+        "shortTranslation": "Team #2 {s1}-{s2}"
+      }
+    ],
+    "302": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team1} in {s1} and more",
+        "shortTranslation": "Team #1 in {s1} and more"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team1} in {s1} and more",
+        "shortTranslation": "Team #1 in {s1} and more"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team1} in {s1} and more",
+        "shortTranslation": "Team #1 in {s1} and more"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team1} in {s1} and more",
+        "shortTranslation": "Team #1 in {s1} and more"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team1} in {s1} and more",
+        "shortTranslation": "Team #1 in {s1} and more"
+      }
+    ],
+    "303": [
+      {
+        "condition": "=BB::::::",
+        "translation": "{Team2} in {s1} and more",
+        "shortTranslation": "Team #2 in {s1} and more"
+      },
+      {
+        "condition": "=AF::::::",
+        "translation": "{Team2} in {s1} and more",
+        "shortTranslation": "Team #2 in {s1} and more"
+      },
+      {
+        "condition": "=B::::::",
+        "translation": "{Team2} in {s1} and more",
+        "shortTranslation": "Team #2 in {s1} and more"
+      },
+      {
+        "condition": "=H::::::",
+        "translation": "{Team2} in {s1} and more",
+        "shortTranslation": "Team #2 in {s1} and more"
+      },
+      {
+        "condition": "::::::",
+        "translation": "{Team2} in {s1} and more",
+        "shortTranslation": "Team #2 in {s1} and more"
+      }
+    ],
+    "304": [
+      {
+        "condition": "::::::",
+        "translation": "Overtime",
+        "shortTranslation": "Overtime"
+      }
+    ],
+    "305": [
+      {
+        "condition": "::::::",
+        "translation": "Shoot-out",
+        "shortTranslation": "Shoot-out"
+      }
+    ],
+    "306": [
+      {
+        "condition": "::::::",
+        "translation": "From {s1} to {s2} rounds",
+        "shortTranslation": "From {s1} to {s2}"
+      }
+    ],
+    "307": [
+      {
+        "condition": "::::::",
+        "translation": "{Team{s1}} KO",
+        "shortTranslation": "{Team{s1}} KO"
+      }
+    ],
+    "308": [
+      {
+        "condition": "::::::",
+        "translation": "{Team{s1}} by Points",
+        "shortTranslation": "{Team{s1}} by Points"
+      }
+    ],
+    "309": [
+      {
+        "condition": "::::::",
+        "translation": "Any other score",
+        "shortTranslation": "Any other score"
+      }
+    ],
+    "310": [
+      {
+        "condition": "::::::",
+        "translation": "At least one will score {s1} or more goals.",
+        "shortTranslation": "At least one will score {s1} or more goals."
+      }
+    ],
+    "311": [
+      {
+        "condition": "::::::",
+        "translation": "Full fight",
+        "shortTranslation": "Full fight"
+      }
+    ],
+    "312": [
+      {
+        "condition": "::::::",
+        "translation": "Yes  / Over",
+        "shortTranslation": "Yes  / Over"
+      }
+    ],
+    "313": [
+      {
+        "condition": "::::::",
+        "translation": "Yes / Under",
+        "shortTranslation": "Yes / Under"
+      }
+    ],
+    "314": [
+      {
+        "condition": "::::::",
+        "translation": "No / Over",
+        "shortTranslation": "No / Over"
+      }
+    ],
+    "315": [
+      {
+        "condition": "::::::",
+        "translation": "No / Under",
+        "shortTranslation": "No / Under"
+      }
+    ],
+    "316": [
+      {
+        "condition": "::::::",
+        "translation": "right leg",
+        "shortTranslation": "right leg"
+      }
+    ],
+    "317": [
+      {
+        "condition": "::::::",
+        "translation": "left leg",
+        "shortTranslation": "left leg"
+      }
+    ],
+    "318": [
+      {
+        "condition": "::::::",
+        "translation": "None of these",
+        "shortTranslation": "None of these"
+      }
+    ],
+    "319": [
+      {
+        "condition": "::::::",
+        "translation": "No goal",
+        "shortTranslation": "No goal"
+      }
+    ],
+    "320": [
+      {
+        "condition": "::::::",
+        "translation": "At least one not to score",
+        "shortTranslation": "At least one not to score"
+      }
+    ],
+    "321": [
+      {
+        "condition": ":=90:::::",
+        "translation": "Equal",
+        "shortTranslation": "Equal"
+      },
+      {
+        "condition": ":=136:::::",
+        "translation": "Equal",
+        "shortTranslation": "Equal"
+      }
+    ],
+    "322": [
+      {
+        "condition": "::::::",
+        "translation": "Yellow or Red card",
+        "shortTranslation": "Yellow or Red card"
+      }
+    ],
+    "323": [
+      {
+        "condition": ":::::=1:",
+        "translation": "Will lose in final",
+        "shortTranslation": "Will lose in final"
+      },
+      {
+        "condition": ":::::=2:",
+        "translation": "Semifinal",
+        "shortTranslation": "Semifinal"
+      },
+      {
+        "condition": ":::::=4:",
+        "translation": "Quarterfinal",
+        "shortTranslation": "Quarterfinal"
+      },
+      {
+        "condition": ":::::=8:",
+        "translation": "Last 16",
+        "shortTranslation": "Last 16"
+      }
+    ],
+    "324": [
+      {
+        "condition": "::::::",
+        "translation": "two and more",
+        "shortTranslation": "two and more"
+      }
+    ],
+    "325": [
+      {
+        "condition": "::::::",
+        "translation": "both",
+        "shortTranslation": "both"
+      }
+    ],
+    "330": [
+      {
+        "condition": "::::::",
+        "translation": "Caught",
+        "shortTranslation": "Caught"
+      }
+    ],
+    "331": [
+      {
+        "condition": "::::::",
+        "translation": "Not caught",
+        "shortTranslation": "Not caught"
+      }
+    ],
+    "332": [
+      {
+        "condition": "::::::",
+        "translation": "Bowled",
+        "shortTranslation": "Bowled"
+      }
+    ],
+    "333": [
+      {
+        "condition": "::::::",
+        "translation": "LBW",
+        "shortTranslation": "LBW"
+      }
+    ],
+    "334": [
+      {
+        "condition": "::::::",
+        "translation": "Run out",
+        "shortTranslation": "Run out"
+      }
+    ],
+    "335": [
+      {
+        "condition": "::::::",
+        "translation": "Stumped",
+        "shortTranslation": "Stumped"
+      }
+    ],
+    "336": [
+      {
+        "condition": "::::::",
+        "translation": "Other",
+        "shortTranslation": "Other"
+      }
+    ],
+    "337": [
+      {
+        "condition": "::::::",
+        "translation": "{p1} or more numbers",
+        "shortTranslation": "{p1} or more numbers"
+      }
+    ],
+    "338": [
+      {
+        "condition": "::::::",
+        "translation": "{p1} number",
+        "shortTranslation": "{p1} number"
+      }
+    ],
+    "339": [
+      {
+        "condition": "::::::",
+        "translation": "{p1} - {p2} numbers",
+        "shortTranslation": "{p1} - {p2} numbers"
+      }
+    ],
+    "340": [
+      {
+        "condition": "::::::",
+        "translation": "{p1} or less numbers",
+        "shortTranslation": "{p1} or less numbers"
+      }
+    ],
+    "341": [
+      {
+        "condition": "::::::",
+        "translation": "{p1} or more",
+        "shortTranslation": "{p1} or more"
+      }
+    ],
+    "342": [
+      {
+        "condition": "::::::",
+        "translation": "{p1} or less",
+        "shortTranslation": "{p1} or less"
+      }
+    ],
+    "343": [
+      {
+        "condition": "::::::",
+        "translation": "{p1} (exact amount)",
+        "shortTranslation": "{p1} Exact"
+      }
+    ],
+    "344": [
+      {
+        "condition": "::::::",
+        "translation": "Mirage",
+        "shortTranslation": "Mirage"
+      }
+    ],
+    "345": [
+      {
+        "condition": "::::::",
+        "translation": "Inferno",
+        "shortTranslation": "Inferno"
+      }
+    ],
+    "346": [
+      {
+        "condition": "::::::",
+        "translation": "Train",
+        "shortTranslation": "Train"
+      }
+    ],
+    "347": [
+      {
+        "condition": "::::::",
+        "translation": "Overpass",
+        "shortTranslation": "Overpass"
+      }
+    ],
+    "348": [
+      {
+        "condition": "::::::",
+        "translation": "Dust2",
+        "shortTranslation": "Dust2"
+      }
+    ],
+    "349": [
+      {
+        "condition": "::::::",
+        "translation": "Cache",
+        "shortTranslation": "Cache"
+      }
+    ],
+    "350": [
+      {
+        "condition": "::::::",
+        "translation": "Nuke",
+        "shortTranslation": "Nuke"
+      }
+    ],
+    "351": [
+      {
+        "condition": "::::::",
+        "translation": "Cobblestone",
+        "shortTranslation": "Cobblestone"
+      }
+    ],
+    "352": [
+      {
+        "condition": "::::::",
+        "translation": "Vertigo",
+        "shortTranslation": "Vertigo"
+      }
+    ],
+    "353": [
+      {
+        "condition": "::::::",
+        "translation": "Tuscan",
+        "shortTranslation": "Tuscan"
+      }
+    ],
+    "354": [
+      {
+        "condition": "::::::",
+        "translation": "Anubis",
+        "shortTranslation": "Anubis"
+      }
+    ],
+    "355": [
+      {
+        "condition": "::::::",
+        "translation": "#player{s1}",
+        "shortTranslation": "#player{s1}"
+      }
+    ],
+    "356": [
+      {
+        "condition": "::::::",
+        "translation": "run {s1}",
+        "shortTranslation": "run {s1}"
+      }
+    ],
+    "357": [
+      {
+        "condition": "::::::",
+        "translation": "runs {s1}",
+        "shortTranslation": "runs {s1}"
+      }
+    ],
+    "358": [
+      {
+        "condition": "::::::",
+        "translation": "Wide",
+        "shortTranslation": "Wide"
+      }
+    ],
+    "359": [
+      {
+        "condition": "::::::",
+        "translation": "No Ball",
+        "shortTranslation": "No Ball"
+      }
+    ],
+    "360": [
+      {
+        "condition": "::::::",
+        "translation": "Wicket",
+        "shortTranslation": "Wicket"
+      }
+    ],
+    "361": [
+      {
+        "condition": "::::::",
+        "translation": "Bye/Leg Bye",
+        "shortTranslation": "Bye/Leg Bye"
+      }
+    ],
+    "362": [
+      {
+        "condition": "::::::",
+        "translation": "Dot Ball",
+        "shortTranslation": "Dot Ball"
+      }
+    ],
+    "363": [
+      {
+        "condition": "::::::",
+        "translation": "#player{s2}",
+        "shortTranslation": "#player{s2}"
+      }
+    ],
+    "364": [
+      {
+        "condition": "::::::",
+        "translation": "#player{p1}",
+        "shortTranslation": "#player{p1}"
+      }
+    ],
+    "365": [
+      {
+        "condition": "::::::",
+        "translation": "#player{p2}",
+        "shortTranslation": "#player{p2}"
+      }
+    ],
+    "366": [
+      {
+        "condition": "::::::",
+        "translation": "Fielder Catch",
+        "shortTranslation": "Fielder Catch"
+      }
+    ],
+    "367": [
+      {
+        "condition": "::::::",
+        "translation": "Keeper Catch",
+        "shortTranslation": "Keeper Catch"
+      }
+    ],
+    "368": [
+      {
+        "condition": "::::::",
+        "translation": "No draw / Over",
+        "shortTranslation": "1 or 2 / Over"
+      }
+    ],
+    "369": [
+      {
+        "condition": "::::::",
+        "translation": "No draw / Under",
+        "shortTranslation": "1 or 2 / Under"
+      }
+    ]
+  },
+  "periods": {
+    "HB": [
+      {
+        "condition": "=2::=1",
+        "translation": "2nd half"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st half"
+      }
+    ],
+    "BN": [
+      {
+        "condition": "!0::=1",
+        "translation": "Set {r1}"
+      }
+    ],
+    "BV": [
+      {
+        "condition": "!0::=1",
+        "translation": "Set {r1}"
+      }
+    ],
+    "TT": [
+      {
+        "condition": "!0::=1",
+        "translation": "Set {r1}"
+      }
+    ],
+    "VB": [
+      {
+        "condition": "!0::=1",
+        "translation": "Set {r1}"
+      }
+    ],
+    "*": [
+      {
+        "condition": "=324::=1",
+        "translation": "Group 4"
+      },
+      {
+        "condition": "=323::=1",
+        "translation": "Group 3"
+      },
+      {
+        "condition": "=322::=1",
+        "translation": "Group 2"
+      },
+      {
+        "condition": "=321::=1",
+        "translation": "Group 1"
+      },
+      {
+        "condition": "=320::=1",
+        "translation": "Metropolitan division"
+      },
+      {
+        "condition": "=319::=1",
+        "translation": "Southwest division"
+      },
+      {
+        "condition": "=318::=1",
+        "translation": "Northwest division"
+      },
+      {
+        "condition": "=317::=1",
+        "translation": "Southeast division"
+      },
+      {
+        "condition": "=316::=1",
+        "translation": "Central division"
+      },
+      {
+        "condition": "=315::=1",
+        "translation": "Pacific division"
+      },
+      {
+        "condition": "=314::=1",
+        "translation": "Atlantic division"
+      },
+      {
+        "condition": "=313::=1",
+        "translation": "Western Conference"
+      },
+      {
+        "condition": "=312::=1",
+        "translation": "Eastern Conference"
+      },
+      {
+        "condition": "=311::=1",
+        "translation": "Group L"
+      },
+      {
+        "condition": "=310::=1",
+        "translation": "Group K"
+      },
+      {
+        "condition": "=309::=1",
+        "translation": "Group J"
+      },
+      {
+        "condition": "=308::=1",
+        "translation": "Group I"
+      },
+      {
+        "condition": "=307::=1",
+        "translation": "Group H"
+      },
+      {
+        "condition": "=306::=1",
+        "translation": "Group G"
+      },
+      {
+        "condition": "=305::=1",
+        "translation": "Group F"
+      },
+      {
+        "condition": "=304::=1",
+        "translation": "Group E"
+      },
+      {
+        "condition": "=303::=1",
+        "translation": "Group D"
+      },
+      {
+        "condition": "=302::=1",
+        "translation": "Group C"
+      },
+      {
+        "condition": "=301::=1",
+        "translation": "Group B"
+      },
+      {
+        "condition": "=300::=1",
+        "translation": "Group A"
+      },
+      {
+        "condition": "=-1::=2",
+        "translation": "Before {r2} minute inclusive"
+      },
+      {
+        "condition": ">6000:>6500:=2",
+        "translation": "From {r1} to {r2} minute inclusive"
+      },
+      {
+        "condition": "=4012::",
+        "translation": "2nd half including overtime"
+      },
+      {
+        "condition": "=4011::",
+        "translation": "2nd half"
+      },
+      {
+        "condition": "=4010::",
+        "translation": "1st half"
+      }
+    ],
+    "B": [
+      {
+        "condition": "=4::=1",
+        "translation": "4th quarter"
+      },
+      {
+        "condition": "=3::=1",
+        "translation": "3rd quarter"
+      },
+      {
+        "condition": "=2::=1",
+        "translation": "2nd quarter"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st quarter"
+      }
+    ],
+    "AR": [
+      {
+        "condition": "=4::=1",
+        "translation": "4th quarter"
+      },
+      {
+        "condition": "=3::=1",
+        "translation": "3rd quarter"
+      },
+      {
+        "condition": "=2::=1",
+        "translation": "2nd quarter"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st quarter"
+      }
+    ],
+    "T": [
+      {
+        "condition": "!0::=1",
+        "translation": "Set {r1}"
+      },
+      {
+        "condition": "=100::=2",
+        "translation": "Set {r1}. Tiebreak"
+      },
+      {
+        "condition": "!100::=2",
+        "translation": "Set {r1} Game {r2}"
+      }
+    ],
+    "SQ": [
+      {
+        "condition": "!0::=1",
+        "translation": "Set {r1}"
+      }
+    ],
+    "BW": [
+      {
+        "condition": "!0::=1",
+        "translation": "Set {r1}"
+      }
+    ],
+    "VT": [
+      {
+        "condition": "!0::=1",
+        "translation": "Set {r1}"
+      }
+    ],
+    "F": [
+      {
+        "condition": "=888::=2",
+        "translation": "Minute {r2}"
+      },
+      {
+        "condition": ":=6000:=2",
+        "translation": "After {r1} minute"
+      },
+      {
+        "condition": "!888:!6000:=2",
+        "translation": "From {r1} to {r2} minute inclusive"
+      },
+      {
+        "condition": "=4::=1",
+        "translation": "Penalty shoot-out"
+      },
+      {
+        "condition": "=3::=1",
+        "translation": "Overtime"
+      },
+      {
+        "condition": "=2::=1",
+        "translation": "2nd half"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st half"
+      }
+    ],
+    "VF": [
+      {
+        "condition": "=2::=1",
+        "translation": "2nd half"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st half"
+      }
+    ],
+    "FH": [
+      {
+        "condition": "=4::=1",
+        "translation": "4th half"
+      },
+      {
+        "condition": "=3::=1",
+        "translation": "3rd half"
+      },
+      {
+        "condition": "=2::=1",
+        "translation": "2nd half"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st half"
+      }
+    ],
+    "H": [
+      {
+        "condition": "!-1:!6000:=2",
+        "translation": "From {r1} to {r2} minute"
+      },
+      {
+        "condition": "=4::=1",
+        "translation": "Overtime"
+      },
+      {
+        "condition": "=3::=1",
+        "translation": "3rd period"
+      },
+      {
+        "condition": "=2::=1",
+        "translation": "2nd period"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st period"
+      }
+    ],
+    "FL": [
+      {
+        "condition": "=4::=1",
+        "translation": "Overtime"
+      },
+      {
+        "condition": "=3::=1",
+        "translation": "3rd period"
+      },
+      {
+        "condition": "=2::=1",
+        "translation": "2nd period"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st period"
+      }
+    ],
+    "BD": [
+      {
+        "condition": "=4::=1",
+        "translation": "Overtime"
+      },
+      {
+        "condition": "=3::=1",
+        "translation": "3rd period"
+      },
+      {
+        "condition": "=2::=1",
+        "translation": "2nd period"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st period"
+      }
+    ],
+    "CS": [
+      {
+        "condition": "!0::=2",
+        "translation": "Map {r1}. Round {r2}"
+      },
+      {
+        "condition": "!0::=1",
+        "translation": "Map {r1}"
+      }
+    ],
+    "BB": [
+      {
+        "condition": "=50::=1",
+        "translation": "First 5 innings"
+      },
+      {
+        "condition": "!50::=1",
+        "translation": "Inning {r1}"
+      }
+    ],
+    "AF": [
+      {
+        "condition": "=4::=1",
+        "translation": "4th quarter"
+      },
+      {
+        "condition": "=3::=1",
+        "translation": "3rd quarter"
+      },
+      {
+        "condition": "=2::=1",
+        "translation": "2nd quarter"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st quarter"
+      }
+    ],
+    "FZ": [
+      {
+        "condition": "=4::=1",
+        "translation": "Penalty shoot-out"
+      },
+      {
+        "condition": "=3::=1",
+        "translation": "Overtime"
+      },
+      {
+        "condition": "=2::=1",
+        "translation": "2nd half"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st half"
+      }
+    ],
+    "BF": [
+      {
+        "condition": "=4::=1",
+        "translation": "Overtime"
+      },
+      {
+        "condition": "=3::=1",
+        "translation": "3rd period"
+      },
+      {
+        "condition": "=2::=1",
+        "translation": "2nd period"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st period"
+      }
+    ],
+    "WP": [
+      {
+        "condition": "=4::=1",
+        "translation": "4th period"
+      },
+      {
+        "condition": "=3::=1",
+        "translation": "3rd period"
+      },
+      {
+        "condition": "=2::=1",
+        "translation": "2nd period"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st period"
+      }
+    ],
+    "RG": [
+      {
+        "condition": "=2::=1",
+        "translation": "2nd half"
+      },
+      {
+        "condition": "=1::=1",
+        "translation": "1st half"
+      }
+    ],
+    "CK": [
+      {
+        "condition": "!0::=2",
+        "translation": "Innings #{r1}.Over #{r2}"
+      },
+      {
+        "condition": "!0::=1",
+        "translation": "Innings #{r1}"
+      }
+    ],
+    "PL": [
+      {
+        "condition": "!0::=1",
+        "translation": "Frame {r1}"
+      }
+    ],
+    "DT": [
+      {
+        "condition": "=0::=2",
+        "translation": "Leg {r2}"
+      },
+      {
+        "condition": "!0::=1",
+        "translation": "Set #{r1}"
+      },
+      {
+        "condition": "!0::=2",
+        "translation": "Set {r1} Leg {r2}"
+      }
+    ],
+    "BT": [
+      {
+        "condition": "!0::=1",
+        "translation": "Shooting #{r1}"
+      }
+    ]
+  },
+  "tradingTypes": {
+    "0": {
+      "translation": "None"
+    },
+    "1": {
+      "translation": "Goals"
+    },
+    "2": {
+      "translation": "Fouls"
+    },
+    "4": {
+      "translation": "Corners"
+    },
+    "8": {
+      "translation": "Yellow Cards"
+    },
+    "14": {
+      "translation": "Shots All"
+    },
+    "16": {
+      "translation": "Red Cards"
+    },
+    "20": {
+      "translation": "Blocks(points)"
+    },
+    "21": {
+      "translation": "PIM"
+    },
+    "22": {
+      "translation": "Server Faults"
+    },
+    "23": {
+      "translation": "Three Points"
+    },
+    "30": {
+      "translation": "Steals"
+    },
+    "31": {
+      "translation": "Successful attacks"
+    },
+    "32": {
+      "translation": "Penalties"
+    },
+    "33": {
+      "translation": "Two Points"
+    },
+    "35": {
+      "translation": "Losses"
+    },
+    "36": {
+      "translation": "Powerplay goals"
+    },
+    "37": {
+      "translation": "Face-offs won"
+    },
+    "38": {
+      "translation": "Hits"
+    },
+    "40": {
+      "translation": "Players"
+    },
+    "65": {
+      "translation": "Ball possesion"
+    },
+    "66": {
+      "translation": "Shots on target"
+    },
+    "67": {
+      "translation": "Offsides"
+    },
+    "68": {
+      "translation": "Shots on goal"
+    },
+    "70": {
+      "translation": "Aces"
+    },
+    "78": {
+      "translation": "Block Shots"
+    },
+    "79": {
+      "translation": "Rebounds"
+    },
+    "82": {
+      "translation": "Assists"
+    },
+    "83": {
+      "translation": "Double faults"
+    },
+    "85": {
+      "translation": "Double fouls"
+    },
+    "87": {
+      "translation": "First Serve Hit Percentage"
+    },
+    "88": {
+      "translation": "Percentage of second serve winning points"
+    },
+    "89": {
+      "translation": "s180"
+    },
+    "90": {
+      "translation": "Home Away"
+    },
+    "91": {
+      "translation": "1quarter"
+    },
+    "92": {
+      "translation": "Percentage of first serve winning points"
+    },
+    "93": {
+      "translation": "Statistics"
+    },
+    "94": {
+      "translation": "Goal kicks"
+    },
+    "95": {
+      "translation": "Saves"
+    },
+    "96": {
+      "translation": "Throw-ins"
+    },
+    "256": {
+      "translation": "Other"
+    }
+  },
+  "stages": {
+    "F": {
+      "1": "1st half",
+      "2": "Break",
+      "3": "2nd half",
+      "4": "Break",
+      "5": "1st overtime",
+      "6": "Break",
+      "7": "2nd overtime",
+      "8": "Penalty shoot-out"
+    },
+    "B": {
+      "1": "1st quarter",
+      "2": "Break",
+      "3": "2nd quarter",
+      "4": "Break",
+      "5": "3rd quarter",
+      "6": "Break",
+      "7": "4th quarter",
+      "8": "Break",
+      "9": "1st overtime",
+      "10": "Break",
+      "11": "2nd overtime",
+      "12": "Break",
+      "13": "3rd overtime",
+      "16": "1st half",
+      "17": "2nd half"
+    },
+    "VB": {
+      "1": "Set 1",
+      "2": "Set 2",
+      "3": "Set 3",
+      "4": "Set 4",
+      "5": "Set 5",
+      "6": "Set 6",
+      "7": "Set 7"
+    },
+    "H": {
+      "1": "1st period",
+      "2": "Break",
+      "3": "2nd period",
+      "4": "Break",
+      "5": "3rd period",
+      "6": "Break",
+      "7": "Overtime",
+      "8": "Shootouts"
+    },
+    "TT": {
+      "1": "Set 1",
+      "2": "Set 2",
+      "3": "Set 3",
+      "4": "Set 4",
+      "5": "Set 5",
+      "6": "Set 6",
+      "7": "Set 7"
+    },
+    "HB": {
+      "1": "1st half",
+      "2": "Break",
+      "3": "2nd half",
+      "4": "Break",
+      "5": "1st overtime",
+      "6": "Break",
+      "7": "2nd overtime",
+      "8": "Penalties"
+    },
+    "BV": {
+      "1": "Set 1",
+      "2": "Set 2",
+      "3": "Set 3"
+    },
+    "BN": {
+      "1": "Set 1",
+      "2": "Set 2",
+      "3": "Set 3",
+      "4": "Set 4",
+      "5": "Set 5"
+    },
+    "AF": {
+      "3": "1st quarter",
+      "4": "Break",
+      "5": "2nd quarter",
+      "6": "Break",
+      "7": "3rd quarter",
+      "8": "Break",
+      "9": "4th quarter",
+      "10": "Break",
+      "11": "Overtime"
+    },
+    "FZ": {
+      "1": "1st half",
+      "2": "Break",
+      "3": "2nd half",
+      "4": "Break",
+      "5": "1st overtime",
+      "6": "Break",
+      "7": "2nd overtime",
+      "8": "Penalty shoot-out"
+    },
+    "BB": {
+      "1": "Inning 1",
+      "2": "Break",
+      "3": "Inning 2",
+      "4": "Break",
+      "5": "Inning 3",
+      "6": "Break",
+      "7": "Inning 4",
+      "8": "Break",
+      "9": "Inning 5",
+      "10": "Break",
+      "11": "Inning 6",
+      "12": "Break",
+      "13": "Inning 7",
+      "14": "Break",
+      "15": "Inning 8",
+      "16": "Break",
+      "17": "Inning 9",
+      "18": "Additional Inning"
+    },
+    "MA": {
+      "1": "Round 1",
+      "2": "Round 2",
+      "3": "Round 3",
+      "4": "Round 4",
+      "5": "Round 5",
+      "6": "Round 6",
+      "7": "Round 7",
+      "8": "Round 8",
+      "9": "Round 9",
+      "10": "Round 10",
+      "11": "Round 11",
+      "12": "Round 12"
+    },
+    "UFC": {
+      "1": "Round 1",
+      "2": "Round 2",
+      "3": "Round 3",
+      "4": "Round 4",
+      "5": "Round 5",
+      "6": "Round 6",
+      "7": "Round 7",
+      "8": "Round 8",
+      "9": "Round 9",
+      "10": "Round 10",
+      "11": "Round 11",
+      "12": "Round 12"
+    },
+    "BX": {
+      "1": "Round 1",
+      "2": "Round 2",
+      "3": "Round 3",
+      "4": "Round 4",
+      "5": "Round 5",
+      "6": "Round 6",
+      "7": "Round 7",
+      "8": "Round 8",
+      "9": "Round 9",
+      "10": "Round 10",
+      "11": "Round 11",
+      "12": "Round 12"
+    },
+    "CS": {
+      "1": "Map 1",
+      "2": "Break",
+      "3": "Map 2",
+      "4": "Break",
+      "5": "Map 3",
+      "6": "Break",
+      "7": "Map 4",
+      "8": "Break",
+      "9": "Map 5",
+      "10": "Break",
+      "11": "Map 6",
+      "12": "Break",
+      "13": "Map 7"
+    },
+    "BF": {
+      "1": "1st period",
+      "2": "Break",
+      "3": "2nd period",
+      "4": "Break",
+      "5": "3rd period",
+      "6": "Break",
+      "7": "Overtime",
+      "8": "Penalty shoot-out"
+    },
+    "FH": {
+      "1": "1st period",
+      "2": "Break",
+      "3": "2nd period",
+      "4": "Break",
+      "5": "3rd period",
+      "6": "Break",
+      "7": "4th period",
+      "8": "Break",
+      "9": "Overtime",
+      "10": "Penalty shoot-out"
+    },
+    "WP": {
+      "1": "1st period",
+      "2": "Break",
+      "3": "2nd period",
+      "4": "Break",
+      "5": "3rd period",
+      "6": "Break",
+      "7": "4th period",
+      "8": "Break",
+      "9": "1st overtime",
+      "10": "Break",
+      "11": "2nd overtime",
+      "12": "Penalty shoot-out"
+    },
+    "BD": {
+      "1": "1st period",
+      "2": "Break",
+      "3": "2nd period",
+      "4": "Break",
+      "5": "3rd period",
+      "6": "Break",
+      "7": "Overtime",
+      "8": "Penalty shoot-out"
+    },
+    "FL": {
+      "1": "1st period",
+      "2": "Break",
+      "3": "2nd period",
+      "4": "Break",
+      "5": "3rd period",
+      "6": "Break",
+      "7": "Overtime",
+      "8": "Shootouts"
+    },
+    "RG": {
+      "3": "1st half",
+      "4": "Break",
+      "5": "2nd half",
+      "6": "Break",
+      "11": "Overtime"
+    },
+    "CL": {
+      "1": "End 1",
+      "2": "End 2",
+      "3": "End 3",
+      "4": "End 4",
+      "5": "End 5",
+      "6": "End 6",
+      "7": "End 7",
+      "8": "End 8",
+      "9": "End 9",
+      "10": "End 10",
+      "11": "Overtime"
+    },
+    "AR": {
+      "1": "1st quarter",
+      "2": "Break",
+      "3": "2nd quarter",
+      "4": "Break",
+      "5": "3rd quarter",
+      "6": "Break",
+      "7": "4th quarter",
+      "8": "Break",
+      "9": "Overtime"
+    },
+    "BW": {
+      "3": "Set 1",
+      "5": "Set 2",
+      "7": "Set 3",
+      "9": "Set 4",
+      "11": "Overtime"
+    },
+    "DT": {
+      "1": "Set 1",
+      "2": "Set 2",
+      "3": "Set 3",
+      "4": "Set 4",
+      "5": "Set 5",
+      "6": "Set 6",
+      "7": "Set 7",
+      "8": "Set 8",
+      "9": "Set 9",
+      "10": "Set 10",
+      "11": "Set 11",
+      "12": "Set 12",
+      "13": "Set 13"
+    },
+    "PL": {
+      "1": "Frame 1"
+    },
+    "CK": {
+      "1": "Over 1",
+      "4": "Inning 1",
+      "5": "Inning 2",
+      "6": "Break",
+      "7": "Break",
+      "8": "Superover"
+    },
+    "SQ": {
+      "1": "Set 1",
+      "2": "Set 2",
+      "3": "Set 3",
+      "4": "Set 4",
+      "5": "Set 5",
+      "6": "Set 6",
+      "7": "Set 7"
+    },
+    "T": {
+      "1": "Set 1",
+      "2": "Set 2",
+      "3": "Set 3",
+      "4": "Set 4",
+      "5": "Set 5"
+    },
+    "VF": {
+      "1": "1st half",
+      "2": "Break",
+      "3": "2nd half",
+      "4": "Break",
+      "5": "1st overtime",
+      "6": "Break",
+      "7": "2nd overtime",
+      "8": "Break",
+      "9": "Penalty shoot-out"
+    },
+    "VL": {
+      "1": "1st quarter",
+      "2": "Break",
+      "3": "2nd quarter",
+      "4": "Break",
+      "5": "3rd quarter",
+      "6": "Break",
+      "7": "4th quarter",
+      "8": "Break",
+      "9": "Overtime"
+    },
+    "VT": {
+      "1": "Set 1",
+      "2": "Set 2",
+      "3": "Set 3",
+      "4": "Set 4",
+      "5": "Set 5"
+    },
+    "BT": {
+      "2": "Live"
+    },
+    "AM": {
+      "2": "Live"
+    }
+  }
+}

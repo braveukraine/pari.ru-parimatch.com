@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundGreyPrimary125" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar_left_align" />
+        <com.google.android.material.tabs.TabLayout android:layout_gravity="top" android:id="@id/campaign_tab_layout" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:tabIndicatorColor="@color/colorAccent" app:tabMode="fixed" app:tabSelectedTextColor="@color/textColorWhite" app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget" app:tabTextColor="@color/textColorWhiteOpacity" style="@style/UserBetsTabLayout" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/campaign_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

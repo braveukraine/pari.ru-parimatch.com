@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvTitle" android:paddingTop="@dimen/padding_extra_short_plus" android:paddingBottom="@dimen/padding_extra_short_plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/margin_short" android:paddingVertical="@dimen/padding_extra_short_plus" style="@style/BlackMediumText" />
+    <TextView android:layout_gravity="end" android:id="@id/tvOpenAll" android:background="?selectableItemBackground" android:paddingLeft="@dimen/padding_extra_short_plus" android:paddingTop="@dimen/padding_extra_short_plus" android:paddingRight="@dimen/padding_extra_short_plus" android:paddingBottom="@dimen/padding_extra_short_plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_see_all_title" android:layout_marginEnd="@dimen/margin_short" android:paddingHorizontal="@dimen/padding_extra_short_plus" android:paddingVertical="@dimen/padding_extra_short_plus" style="@style/LinkMediumText" />
+</FrameLayout>

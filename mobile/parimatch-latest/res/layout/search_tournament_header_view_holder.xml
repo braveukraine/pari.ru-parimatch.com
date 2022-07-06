@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pm.tech.sport.event_overview.views.tournament.TournamentView android:id="@id/tournamentView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

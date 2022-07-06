@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/chat_resume_error" android:paddingLeft="37.0dip" android:paddingTop="86.0dip" android:paddingRight="37.0dip" android:paddingBottom="73.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="37.0dip" android:src="@drawable/chat_ic_error" android:tint="@color/salesforce_contrast_tertiary" android:contentDescription="@null" />
+        <com.salesforce.android.service.common.ui.views.SalesforceTextView android:textColor="@color/salesforce_contrast_secondary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_resume_error_string" style="@style/ServiceChatText.Bold.ErrorMessageTitle" />
+        <com.salesforce.android.service.common.ui.views.SalesforceTextView android:textColor="@color/salesforce_contrast_secondary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_resume_error_string_subtext" style="@style/ServiceChatText.ErrorMessageSubtext" />
+    </LinearLayout>
+</merge>

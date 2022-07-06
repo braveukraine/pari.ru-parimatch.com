@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.salesforce.android.knowledge.ui.internal.views.ArticleItemView android:id="@id/knowledge_article_item" style="@style/Knowledge_ArticleItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/knowledge_article_item_thumbnail" style="@style/Knowledge_ArticleItem_Thumbnail" />
+    <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/knowledge_article_item_title" android:layout_toEndOf="@id/knowledge_article_item_thumbnail" style="@style/KnowledgeText.Bold.ArticleItem_Title" />
+    <com.salesforce.android.service.common.ui.views.SalesforceTextView android:id="@id/knowledge_article_item_summary" android:layout_below="@id/knowledge_article_item_title" android:layout_alignStart="@id/knowledge_article_item_title" style="@style/KnowledgeText.ArticleItem_Summary" />
+</com.salesforce.android.knowledge.ui.internal.views.ArticleItemView>

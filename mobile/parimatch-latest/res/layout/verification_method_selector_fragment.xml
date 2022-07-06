@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundGreyPrimary125" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvVerificationMethods" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="88.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <tech.pm.pmcommon.ui.PMErrorView android:id="@id/errorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <tech.pm.pmcommon.ui.PMLoadingView android:theme="@style/OverlayColorOrange" android:layout_gravity="center" android:id="@id/loadingView" android:layout_width="60.0dip" android:layout_height="60.0dip" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+    <Button android:textSize="@dimen/text_size_medium" android:textStyle="bold" android:textColor="@color/textColorBlack" android:layout_gravity="bottom" android:id="@id/bSupport" android:background="@drawable/black_rounded_boarder_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_standard" android:layout_marginRight="@dimen/margin_standard" android:layout_marginBottom="@dimen/margin_large" android:minHeight="48.0dip" android:text="@string/unsupported_open_support_window" android:layout_marginHorizontal="@dimen/margin_standard" />
+</FrameLayout>

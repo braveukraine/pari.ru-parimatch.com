@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/chat_bot_footer_menu_collapse_button" android:padding="8.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/chat_ic_collapse" android:scaleType="fitCenter" android:contentDescription="@string/chat_footer_menu_collapse_content_description" />
+    <com.salesforce.android.service.common.ui.views.SalesforceTextView android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/chat_footer_menu_header_label" android:layout_toEndOf="@id/chat_bot_footer_menu_collapse_button" style="@style/ServiceChatText.FooterMenuHeaderLabel" />
+</RelativeLayout>

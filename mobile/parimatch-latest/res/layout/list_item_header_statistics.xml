@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/llCompetitorsMatchStats" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/colorWhite" android:ellipsize="end" android:gravity="center" android:id="@id/tvFirstCompetitorName" android:layout_width="112.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/margin_extra_short" android:maxLines="2" />
+    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:textColor="@color/colorWhite" android:ellipsize="end" android:gravity="center" android:id="@id/tvSecondCompetitorName" android:layout_width="112.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/margin_extra_short" android:maxLines="2" />
+</LinearLayout>

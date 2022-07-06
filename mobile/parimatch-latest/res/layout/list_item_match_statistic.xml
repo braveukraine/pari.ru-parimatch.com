@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip" android:paddingStart="@dimen/padding_large" android:paddingEnd="@dimen/padding_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sport_text_size_medium" android:textColor="@color/textColorWhite" android:gravity="center" android:id="@id/tvFirstPlayerStatistics" android:layout_width="56.0dip" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/_text_size_normal" android:textColor="#a6ffffff" android:gravity="center" android:id="@id/tvStatisticTitle" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/sport_text_size_medium" android:textColor="@color/textColorWhite" android:gravity="center" android:id="@id/tvSecondPlayerStatistics" android:layout_width="56.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

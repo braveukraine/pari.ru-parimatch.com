@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:id="@id/cbSelect" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_medium_plus" android:layout_marginBottom="@dimen/margin_medium_plus" android:buttonTint="@color/colorPrimary600" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/tournamentFilterTextColor" android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:contentDescription="tournamentOnFilters" android:layout_marginStart="@dimen/margin_medium" app:layout_constraintBottom_toBottomOf="@id/cbSelect" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/cbSelect" app:layout_constraintTop_toTopOf="@id/cbSelect" />
+</merge>

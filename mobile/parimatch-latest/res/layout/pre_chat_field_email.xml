@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.salesforce.android.service.common.ui.views.SalesforceTextInputLayout android:id="@id/text_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

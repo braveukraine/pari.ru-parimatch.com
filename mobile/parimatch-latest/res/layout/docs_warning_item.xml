@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/text_size_small" android:textColor="@color/textColorRed" android:id="@id/tvWarning" android:background="@drawable/light_red_corner_rectangle" android:padding="@dimen/padding_short" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_short" android:layout_marginTop="@dimen/margin_standard" android:layout_marginRight="@dimen/margin_short" android:layout_marginBottom="@dimen/margin_standard" android:layout_marginHorizontal="@dimen/margin_short" android:layout_marginVertical="@dimen/margin_standard"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

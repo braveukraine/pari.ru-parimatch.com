@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chat_estimated_wait_time_minutes">
+        <item quantity="other">%1$s хвилини</item>
+        <item quantity="one">%1$s хвилина</item>
+        <item quantity="few">%1$s хвилини</item>
+        <item quantity="many">%1$s хвилин</item>
+    </plurals>
+    <plurals name="chat_minimized_unread_message_count">
+        <item quantity="other">%1$d непрочитаних повідомлень від %2$s</item>
+        <item quantity="one">%1$d непрочитане повідомлення від %2$s</item>
+        <item quantity="few">%1$d непрочитані повідомлення від %2$s</item>
+        <item quantity="many">%1$d непрочитаних повідомлень від %2$s</item>
+    </plurals>
+    <plurals name="express_boost_outcomes_count">
+        <item quantity="other">%1$s результатів - %2$s</item>
+        <item quantity="one">%1$s результат - %2$s</item>
+        <item quantity="few">%1$s результати - %2$s</item>
+        <item quantity="many">%1$s результатів - %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового сповіщення</item>
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+    </plurals>
+    <plurals name="sport_special_events_available_outcomes">
+        <item quantity="other"></item>
+        <item quantity="one">%d доступний результат</item>
+        <item quantity="few">%d доступних результати</item>
+        <item quantity="many">%d доступних результатів</item>
+    </plurals>
+    <plurals name="top_express_bet_count">
+        <item quantity="other">%1$d ставки</item>
+        <item quantity="one">%1$d ставка</item>
+        <item quantity="few">%1$d ставки</item>
+        <item quantity="many">%1$d ставок</item>
+    </plurals>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pm.tech.sport.event_overview.views.GeneralEventOverviewView android:id="@id/eventView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginBottom="@dimen/margin_short" android:foreground="@drawable/ripple_foreground" android:minHeight="@dimen/event_cart_min_height" app:cardCornerRadius="@dimen/event_card_radius" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

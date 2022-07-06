@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clRoot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivExpandMark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_medium" android:src="@drawable/expand_mark_selector" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorWhite" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_standard" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/ivExpandMark" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/favoriteButton" android:padding="@dimen/padding_short" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatCheckBox android:gravity="center" android:id="@id/favoriteCheckbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/favorite_selector_white" android:minWidth="0.0dip" android:minHeight="0.0dip" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

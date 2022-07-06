@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llItem" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/padding_short" android:paddingEnd="@dimen/padding_short"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/tvPeriodTitle" android:layout_width="wrap_content" android:layout_height="0.0dip" android:lines="1" android:layout_weight="1.0" android:contentDescription="tvPeriodTitle" />
+    <TextView android:gravity="center" android:id="@id/tvFirstScore" android:layout_width="wrap_content" android:layout_height="0.0dip" android:lines="1" android:layout_weight="1.0" android:contentDescription="tvFirstScore" />
+    <TextView android:gravity="center" android:id="@id/tvSecondScore" android:layout_width="wrap_content" android:layout_height="0.0dip" android:lines="1" android:layout_weight="1.0" android:contentDescription="tvSecondScore" />
+</LinearLayout>

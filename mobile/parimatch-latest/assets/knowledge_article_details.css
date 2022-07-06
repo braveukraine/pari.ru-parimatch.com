@@ -1,0 +1,19 @@
+body {
+    padding: 1em;
+    padding-top: 0.5em;
+}
+
+body * {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 137.5%;
+    margin-bottom: 0;
+}
+
+p.modified_date {
+    font-size: 62.5%;
+}

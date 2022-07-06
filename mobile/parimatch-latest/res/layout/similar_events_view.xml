@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sport_text_size_normal" android:textColor="@color/colorPrimary900" android:id="@id/tvHeader" android:paddingTop="@dimen/padding_standard" android:paddingBottom="@dimen/padding_short" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Similar_events" android:paddingStart="@dimen/padding_short" android:paddingEnd="@dimen/padding_short" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvCrossSell" android:layout_width="fill_parent" android:layout_height="@dimen/cross_sell_event_card_height" />
+</merge>

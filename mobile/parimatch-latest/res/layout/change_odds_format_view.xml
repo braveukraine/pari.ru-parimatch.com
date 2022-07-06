@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sport_text_size_medium" android:textColor="@color/textColorBlack" android:paddingTop="@dimen/padding_standard" android:paddingBottom="@dimen/padding_short" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/odd_format" android:contentDescription="Odds format" android:textDirection="locale" android:paddingStart="@dimen/padding_standard" android:paddingEnd="@dimen/padding_standard" />
+    <TextView android:textSize="@dimen/sport_text_size_normal" android:textColor="@color/textColorGrey" android:id="@id/oddFormat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_standard" android:paddingStart="@dimen/padding_standard" android:paddingEnd="@dimen/padding_standard" />
+</merge>

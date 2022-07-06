@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_standard" android:layout_marginEnd="@dimen/margin_standard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/textColorBlack" android:gravity="center" android:id="@id/tvErrorTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/padding_standard" />
+    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorGrey" android:gravity="center" android:id="@id/tvErrorSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_extra_short" />
+    <tech.pm.pmcommon.ui.ActionButtonView android:id="@id/abvRetry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ActionButtonStyle" />
+</LinearLayout>

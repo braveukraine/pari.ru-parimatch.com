@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="14.0dip" android:width="40.0dip" android:autoMirrored="false" android:viewportWidth="40.0" android:viewportHeight="14.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/background_tooltip" android:pathData="M18.991,12.1711C19.3975,13.282 19.6603,14 20,14C20.3397,14 20.6025,13.282 21.009,12.1711C22.3975,8.3769 25.4632,-0 39,0H1C14.5368,-0 17.6025,8.3769 18.991,12.1711Z" />
+</vector>

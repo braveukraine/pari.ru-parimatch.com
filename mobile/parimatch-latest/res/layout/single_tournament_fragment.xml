@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundGreyPrimary125" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/ablToolbarContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar_left_align" />
+        <pm.tech.sport.common.ui.line.tournament.TournamentLineTypeTabs android:id="@id/tournamentTabs" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TournamentTabLayoutStyle" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <pm.tech.sport.common.ui.line.marketprofiles.MarketProfileSelectorView android:id="@id/marketProfileSelector" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.nativeapp.views.ErrorView android:id="@id/singleTournamentErrorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/tournamentViewPager2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

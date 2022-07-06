@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/container" android:background="@color/backgroundWhite" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/toolbarContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/toolbar" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_toolbar" android:textColor="@color/textColorWhite" android:ellipsize="end" android:id="@id/toolbarTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_verification_title" android:maxLines="1" android:layout_weight="1.0" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbarContainer">
+        <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/colorPrimaryDark" android:gravity="start" android:id="@id/tvHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_standard" />
+        <TextView android:textSize="@dimen/text_size_medium_extra" android:textColor="@color/colorPrimaryDark" android:layout_gravity="center" android:id="@id/tvResend" android:padding="@dimen/padding_standard" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" android:text="@string/resend_email" />
+        <Space android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/text_size_medium_extra" android:textColor="@color/textColorGrey" android:layout_gravity="bottom" android:id="@id/tvFooter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_standard" android:layout_marginTop="@dimen/margin_standard" android:layout_marginStart="@dimen/margin_standard" android:layout_marginEnd="@dimen/margin_standard" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

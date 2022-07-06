@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chat_estimated_wait_time_minutes">
+        <item quantity="other">%1$s minutes</item>
+        <item quantity="one">%1$s دقيقة</item>
+        <item quantity="two">%1$s دقائق</item>
+        <item quantity="few">%1$s دقائق</item>
+        <item quantity="many">%1$s دقائق</item>
+    </plurals>
+    <plurals name="chat_minimized_unread_message_count">
+        <item quantity="other">%1$d من الرسائل غير مقروءة من %2$s</item>
+        <item quantity="zero">%1$d رسالة غير مقروءة من %2$s</item>
+        <item quantity="one">%1$d رسالة غير مقروءة من %2$s</item>
+        <item quantity="two">%1$d من الرسائل غير مقروءة من %2$s</item>
+        <item quantity="few">%1$d من الرسائل غير مقروءة من %2$s</item>
+        <item quantity="many">%1$d من الرسائل غير مقروءة من %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+</resources>

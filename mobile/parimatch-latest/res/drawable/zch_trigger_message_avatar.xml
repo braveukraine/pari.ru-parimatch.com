@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/zch_trigger_avatar_background" />
+            <size android:height="@dimen/zch_avatar_size" android:width="@dimen/zch_avatar_size" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/zch_ic_trigger_message_avatar_16" />
+</layer-list>

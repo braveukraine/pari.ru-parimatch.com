@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="top_express_bet_count">
+        <item quantity="other">%1$d bets</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%1$d bet</item>
+        <item quantity="two">%1$d bets</item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+</resources>

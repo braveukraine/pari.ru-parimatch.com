@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pm.tech.sport.event_overview.views.liteEventOverview.LiteDefaultEventOverviewView android:id="@id/defaultEvent" android:background="@color/colorWhite" android:paddingBottom="@dimen/margin_extra_short" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="eventCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

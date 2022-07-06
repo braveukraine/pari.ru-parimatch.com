@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/llcBottomOverview" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/outcomesRecyclerView" android:visibility="gone" android:fadingEdgeLength="@dimen/outcome_container_fading_length" android:layout_width="fill_parent" android:layout_height="@dimen/sports_min_outcome_container_height" android:requiresFadingEdge="horizontal" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/moreLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/sports_min_outcome_container_height">
+        <pm.tech.sport.event_overview.views.FavoriteEventButton android:id="@id/favoriteButton" android:background="@drawable/button_background_unselected" android:layout_width="@dimen/favorite_button_size" android:layout_height="@dimen/favorite_button_size" android:contentDescription="favoriteButton" android:layout_marginEnd="@dimen/margin_extra_short" />
+        <TextView android:textColor="@color/clickableText" android:gravity="center" android:id="@id/tvMore" android:background="@drawable/button_background_unselected" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/sport_event_more_odds" android:contentDescription="tvMore" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

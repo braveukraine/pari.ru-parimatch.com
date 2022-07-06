@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/case_list_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="30.0dip" android:contentDescription="@null" app:srcCompat="?cases_caseListEmptyImage" />
+        <com.salesforce.android.service.common.ui.views.SalesforceTextView android:text="@string/cases_case_list_view_empty_message_text" style="?cases_caseListEmptyMessageStyle" />
+    </LinearLayout>
+</merge>

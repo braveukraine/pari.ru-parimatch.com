@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/background_tournament_top_radius" android:layout_width="fill_parent" android:layout_height="@dimen/event_tournament_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/ivSport" android:layout_width="14.0dip" android:layout_height="14.0dip" android:contentDescription="ivSport" android:layout_marginStart="@dimen/margin_short" />
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tvChampionshipTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="5.0dip" android:layout_marginEnd="@dimen/margin_big" style="@style/EventDetailsItemText.ChampionshipTitle" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="@dimen/sport_top_widget_card_height" android:foreground="@drawable/ripple_foreground" android:contentDescription="@string/top_event_card_description" app:cardCornerRadius="@dimen/event_card_radius" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sport_text_size_small_non_scalable" android:ellipsize="end" android:id="@id/tvTournament" android:paddingTop="@dimen/margin_extra_short" android:paddingBottom="@dimen/margin_extra_short" android:layout_width="fill_parent" android:layout_height="@dimen/tournament_height" android:maxLines="1" android:paddingStart="@dimen/margin_short" android:paddingEnd="@dimen/margin_short" />
+    <pm.tech.sport.event_overview.views.DefaultEventOverviewView android:id="@id/defaultEvent" android:layout_width="fill_parent" android:layout_height="@dimen/event_cart_min_height" android:layout_marginTop="@dimen/tournament_height" />
+</androidx.cardview.widget.CardView>

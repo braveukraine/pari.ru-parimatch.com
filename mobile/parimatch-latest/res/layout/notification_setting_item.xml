@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundWhite" android:paddingTop="@dimen/padding_medium" android:paddingBottom="@dimen/padding_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_single" android:paddingStart="@dimen/padding_standard" android:paddingEnd="@dimen/padding_standard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/textColorBlack" android:layout_gravity="start" android:id="@id/tvItemText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/margin_extra_large_plus" />
+    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/scSwitcher" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/NotificationSettingSwitherTheme" />
+</FrameLayout>

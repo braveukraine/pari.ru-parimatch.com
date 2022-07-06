@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/timerContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorGrey" android:gravity="center" android:layout_gravity="center" android:id="@id/tvTimerInfo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cupis_reg_sms_resend" />
+        <TextView android:textSize="@dimen/text_size_medium_extra" android:textStyle="bold" android:textColor="@color/backgroundBlack" android:gravity="center" android:layout_gravity="center" android:id="@id/tvCounter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/textColorBlack" android:gravity="center" android:layout_gravity="center" android:id="@id/resend" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cupis_reg_sms_resend_action" />
+</FrameLayout>

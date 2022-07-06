@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/llEventStatus" android:background="@color/colorPrimary50" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/ivIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_empty_search" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" />
+    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/colorPrimary200" android:gravity="center" android:id="@id/tvMessage" android:paddingTop="@dimen/padding_short" android:paddingBottom="@dimen/padding_short" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="@dimen/padding_short" />
+</LinearLayout>

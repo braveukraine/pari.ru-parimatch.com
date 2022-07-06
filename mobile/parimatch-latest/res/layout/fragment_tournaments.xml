@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundGreyPrimary125" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/ablToolbarContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:popupTheme="@style/AppTheme.PopupOverlay" app:titleTextColor="@color/textColorWhite"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <androidx.constraintlayout.widget.ConstraintLayout android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_toolbar" android:textColor="@color/textColorWhite" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/tvToolbarTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:contentDescription="tvToolbarTitle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/categoryFavoriteView" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <tech.pm.ams.favorites.presentation.views.CategoryFavoriteView android:layout_gravity="end|center" android:id="@id/categoryFavoriteView" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/filtersCounterView" app:layout_constraintTop_toTopOf="parent" />
+                <pm.tech.sport.common.ui.line.prematch.tournaments.filters.counter.TournamentsFiltersCounterView android:id="@id/filtersCounterView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/margin_medium" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <pm.tech.sport.common.ui.line.prematch.tournaments.tabs.TournamentsTabs android:id="@id/tournamentsTabsView" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TournamentTabLayoutStyle" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.nativeapp.views.ErrorView android:id="@id/tournamentErrorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/tournamentsViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <tech.pm.pmcommon.ui.PMSportLoadingView android:id="@id/llLoadingView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:type="prematch" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:background="@color/backgroundWhite" android:paddingBottom="@dimen/padding_standard" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <com.nativeapp.views.ErrorView android:layout_gravity="center" android:id="@id/errorView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/part_loading_promotions_container" />
+</FrameLayout>

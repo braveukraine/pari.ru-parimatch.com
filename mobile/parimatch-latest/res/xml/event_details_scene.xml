@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition android:id="@id/tEmptyTransition" app:constraintSetEnd="@id/csEmptyConstraintSet" app:constraintSetStart="@id/csEmptyConstraintSet" />
+    <Transition android:id="@id/tPrematchTransition" app:constraintSetEnd="@id/csCollapsedPrematch" app:constraintSetStart="@id/csExpandedPrematch" app:duration="1000">
+        <OnSwipe app:dragDirection="dragUp" app:moveWhenScrollAtTop="true" app:touchAnchorId="@id/additionalMatchInfoView" app:touchAnchorSide="top" />
+        <KeyFrameSet>
+            <KeyAttribute android:scaleY="0.0" app:framePosition="100" app:motionTarget="@id/cwPitch" />
+        </KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute android:scaleY="0.0" app:framePosition="100" app:motionTarget="@id/audioBroadcast" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/tLiveNoScoreboardPitchTransition" app:constraintSetEnd="@id/csCollapsed" app:constraintSetStart="@id/csExpanded" app:duration="1000">
+        <OnSwipe app:dragDirection="dragUp" app:moveWhenScrollAtTop="true" app:touchAnchorId="@id/additionalMatchInfoView" app:touchAnchorSide="top" />
+        <KeyFrameSet>
+            <KeyAttribute android:scaleY="0.0" app:framePosition="100" app:motionTarget="@id/cwPitch" />
+        </KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute android:scaleY="0.0" app:framePosition="100" app:motionTarget="@id/audioBroadcast" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/tLiveScoreboardPitchTransition" app:constraintSetEnd="@id/csScoreboardCollapsed" app:constraintSetStart="@id/csScoreboardExpanded" app:duration="1000">
+        <OnSwipe app:dragDirection="dragUp" app:moveWhenScrollAtTop="true" app:touchAnchorId="@id/additionalMatchInfoView" app:touchAnchorSide="top" />
+        <KeyFrameSet>
+            <KeyAttribute android:scaleY="0.0" app:framePosition="100" app:motionTarget="@id/cwPitch" />
+        </KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute android:scaleY="0.0" app:framePosition="100" app:motionTarget="@id/audioBroadcast" />
+        </KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" app:framePosition="50" app:motionTarget="@id/tvTitle" />
+        </KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute android:scaleX="0.0" android:scaleY="0.0" app:framePosition="50" app:motionTarget="@id/flButtonFavorite" />
+        </KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute android:scaleX="0.0" android:scaleY="0.0" app:framePosition="50" app:motionTarget="@id/home" />
+        </KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute android:scaleX="0.0" android:scaleY="0.0" app:framePosition="50" app:motionTarget="@id/flSportNotificationsContainer" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/tCloseStatisticsTransition" app:constraintSetEnd="@id/csExpandedStatistics" app:constraintSetStart="@id/csCollapsedStatistics" app:duration="500" />
+    <Transition android:id="@id/tShowStatisticsTransition" app:constraintSetEnd="@id/csCollapsedStatistics" app:constraintSetStart="@id/csExpandedStatistics" app:duration="500" />
+    <Transition android:id="@id/tCloseStatisticsTransitionWithPitch" app:constraintSetEnd="@id/csExpandedStatisticsWithPitch" app:constraintSetStart="@id/csCollapsedStatisticsWithPitch" app:duration="500" />
+    <Transition android:id="@id/tShowStatisticsTransitionWithPitch" app:constraintSetEnd="@id/csCollapsedStatisticsWithPitch" app:constraintSetStart="@id/csExpandedStatisticsWithPitch" app:duration="500" />
+    <Transition android:id="@id/tCloseLogoStatisticsTransition" app:constraintSetEnd="@id/csLogoExpandedStatistics" app:constraintSetStart="@id/csLogoCollapsedStatistics" app:duration="500" />
+    <Transition android:id="@id/tShowLogoStatisticsTransition" app:constraintSetEnd="@id/csLogoCollapsedStatistics" app:constraintSetStart="@id/csLogoExpandedStatistics" app:duration="500" />
+    <Transition android:id="@id/tMainDetailsTransition" app:constraintSetEnd="@id/csCollapsed" app:constraintSetStart="@id/csExpandedNoPitch" app:duration="1000">
+        <OnSwipe app:dragDirection="dragUp" app:moveWhenScrollAtTop="false" app:touchAnchorId="@id/flContent" app:touchAnchorSide="top" />
+        <KeyFrameSet>
+            <KeyAttribute android:scaleY="0.0" app:framePosition="100" app:motionTarget="@id/audioBroadcast" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/tScoreboardDetailsTransition" app:constraintSetEnd="@id/csScoreboardCollapsed" app:constraintSetStart="@id/csScoreboardExpandedNoPitch" app:duration="1000">
+        <OnSwipe app:dragDirection="dragUp" app:moveWhenScrollAtTop="false" app:touchAnchorId="@id/flContent" app:touchAnchorSide="top" />
+        <KeyFrameSet>
+            <KeyAttribute android:scaleY="0.0" app:framePosition="100" app:motionTarget="@id/audioBroadcast" />
+        </KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" app:framePosition="50" app:motionTarget="@id/tvTitle" />
+        </KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute android:scaleX="0.0" android:scaleY="0.0" app:framePosition="50" app:motionTarget="@id/flButtonFavorite" />
+        </KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute android:scaleX="0.0" android:scaleY="0.0" app:framePosition="50" app:motionTarget="@id/flSportNotificationsContainer" />
+        </KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute android:scaleX="0.0" android:scaleY="0.0" app:framePosition="50" app:motionTarget="@id/home" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/csExpanded">
+        <Constraint android:id="@id/headerContainer" android:layout_width="fill_parent" android:layout_height="@dimen/default_expanded_animation_header_main_content_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+        <Constraint android:id="@id/cwPitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:cardCornerRadius="@dimen/button_corner_radius" app:cardElevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/additionalMatchInfoView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csExpandedNoPitch">
+        <Constraint android:id="@id/headerContainer" android:layout_width="fill_parent" android:layout_height="@dimen/default_expanded_animation_header_main_content_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+        <Constraint android:id="@id/cwPitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:cardCornerRadius="@dimen/button_corner_radius" app:cardElevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/additionalMatchInfoView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csCollapsed">
+        <Constraint android:id="@id/cwPitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:cardCornerRadius="@dimen/button_corner_radius" app:cardElevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/additionalMatchInfoView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+        <Constraint android:id="@id/headerContainer" android:layout_width="fill_parent" android:layout_height="@dimen/default_collapsed_animation_header_main_content_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/svMatchStatistics" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/additionalMatchInfoView" />
+        <Constraint android:id="@id/tvTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_big" android:scaleX="0.8" android:scaleY="0.8" android:layout_marginStart="@dimen/margin_medium" android:layout_marginEnd="@dimen/margin_medium" app:layout_constraintEnd_toStartOf="@id/flButtonFavorite" app:layout_constraintStart_toEndOf="@id/home" app:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/additionalMatchInfoView" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+        <Constraint android:id="@id/flButtonFavorite">
+            <Transform android:scaleX="0.0" android:scaleY="0.0" />
+        </Constraint>
+        <Constraint android:id="@id/flSportNotificationsContainer">
+            <Transform android:scaleX="0.0" android:scaleY="0.0" />
+        </Constraint>
+        <Constraint android:id="@id/home">
+            <Transform android:scaleX="0.0" android:scaleY="0.0" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csScoreboardExpanded">
+        <Constraint android:id="@id/headerContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+        <Constraint android:id="@id/cwPitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:cardCornerRadius="@dimen/button_corner_radius" app:cardElevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/additionalMatchInfoView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csScoreboardExpandedNoPitch">
+        <Constraint android:id="@id/headerContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+        <Constraint android:id="@id/cwPitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:cardCornerRadius="@dimen/button_corner_radius" app:cardElevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/additionalMatchInfoView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csScoreboardCollapsed">
+        <Constraint android:id="@id/svMatchStatistics" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/additionalMatchInfoView" />
+        <Constraint android:id="@id/tvTitle" android:layout_width="0.0dip" android:layout_height="?actionBarSize" android:layout_marginBottom="@dimen/margin_medium" android:alpha="0.0" android:layout_marginStart="@dimen/margin_medium" android:layout_marginEnd="@dimen/margin_medium" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <Constraint android:id="@id/cwPitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:cardCornerRadius="@dimen/button_corner_radius" app:cardElevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/additionalMatchInfoView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+        <Constraint android:id="@id/additionalMatchInfoView" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+        <Constraint android:id="@id/flButtonFavorite">
+            <Transform android:scaleX="0.0" android:scaleY="0.0" />
+        </Constraint>
+        <Constraint android:id="@id/flSportNotificationsContainer">
+            <Transform android:scaleX="0.0" android:scaleY="0.0" />
+        </Constraint>
+        <Constraint android:id="@id/home">
+            <Transform android:scaleX="0.0" android:scaleY="0.0" />
+        </Constraint>
+        <Constraint android:id="@id/headerContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csExpandedStatistics">
+        <Constraint android:id="@id/svMatchStatistics" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/additionalMatchInfoView" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csCollapsedStatistics">
+        <Constraint android:id="@id/svMatchStatistics" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/additionalMatchInfoView" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csExpandedStatisticsWithPitch">
+        <Constraint android:id="@id/cwPitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:cardCornerRadius="@dimen/button_corner_radius" app:cardElevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/additionalMatchInfoView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+        <Constraint android:id="@id/svMatchStatistics" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/additionalMatchInfoView" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csCollapsedStatisticsWithPitch">
+        <Constraint android:id="@id/cwPitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:cardCornerRadius="@dimen/button_corner_radius" app:cardElevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/additionalMatchInfoView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+        <Constraint android:id="@id/svMatchStatistics" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/additionalMatchInfoView" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csLogoExpandedStatistics">
+        <Constraint android:id="@id/headerContainer" android:layout_width="fill_parent" android:layout_height="@dimen/default_expanded_animation_header_main_content_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+        <Constraint android:id="@id/svMatchStatistics" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/additionalMatchInfoView" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csLogoCollapsedStatistics">
+        <Constraint android:id="@id/headerContainer" android:layout_width="fill_parent" android:layout_height="@dimen/default_expanded_animation_header_main_content_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+        <Constraint android:id="@id/svMatchStatistics" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/additionalMatchInfoView" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csEmptyConstraintSet" />
+    <ConstraintSet android:id="@id/csExpandedPrematch">
+        <Constraint android:id="@id/cwPitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:cardCornerRadius="@dimen/button_corner_radius" app:cardElevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/additionalMatchInfoView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+        <Constraint android:id="@id/additionalMatchInfoView" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/cwPitch" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/csCollapsedPrematch">
+        <Constraint android:id="@id/cwPitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_short" android:layout_marginStart="@dimen/margin_short" android:layout_marginEnd="@dimen/margin_short" app:cardCornerRadius="@dimen/button_corner_radius" app:cardElevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/additionalMatchInfoView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+        <Constraint android:id="@id/additionalMatchInfoView" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerContainer" />
+    </ConstraintSet>
+</MotionScene>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/knowledge_article_list" android:background="@color/salesforce_contrast_inverted" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/KnowledgeAppBarTheme" android:id="@id/knowledge_article_list_app_bar_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="@dimen/knowledge_expanded_toolbar_height">
+        <com.salesforce.android.knowledge.ui.internal.views.TintedCollapsingToolbarLayout android:theme="@style/KnowledgeToolbarOverlay" android:id="@id/knowledge_article_list_collapse_toolbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:collapsedTitleTextAppearance="@style/KnowledgeText.Header.CollapsedTitle.CategoryDetail" app:contentScrim="@color/salesforce_toolbar" app:expandedTitleTextAppearance="@style/KnowledgeText.Header.Bold.ExpandedTitle.CategoryDetail" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+            <ImageView android:id="@id/knowledge_article_list_header_image" android:contentDescription="@null" app:layout_collapseMode="parallax" style="@style/KnowledgeHeader_Image.ArticleList" />
+            <androidx.appcompat.widget.Toolbar android:theme="@style/KnowledgeToolbar" android:id="@id/knowledge_article_list_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" />
+        </com.salesforce.android.knowledge.ui.internal.views.TintedCollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.salesforce.android.knowledge.ui.internal.views.KnowledgeRecyclerView android:id="@id/knowledge_article_list_body" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <include layout="@layout/knowledge_empty_category" />
+    <include layout="@layout/knowledge_error" />
+    <include android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="60.0dip" layout="@layout/knowledge_loading_progress" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

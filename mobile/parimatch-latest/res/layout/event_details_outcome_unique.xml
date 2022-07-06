@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center_vertical" android:id="@id/name" android:background="@drawable/sport_outcome_background_color_state_list" android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingStart="@dimen/padding_short" android:paddingEnd="@dimen/padding_short" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/start" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/OutcomeNameStyle" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/start" android:layout_width="1.0dip" android:layout_height="fill_parent" app:layout_constraintGuide_percent="0.8" />
+    <pm.tech.sport.common.oddview.OutcomeOddView android:textSize="@dimen/_text_size_normal" android:layout_gravity="center" android:id="@id/odd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="odd" android:layout_marginEnd="@dimen/margin_short" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toEndOf="@id/name" app:layout_constraintTop_toTopOf="parent" />
+</merge>

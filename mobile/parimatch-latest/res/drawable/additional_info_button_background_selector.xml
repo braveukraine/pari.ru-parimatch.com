@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/black_transparent_corner_rectangle" android:state_activated="true" />
+    <item android:drawable="@drawable/white_transparent_corner_rectangle" android:state_activated="false" />
+</selector>

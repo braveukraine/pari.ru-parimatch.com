@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@android:color/transparent" android:paddingTop="@dimen/knowledge_dc_detail_showmore_padding_top" android:paddingBottom="@dimen/knowledge_dc_detail_showmore_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" layout="@layout/knowledge_loading_progress" />
+</LinearLayout>
