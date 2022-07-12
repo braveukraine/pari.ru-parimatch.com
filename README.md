@@ -60,7 +60,7 @@
 
 #### CDN - різні провайдери :x:
 
-| | pari-match.com | pari.ru |
+| | parimatch.com | pari.ru |
 | --- | --- | --- | 
 | resources DNS domain | cdn.dextra-pm.com | origin.pb06e2-resources.com| 
 | resources host IP | 18.66.139.33 | 92.223.124.254 |
@@ -71,7 +71,7 @@
 ## Бекенд / API сервіси - повний збіг використаних API :x:
 Для порівняння було використано API запити, які були відправлені із фронтендів сайтів під час реєстрації, логіну, відновлення паролю та отримання списків спортивних подій.
 
-|  API | pari-match.com POST URI | pari.ru POST URI|
+|  API | parimatch.com POST URI | pari.ru POST URI|
 | --- | --- | --- |
 | registration - реєстрація | /api/short-registration/include-login/by-phone | /cps/superRegistration/createProcess | 
 | login - логін | /api/v2/RoutingLogin | /session/loginByPhone | 
@@ -82,7 +82,7 @@
 
 ## Мобільний додаток Android - відмінності у використовуваних бібліотек та маніфестах :x:
 
-Мобільні додатки для Android були скачані на офіційних сторінках, призначених для завантаження мобільних додатків [https://www.pari-match.ru](https://www.pari-match.ru) та [https://www.pari.ru/apps/](https://www.pari.ru/apps/) 
+Мобільні додатки для Android були скачані на офіційних сторінках, призначених для завантаження мобільних додатків [https://www.pari-match.com](https://www.parimatch.com) та [https://www.pari.ru/apps/](https://www.pari.ru/apps/) 
 
 Додатки було розпаковано за допомогою інструмента [apktool](https://ibotpeaches.github.io/Apktool/) 
 
