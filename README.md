@@ -1,5 +1,5 @@
-# Порівняння https://pari-match.com/ та https://www.pari.ru
-* У ході дослідження було виконано порівняння дизайну, технологічного стеку веб-сайтів, бекенду та мобільних додатків (Android, iOS) на прикладі eGaming операторів [pari.ru](https://pari.ru) та [parimatch.com](https://pari-match.com/) 
+# Порівняння https://parimatch.com/ та https://www.pari.ru
+* У ході дослідження було виконано порівняння дизайну, технологічного стеку веб-сайтів, бекенду та мобільних додатків (Android, iOS) на прикладі eGaming операторів [pari.ru](https://pari.ru) та [parimatch.com](https://parimatch.com/) 
 * дата проведення дослідження 04.07.2022 - 06.07.2022
 
 ## Результати дослідження:
